@@ -1,9 +1,18 @@
+# Munch for Muncher
+
+Purpose: Use Appwrite for Muncher as a backend service.
+
 ## Installation
 
 ```bash
 pnpm i
 pnpm start
 ```
+
+### Connect Appwrite
+
+Add credentials to Appwrite cloud or self hosted
+https://appwrite.io/docs/advanced/self-hosting/functions
 
 ## Updating
 

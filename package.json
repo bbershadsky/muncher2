@@ -1,6 +1,6 @@
 {
-  "name": "blog-next-refine-pwa",
-  "version": "1.0.0",
+  "name": "munch",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "build": "refine build && rimraf .next/cache",
@@ -9,14 +9,16 @@
     "start:prod": "refine start"
   },
   "dependencies": {
+    "@refinedev/appwrite": "6.5.3",
     "@refinedev/cli": "^2.16.34",
     "@refinedev/core": "^4.51.0",
     "@refinedev/nextjs-router": "^6.0.6",
-    "@refinedev/simple-rest": "^5.0.8",
     "cross-env": "^7.0.3",
+    "date-fns": "^3.6.0",
     "next": "^14.1.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "workbox-webpack-plugin": "^7.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.16.2",

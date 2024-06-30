@@ -1,11 +1,10 @@
 const withPWA = require("next-pwa")({
   dest: "public",
-  register: true,
-  skipWaiting: true,
+  mode: "production",
+  disable: process.env.NODE_ENV === "development",
+  buildExcludes: [/middleware-manifest\.json$/],
+  // Use InjectManifest instead of GenerateSW
+  swSrc: "public/service-worker.js", // Path to your custom service worker
 });
 
-const nextConfig = withPWA({
-  reactStrictMode: true,
-});
-
-module.exports = nextConfig;
+module.exports = withPWA({});
