@@ -4,8 +4,9 @@ Purpose: Use Appwrite for Munch as a backend service.
 
 ## TODO
 
-- Finalize IRecipe
-- Provisioning script for Appwrite Recipes model
+<!-- - Finalize IRecipe -->
+<!-- - Provisioning script for Appwrite Recipes model -->
+
 - Load Data with this nice card layout https://demos.themeselection.com/materio-mui-nextjs-admin-template-free/demo/card-basic
 - Recipe "details" page
 - Search / filtering functionality (culture)
