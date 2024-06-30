@@ -7,11 +7,30 @@ import ProductCards from "@components/ProductCards";
 interface IRecipe {
   id: number;
   title: string;
-  price: number;
-  description: string;
-  category: string;
+  rawSubtitles: string;
+  modelUsed: string; // Openhermes default
+  enSubtitles: string;
+  ingredients: string;
+  instructions: string;
+  sourceUrl: string;
+  sourceLanguage: string;
   image: string;
+  markdownData: string;
+  culture: string;
+  totalTimeMinutes: number;
+  isSubtitlesProcessed: boolean;
+  isGlutenFree: boolean;
+  isVegan: boolean;
+  isLactoseFree: boolean;
+  isVegetarian: boolean;
+  isKosher: boolean;
+  isKeto: boolean;
+  isLowCarb: boolean;
+  isDairyFree: boolean;
+  isNeedsReview: string; // If there is a mistake
+  score: number;
 }
+
 type ItemProp = {
   products: GetListResponse<IRecipe>;
 };
@@ -25,16 +44,15 @@ const ProductList: React.FC = () => {
     <div className="my-8 grid grid-cols-4 gap-6 px-24">
       <h1>Munch time</h1>
       {tableQueryResult.data?.data.map((product) => {
-        return (
-          <ProductCards
-            key={product.id}
-            title={product.title}
-            category={product.category}
-            description={product.description}
-            cardImage={product.image}
-            price={product.price}
-          />
-        );
+        return null;
+        // <ProductCards
+        //   key={product.id}
+        //   title={product.title}
+        //   category={product.category}
+        //   description={product.description}
+        //   cardImage={product.image}
+        //   price={product.price}
+        // />
       })}
     </div>
   );

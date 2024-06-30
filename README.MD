@@ -1,6 +1,16 @@
-# Munch for Muncher
+# Munch Recipes 2.0
 
-Purpose: Use Appwrite for Muncher as a backend service.
+Purpose: Use Appwrite for Munch as a backend service.
+
+## TODO
+
+- Finalize IRecipe
+- Provisioning script for Appwrite Recipes model
+- Load Data with this nice card layout https://demos.themeselection.com/materio-mui-nextjs-admin-template-free/demo/card-basic
+- Recipe "details" page
+- Search / filtering functionality (culture)
+- Submit your URL to queue
+- Appwrite processing on server
 
 ## Installation
 
@@ -41,7 +51,3 @@ refine has connectors for 15+ backend services, including REST API, [GraphQL](ht
 
 [Refer to documentation for more info about refine&#8594](https://refine.dev/docs/)
 [Step up to refine tutorials &#8594](https://refine.dev/docs/tutorial/introduction/index/)
-
-## Blog Post
-
-For more blog and example, refer to the [refine blog posts](https://refine.dev/blog/).
