@@ -9,9 +9,10 @@ Purpose: Use Appwrite for Munch as a backend service.
 
 - Load Data with this nice card layout https://demos.themeselection.com/materio-mui-nextjs-admin-template-free/demo/card-basic
 - Recipe "details" page
-- Search / filtering functionality (culture)
-- Submit your URL to queue
-- Appwrite processing on server
+  <!-- - Search / filtering functionality (culture) -->
+  <!-- - Submit your URL to queue -->
+  <!-- - Appwrite processing on server -->
+  Clicking on the queue item should run the ETL script and update appwrite
 
 ## Installation
 
@@ -24,6 +25,27 @@ pnpm start
 
 Add credentials to Appwrite cloud or self hosted
 https://appwrite.io/docs/advanced/self-hosting/functions
+
+### Server Install
+
+```bash
+wget https://ollama.ai/install.sh
+sh ./install.sh
+ollama run openhermes
+# `ollama run qwen2:0.5b` on lower RAM systems
+systemctl edit ollama.service
+
+# Add this to allow remote connections
+[Service]
+Environment="OLLAMA_HOST=0.0.0.0"
+
+systemctl restart ollama.service
+
+```
+
+## Serverless Function
+
+npm install -g appwrite-cli
 
 ## Updating
 

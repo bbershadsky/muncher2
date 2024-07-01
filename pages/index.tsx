@@ -5,34 +5,8 @@ import { resources } from "utility";
 import Grid from "@mui/material/Grid";
 import CardWithCollapse from "@components/CardWithCollapse";
 import FilterComponent from "@components/FilterComponent";
-
-interface IRecipe {
-  id: number;
-  title: string;
-  rawSubtitles: string;
-  modelUsed: string; // Openhermes default
-  enSubtitles: string;
-  ingredients: string;
-  instructions: string;
-  sourceUrl: string;
-  sourceLanguage: string;
-  image: string;
-  markdownData: string;
-  chefTips: string;
-  culture: string;
-  totalTimeMinutes: number;
-  isSubtitlesProcessed: boolean;
-  isGlutenFree: boolean;
-  isVegan: boolean;
-  isLactoseFree: boolean;
-  isVegetarian: boolean;
-  isKosher: boolean;
-  isKeto: boolean;
-  isLowCarb: boolean;
-  isDairyFree: boolean;
-  isNeedsReview: boolean;
-  score: number;
-}
+import { IRecipe } from "src/interfaces";
+import Navbar from "@components/Navbar";
 
 type ItemProp = {
   products: GetListResponse<IRecipe>;
@@ -66,13 +40,14 @@ const ProductList: React.FC = () => {
       .toLowerCase()
       .includes(search.toLowerCase());
     const matchesFilters = Object.keys(filters).every((key) =>
-      filters[key] ? recipe[key as keyof IRecipe] : true,
+      filters[key] ? recipe[key as keyof IRecipe] : true
     );
     return matchesSearch && matchesFilters;
   });
 
   return (
     <>
+      <Navbar />
       <FilterComponent
         onSearch={handleSearch}
         onFilterChange={handleFilterChange}
