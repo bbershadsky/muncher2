@@ -3,14 +3,10 @@ import { styled, alpha } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
-// import MenuIcon from "@mui/icons-material/Menu";
-// import SearchIcon from "@mui/icons-material/Search";
-import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import { useCreate } from "@refinedev/core";
+import { useCreate, useList } from "@refinedev/core";
 import { resources } from "utility";
 import { IRecipe } from "src/interfaces";
 
@@ -27,16 +23,6 @@ const Search = styled("div")(({ theme }) => ({
     marginLeft: theme.spacing(1),
     width: "auto",
   },
-}));
-
-const SearchIconWrapper = styled("div")(({ theme }) => ({
-  padding: theme.spacing(0, 2),
-  height: "100%",
-  position: "absolute",
-  pointerEvents: "none",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
@@ -57,10 +43,24 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 const SearchAppBar: React.FC = () => {
   const [sourceUrl, setSourceUrl] = useState("");
+  const { data } = useList<IRecipe>({
+    resource: resources.recipes,
+    filters: [
+      {
+        field: "isSubtitlesProcessed",
+        operator: "eq",
+        value: false,
+      },
+    ],
+  });
   const { mutate: createRecipe } = useCreate<IRecipe>();
 
   const handleAddRecipe = () => {
-    if (resources.recipes) {
+    const existingRecipe = data?.data.find(
+      (recipe) => recipe.sourceUrl === sourceUrl
+    );
+
+    if (!existingRecipe && resources.recipes) {
       createRecipe({
         resource: resources.recipes,
         values: {
@@ -108,7 +108,6 @@ const SearchAppBar: React.FC = () => {
           </Typography>
 
           <Search>
-            {/* <SearchIconWrapper><SearchIcon /></SearchIconWrapper> */}
             <StyledInputBase
               value={sourceUrl}
               onChange={(e) => setSourceUrl(e.target.value)}
