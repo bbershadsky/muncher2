@@ -1,9 +1,6 @@
 "use client";
 
-// React Imports
 import { useState } from "react";
-
-// MUI Imports
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
@@ -13,19 +10,25 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
+import FullscreenIcon from "@mui/icons-material/Fullscreen";
+import Link from "next/link";
+
+interface Recipe {
+  id: number;
+  title?: string;
+  image?: string;
+  instructions?: string;
+  ingredients?: string;
+  sourceUrl?: string;
+}
 
 interface CardWithCollapseProps {
-  recipe: {
-    title?: string;
-    image?: string;
-    instructions?: string;
-    ingredients?: string;
-    sourceUrl?: string;
-  };
+  recipe: Recipe;
 }
 
 const CardWithCollapse: React.FC<CardWithCollapseProps> = ({ recipe }) => {
   const [expanded, setExpanded] = useState(false);
+  const slug = encodeURIComponent(recipe.title || "");
 
   const isYouTubeUrl = (url: string) => {
     return url.includes("youtube.com") || url.includes("youtu.be");
@@ -44,6 +47,12 @@ const CardWithCollapse: React.FC<CardWithCollapseProps> = ({ recipe }) => {
     recipe.sourceUrl && isYouTubeUrl(recipe.sourceUrl)
       ? getYouTubeEmbedUrl(recipe.sourceUrl)
       : null;
+
+  const handleFullscreen = () => {
+    if (youtubeEmbedUrl) {
+      window.open(youtubeEmbedUrl, "_blank");
+    }
+  };
 
   return (
     <Card>
@@ -64,7 +73,7 @@ const CardWithCollapse: React.FC<CardWithCollapseProps> = ({ recipe }) => {
         {recipe.instructions && <Typography>{recipe.instructions}</Typography>}
       </CardContent>
       <CardActions className="card-actions-dense justify-between">
-        <Button onClick={() => setExpanded(!expanded)}>Details</Button>
+        <Button onClick={() => setExpanded(!expanded)}>See More</Button>
         <IconButton onClick={() => setExpanded(!expanded)}>
           <i
             className={expanded ? "ri-arrow-up-s-line" : "ri-arrow-down-s-line"}
@@ -89,14 +98,21 @@ const CardWithCollapse: React.FC<CardWithCollapseProps> = ({ recipe }) => {
           {youtubeEmbedUrl && (
             <div className="video-container">
               <iframe
-                width="400"
-                height="300"
+                width="100%"
                 src={youtubeEmbedUrl}
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               ></iframe>
+              <IconButton onClick={handleFullscreen}>
+                <FullscreenIcon />
+              </IconButton>
+              <Link href={`/recipes/${slug}`} passHref>
+                <IconButton>
+                  <Button>Recipe Details</Button>
+                </IconButton>
+              </Link>
             </div>
           )}
         </CardContent>

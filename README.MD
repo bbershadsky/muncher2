@@ -8,11 +8,12 @@ Purpose: Use Appwrite for Munch as a backend service.
 <!-- - Provisioning script for Appwrite Recipes model -->
 
 - Load Data with this nice card layout https://demos.themeselection.com/materio-mui-nextjs-admin-template-free/demo/card-basic
-- Recipe "details" page
+  <!-- - Recipe "details" page -->
   <!-- - Search / filtering functionality (culture) -->
   <!-- - Submit your URL to queue -->
   <!-- - Appwrite processing on server -->
   Clicking on the queue item should run the ETL script and update appwrite
+    <!-- dark mode -->
 
 ## Installation
 
