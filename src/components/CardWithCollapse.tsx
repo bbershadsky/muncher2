@@ -89,8 +89,8 @@ const CardWithCollapse: React.FC<CardWithCollapseProps> = ({ recipe }) => {
           {youtubeEmbedUrl && (
             <div className="video-container">
               <iframe
-                width="560"
-                height="315"
+                width="400"
+                height="300"
                 src={youtubeEmbedUrl}
                 title="YouTube video player"
                 frameBorder="0"

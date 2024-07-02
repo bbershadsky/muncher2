@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { styled, alpha } from "@mui/material/styles";
+import { styled, alpha, useTheme } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -9,7 +9,10 @@ import Button from "@mui/material/Button";
 import { useCreate, useList } from "@refinedev/core";
 import { resources } from "utility";
 import { IRecipe } from "src/interfaces";
-
+import IconButton from "@mui/material/IconButton";
+import BrightnessHighIcon from "@mui/icons-material/BrightnessHigh";
+import Brightness4Icon from "@mui/icons-material/Brightness4";
+import { useThemeContext } from "src/context/ThemeContext";
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
   borderRadius: theme.shape.borderRadius,
@@ -53,6 +56,9 @@ const SearchAppBar: React.FC = () => {
       },
     ],
   });
+  const { toggleTheme } = useThemeContext();
+  const theme = useTheme();
+
   const { mutate: createRecipe } = useCreate<IRecipe>();
 
   const handleAddRecipe = () => {
@@ -98,6 +104,13 @@ const SearchAppBar: React.FC = () => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
+          <IconButton onClick={toggleTheme} color="inherit">
+            {theme.palette.mode === "dark" ? (
+              <BrightnessHighIcon />
+            ) : (
+              <Brightness4Icon />
+            )}
+          </IconButton>
           <Typography
             variant="h6"
             noWrap

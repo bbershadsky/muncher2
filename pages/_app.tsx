@@ -1,3 +1,4 @@
+// src/pages/_app.tsx
 import React from "react";
 import type { AppProps } from "next/app";
 import { Refine } from "@refinedev/core";
@@ -7,15 +8,14 @@ import routerProvider, {
 } from "@refinedev/nextjs-router/pages";
 import { authProvider } from "../auth-provider";
 import { dataProvider, liveProvider } from "@refinedev/appwrite";
-
 import { Layout } from "@components/Layout";
-
 import "src/styles/global.css";
 import { appwriteClient, resources } from "utility";
+import { ThemeContextProvider } from "src/context/ThemeContext";
 
 function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
-    <>
+    <ThemeContextProvider>
       <Refine
         dataProvider={{
           default: dataProvider(appwriteClient, {
@@ -27,7 +27,6 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         })}
         authProvider={authProvider}
         routerProvider={routerProvider}
-        // i18nProvider={i18nProvider}
         options={{
           liveMode: "auto",
           syncWithLocation: true,
@@ -42,8 +41,6 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
             list: "/",
             meta: {
               label: "Home",
-              // label: t("dashboard.title"),
-              // icon: <Dashboard />,
             },
           },
         ]}
@@ -54,7 +51,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
         <UnsavedChangesNotifier />
         <DocumentTitleHandler />
       </Refine>
-    </>
+    </ThemeContextProvider>
   );
 }
 
