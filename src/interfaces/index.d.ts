@@ -1,4 +1,5 @@
 export interface IRecipe {
+  $id: string;
   id: number;
   title: string;
   rawSubtitles: string;

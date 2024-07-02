@@ -25,7 +25,21 @@ const QueueList: React.FC = () => {
   });
 
   const [sourceUrl, setSourceUrl] = useState("");
+  const [results, setResults] = useState<{ [key: number]: string }>({});
   const { mutate: createRecipe } = useCreate<IRecipe>();
+
+  const handleSubmit = async (url: string, id: number) => {
+    const response = await fetch("/api/process-video", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ url }),
+    });
+
+    const data = await response.json();
+    setResults((prevResults) => ({ ...prevResults, [id]: data.output }));
+  };
 
   const handleAddRecipe = () => {
     createRecipe({
@@ -76,18 +90,34 @@ const QueueList: React.FC = () => {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell>ID</TableCell>
-              <TableCell>Title</TableCell>
+              {/* <TableCell>Title</TableCell> */}
               <TableCell>Source URL</TableCell>
+              <TableCell>Action</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {data?.data.map((recipe) => (
-              <TableRow key={recipe.id}>
-                <TableCell>{recipe.id}</TableCell>
-                <TableCell>{recipe.title}</TableCell>
-                <TableCell>{recipe.sourceUrl}</TableCell>
-              </TableRow>
+              <>
+                <TableRow key={recipe.$id}>
+                  <TableCell>{recipe.sourceUrl}</TableCell>
+                  <TableCell>
+                    <Button
+                      variant="contained"
+                      color="secondary"
+                      onClick={() => handleSubmit(recipe.sourceUrl, recipe.id)}
+                    >
+                      Process
+                    </Button>
+                  </TableCell>
+                </TableRow>
+                {results[recipe.id] && (
+                  <TableRow key={`${recipe.$id}-result`}>
+                    <TableCell colSpan={4}>
+                      <pre>{results[recipe.id]}</pre>
+                    </TableCell>
+                  </TableRow>
+                )}
+              </>
             ))}
           </TableBody>
         </Table>
