@@ -133,7 +133,7 @@ const SearchAppBar: React.FC = () => {
             color="secondary"
             onClick={handleAddRecipe}
           >
-            Add Recipe
+            Submit
           </Button>
         </Toolbar>
       </AppBar>

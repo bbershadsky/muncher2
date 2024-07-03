@@ -5,13 +5,13 @@ export interface IRecipe {
   rawSubtitles: string;
   modelUsed: string; // Openhermes default
   enSubtitles: string;
-  ingredients: string;
-  instructions: string;
+  ingredients: string[];
+  instructions: string[];
   sourceUrl: string;
   sourceLanguage: string;
   image: string;
   markdownData: string;
-  chefTips: string;
+  chefTips: string[];
   culture: string;
   totalTimeMinutes: number;
   isSubtitlesProcessed: boolean;

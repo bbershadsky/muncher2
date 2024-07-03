@@ -21,6 +21,12 @@ fi
 extract_and_translate_subtitles() {
     local video_id="$1"
 
+    # Skip processing if payload.json already exists
+    if [[ -f "${video_id}_payload.json" ]]; then
+        echo "Payload file ${video_id}_payload.json already exists. Skipping extraction and translation."
+        return
+    fi
+
     # Get available subtitles languages
     languages=$(youtube_transcript_api "$video_id" --list 2>/dev/null)
 
@@ -32,7 +38,12 @@ extract_and_translate_subtitles() {
     if echo "$languages" | grep -q 'en'; then
         echo "Using English subtitles as a fallback."
         subtitles=$(youtube_transcript_api "$video_id" --languages en)
-    # Check if Chinese subtitles are available and can be translated to English
+    elif echo "$languages" | grep -q 'a.en'; then
+        echo "Using first auto-generated English subtitles as a fallback."
+        subtitles=$(youtube_transcript_api "$video_id" --languages a.en)
+    elif echo "$languages" | grep -q 'a.es'; then
+        echo "Using first auto-generated Spanish subtitles as a fallback."
+        subtitles=$(youtube_transcript_api "$video_id" --languages a.en)
     elif echo "$languages" | grep -q 'zh-Hant'; then
         echo "Chinese (Traditional) subtitles are available for translation."
         subtitles=$(youtube_transcript_api "$video_id" --languages zh-Hant --translate en)
@@ -64,7 +75,7 @@ with open("${video_id}.json", "r") as file:
 
 # Discard everything before 'text: ' and remove single quotes, brackets, curly braces
 cleaned_content = re.sub(r".*?'text':\s*", "", subtitles)
-cleaned_content = re.sub(r"[\'\[\]\{\}]", "", cleaned_content)
+cleaned_content = re.sub(r"[\'\[\]\{\}\’]", "", cleaned_content)
 
 # Remove "duration: number" and "start: number" fields
 cleaned_content = re.sub(r"duration:\s*\d+\.\d+,\s*", "", cleaned_content)
@@ -82,49 +93,55 @@ END
     prompt_prefix=$(cat "${video_id}.txt")
 
     # Create JSON payload
-    payload=$(jq -n --arg prompt "take the following text and generate a formatted markdown recipe with ingredients and instructions, don't include any extra information\n$prompt_prefix" '{model: "openhermes", prompt: $prompt, stream: false}')
-    echo "$payload" >"${video_id}.json"
+    payload=$(jq -n --arg prompt "Analyze the following YouTube transcription text and extract the relevant details. The output should be a JSON object with the keys: ingredients, instructions, title, chefTips, culture, isGlutenFree, isVegan, isLactoseFree, isVegetarian, isKosher, isKeto, isLowCarb, isDairyFree. Add a newline for each ingredient and instruction The JSON should look like this:\n\n{\n  \"ingredients\": \"\",\n  \"instructions\": \"\",\n  \"title\": \"\",\n  \"chefTips\": \"\",\n  \"culture\": \"\",\n  \"isGlutenFree\": false,\n  \"isVegan\": false,\n  \"isLactoseFree\": false,\n  \"isVegetarian\": false,\n  \"isKosher\": false,\n  \"isKeto\": false,\n  \"isLowCarb\": false,\n  \"isDairyFree\": false\n}\n\nTranscription Text:\n\n$prompt_prefix" '{model: "openhermes", prompt: $prompt, stream: false}')
+    echo "$payload" >"${video_id}_payload.json"
 
     echo "Subtitles saved to JSON file: ${video_id}.json"
     echo "Subtitles content saved to text file: ${video_id}.txt"
-    echo "Payload saved to ${video_id}.json"
+    echo "Payload saved to ${video_id}_payload.json"
 }
+
 # Function to send the payload and save the response
 send_payload() {
     local payload_file="$1"
-    local output_file="${payload_file%.json}.mdx"
+    local output_file="${payload_file%.json}_output.json"
+
+    # Skip processing if payload_output.json already exists
+    if [[ -f "$output_file" ]]; then
+        echo "Output file $output_file already exists. Skipping payload sending."
+        return
+    fi
 
     # Read the payload
     payload=$(cat "$payload_file")
 
-    # Make API request and save the output to the markdown file
+    # Make API request and save the output to the JSON file
     response=$(curl -s -X POST http://localhost:11434/api/generate -d "$payload" | jq -r '.response')
 
-    # Get video info using yt-dlp
-    video_info=$(yt-dlp -j -- "$url")
-    title=$(echo "$video_info" | jq -r '.title')
-    description=$(echo "$video_info" | jq -r '.description')
-    thumbnail=$(echo "$video_info" | jq -r '.thumbnail')
-
-    # Create the .mdx content
-    {
-        echo "---"
-        echo "title: \"$title\""
-        echo "heroImg: $thumbnail"
-        echo "excerpt: >"
-        echo "  $description"
-        echo "author: content/authors/munch.md"
-        echo "date: $(date +%Y-%m-%dT%H:%M:%S.000Z)"
-        echo "source: $video_id"
-        echo "---"
-        echo
-        echo "$response"
-        echo
-        echo "Source: https://youtu.be/${video_id}"
-        echo
-    } >"$output_file"
+    # Save response to output file
+    echo "$response" >"$output_file"
 
     echo "Processed content saved to $output_file"
+}
+
+# Function to validate JSON output
+validate_json_output() {
+    local output_file="$1"
+
+    if ! jq empty "$output_file" 2>/dev/null; then
+        echo "Invalid JSON output in $output_file"
+        exit 1
+    fi
+
+    echo "Valid JSON output in $output_file"
+}
+
+# Function to update the record in Appwrite
+update_appwrite_record() {
+    local payload_file="$1"
+    local data=$(cat "$payload_file")
+
+    python3 insert_single.py "$video_id"_payload_output.json
 }
 
 # Extract video ID from the URL
@@ -144,7 +161,7 @@ extract_video_id() {
 # Function to clean up temporary files
 cleanup_temp_files() {
     if [[ "$REMOVE_TEMP_FILES" == "true" ]]; then
-        rm -f "${video_id}.json" "${video_id}.txt"
+        rm -f "${video_id}.json" "${video_id}.txt" "${video_id}_payload.json"
         echo "Temporary files removed."
     fi
 }
@@ -169,9 +186,15 @@ subtitle_extraction_time=$((end_subtitle_extraction - start_subtitle_extraction)
 # Timer for sending the payload
 start_payload_send=$(date +%s)
 # Send the payload and save the response
-send_payload "${video_id}.json"
+send_payload "${video_id}_payload.json"
 end_payload_send=$(date +%s)
 payload_send_time=$((end_payload_send - start_payload_send))
+
+# Validate the JSON output
+validate_json_output "${video_id}_payload_output.json"
+
+# Update the Appwrite record with the new data
+update_appwrite_record "${video_id}_payload_output.json"
 
 # Cleanup temporary files if the flag is set
 cleanup_temp_files

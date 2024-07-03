@@ -2,18 +2,20 @@
 
 Purpose: Use Appwrite for Munch as a backend service.
 
-## TODO
+Limitations: Videos over 8 minutes overflow `openhermes` context and prompt instructions break during output
+
+<!-- ## TODO -->
 
 <!-- - Finalize IRecipe -->
 <!-- - Provisioning script for Appwrite Recipes model -->
 
-- Load Data with this nice card layout https://demos.themeselection.com/materio-mui-nextjs-admin-template-free/demo/card-basic
+<!-- - Load Data with this nice card layout https://demos.themeselection.com/materio-mui-nextjs-admin-template-free/demo/card-basic -->
   <!-- - Recipe "details" page -->
   <!-- - Search / filtering functionality (culture) -->
   <!-- - Submit your URL to queue -->
   <!-- - Appwrite processing on server -->
-  Clicking on the queue item should run the ETL script and update appwrite
-    <!-- dark mode -->
+  <!-- Clicking on the queue item should run the ETL script and update appwrite -->
+<!-- dark mode -->
 
 ## Installation
 
@@ -42,6 +44,9 @@ Environment="OLLAMA_HOST=0.0.0.0"
 
 systemctl restart ollama.service
 
+npm install -g node-appwrite
+
+# npm install -g appwrite-cli
 ```
 
 ## Serverless Function

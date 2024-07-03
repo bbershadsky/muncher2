@@ -17,8 +17,8 @@ interface Recipe {
   id: number;
   title?: string;
   image?: string;
-  instructions?: string;
-  ingredients?: string;
+  instructions?: string[];
+  ingredients?: string[];
   sourceUrl?: string;
 }
 
@@ -86,13 +86,21 @@ const CardWithCollapse: React.FC<CardWithCollapseProps> = ({ recipe }) => {
           {recipe.ingredients && (
             <>
               <Typography variant="h6">Ingredients</Typography>
-              <Typography>{recipe.ingredients}</Typography>
+              <ul>
+                {recipe.ingredients.map((ingredient, index) => (
+                  <li key={index}>{ingredient}</li>
+                ))}
+              </ul>
             </>
           )}
           {recipe.instructions && (
             <>
               <Typography variant="h6">Instructions</Typography>
-              <Typography>{recipe.instructions}</Typography>
+              <ol>
+                {recipe.instructions.map((instruction, index) => (
+                  <li key={index}>{instruction}</li>
+                ))}
+              </ol>
             </>
           )}
           {youtubeEmbedUrl && (

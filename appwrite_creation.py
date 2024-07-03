@@ -1,6 +1,5 @@
 import os
 from dotenv import load_dotenv 
-from time import sleep
 import time
 from functools import wraps
 
@@ -8,9 +7,7 @@ from appwrite.client import Client
 from appwrite.services.users import Users
 from appwrite.services.databases import Databases
 from appwrite.services.storage import Storage
-# from appwrite.services.account import Account
 from appwrite.services.functions import Functions
-# from appwrite.input_file import InputFile
 from appwrite.permission import Permission
 from appwrite.role import Role
 from appwrite.id import ID
@@ -79,13 +76,13 @@ def create_attributes(collection_id):
         ("rawSubtitles", "string20000"),
         ("modelUsed", "string"),
         ("enSubtitles", "string20000"),
-        ("ingredients", "string"),
+        ("ingredients", "string1000"),
         ("instructions", "string"),
         ("sourceUrl", "string"),
         ("sourceLanguage", "string"),
         ("image", "string"),
         ("markdownData", "string20000"),
-        ("chefTips", "string"),
+        ("chefTips", "string1000"),
         ("culture", "string"),
         ("totalTimeMinutes", "integer"),
         ("isSubtitlesProcessed", "boolean"),
@@ -111,6 +108,9 @@ def create_attributes(collection_id):
             elif attr[1] == "string20000":
                 default = attr[2] if len(attr) > 2 else None
                 databases.create_string_attribute(database_id, collection_id, attr[0], 20000, required=False, default=default)
+            elif attr[1] == "string1000":
+                default = attr[2] if len(attr) > 2 else None
+                databases.create_string_attribute(database_id, collection_id, attr[0], 1000, required=False, default=default)
             elif attr[1] == "boolean":
                 databases.create_boolean_attribute(database_id, collection_id, attr[0], False)
             p(f"Attribute {attr[0]} created successfully")
