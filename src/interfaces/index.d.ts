@@ -1,6 +1,6 @@
 export interface IRecipe {
   $id: string;
-  id: number;
+  id: string;
   title: string;
   rawSubtitles: string;
   modelUsed: string; // Openhermes default

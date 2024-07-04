@@ -12,23 +12,14 @@ import Collapse from "@mui/material/Collapse";
 import Divider from "@mui/material/Divider";
 import FullscreenIcon from "@mui/icons-material/Fullscreen";
 import Link from "next/link";
-
-interface Recipe {
-  id: number;
-  title?: string;
-  image?: string;
-  instructions?: string[];
-  ingredients?: string[];
-  sourceUrl?: string;
-}
+import { IRecipe } from "src/interfaces";
 
 interface CardWithCollapseProps {
-  recipe: Recipe;
+  recipe: IRecipe;
 }
 
 const CardWithCollapse: React.FC<CardWithCollapseProps> = ({ recipe }) => {
   const [expanded, setExpanded] = useState(false);
-  const slug = encodeURIComponent(recipe.title || "");
 
   const isYouTubeUrl = (url: string) => {
     return url.includes("youtube.com") || url.includes("youtu.be");
@@ -116,7 +107,7 @@ const CardWithCollapse: React.FC<CardWithCollapseProps> = ({ recipe }) => {
               <IconButton onClick={handleFullscreen}>
                 <FullscreenIcon />
               </IconButton>
-              <Link href={`/recipes/${slug}`} passHref>
+              <Link href={`/recipes/${recipe.id}`} passHref>
                 <IconButton>
                   <Button>Recipe Details</Button>
                 </IconButton>
