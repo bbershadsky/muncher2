@@ -11,12 +11,9 @@ def main():
         return
 
     file_path = os.sys.argv[1]
-    video_id = '_'.join(os.path.basename(file_path).split('_')[:-1])  # Extract video ID by finding last instance of '__'
+    video_id = '_'.join(os.path.basename(file_path).split('_')[:-1])  # Extract video ID correctly
     if '?' in video_id:
         video_id = video_id.split('?')[0]
-
-    with open(file_path, 'r') as f:
-        data = json.load(f)
 
     load_dotenv()
 
@@ -28,11 +25,17 @@ def main():
     client.set_key(os.getenv('APPWRITE_API_KEY'))  # Your API key with permissions
 
     try:
+        with open(file_path, 'r') as f:
+            data = json.load(f)
+        
+        if data is None:
+            raise ValueError("No data found in the JSON file.")
+        
         # Add ID to the data
         data['id'] = video_id
 
-        # Add rawSubtitles to the data
-        subtitles_file_path = f"{video_id}.txt"
+        # Ensure the subtitles file path does not contain __payload_
+        subtitles_file_path = f"{video_id}__subtitles.txt".replace("__payload_", "")
         if os.path.exists(subtitles_file_path):
             with open(subtitles_file_path, 'r') as f:
                 data['rawSubtitles'] = f.read()
@@ -61,14 +64,18 @@ def main():
             data=data
         )
         print(response)
+    except json.JSONDecodeError:
+        print("Failed to decode JSON.")
+    except FileNotFoundError as e:
+        print(f"File not found: {e}")
     except Exception as e:
-        data['isSubtitlesProcessed'] = False
-        data['isNeedsReview'] = True
         print(f"An error occurred: {e}")
-
-        # Save the updated data with error status back to the file for review
-        with open(file_path, 'w') as f:
-            json.dump(data, f, indent=4)
+        if data is not None:
+            data['isSubtitlesProcessed'] = False
+            data['isNeedsReview'] = True
+            # Save the updated data with error status back to the file for review
+            with open(file_path, 'w') as f:
+                json.dump(data, f, indent=4)
 
 if __name__ == "__main__":
     main()

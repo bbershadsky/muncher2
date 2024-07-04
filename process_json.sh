@@ -17,52 +17,55 @@ if ! command -v youtube_transcript_api &>/dev/null; then
     exit 1
 fi
 
+# Extract video ID from the URL
+extract_video_id() {
+    local url="$1"
+    # This uses a compatible sed pattern to extract the video ID
+    video_id=$(echo "$url" | sed -E 's/.*(v=|\/)([^&?]*).*/\2/')
+    echo "Extracted video ID: $video_id"
+}
+
+# Fetch and save video metadata
+fetch_video_metadata() {
+    local video_id="$1"
+    echo "Fetching metadata for video ID: $video_id"
+    yt-dlp -j --skip-download "https://www.youtube.com/watch?v=$video_id" | jq '. | {image: .thumbnail, totalTimeMinutes: (.duration // 60), score: .like_count}' >"${video_id}__meta.json"
+    echo "Metadata saved to ${video_id}__meta.json"
+}
+
 # Function to extract and translate subtitles
 extract_and_translate_subtitles() {
     local video_id="$1"
 
     # Skip processing if payload.json already exists
-    if [[ -f "${video_id}_payload.json" ]]; then
-        echo "Payload file ${video_id}_payload.json already exists. Skipping extraction and translation."
+    if [[ -f "${video_id}__payload.json" ]]; then
+        echo "Payload file ${video_id}__payload.json already exists. Skipping extraction and translation."
         return
     fi
 
     # Get available subtitles languages
     languages=$(youtube_transcript_api "$video_id" --list 2>/dev/null)
-
     if [[ -z "$languages" ]]; then
         echo "No subtitles found for the video."
         exit 1
     fi
 
+    # Attempt to download English subtitles or fallback to the translated ones
     if echo "$languages" | grep -q 'en'; then
-        echo "Using English subtitles as a fallback."
-        subtitles=$(youtube_transcript_api "$video_id" --languages en)
-    elif echo "$languages" | grep -q 'a.en'; then
-        echo "Using first auto-generated English subtitles as a fallback."
-        subtitles=$(youtube_transcript_api "$video_id" --languages a.en)
-    elif echo "$languages" | grep -q 'a.es'; then
-        echo "Using first auto-generated Spanish subtitles as a fallback."
-        subtitles=$(youtube_transcript_api "$video_id" --languages a.en)
-    elif echo "$languages" | grep -q 'zh-Hant'; then
-        echo "Chinese (Traditional) subtitles are available for translation."
-        subtitles=$(youtube_transcript_api "$video_id" --languages zh-Hant --translate en)
-    elif echo "$languages" | grep -q 'zh'; then
-        echo "Chinese subtitles are available for translation."
-        subtitles=$(youtube_transcript_api "$video_id" --languages zh --translate en)
+        echo "Using English subtitles."
+        subtitles=$(youtube_transcript_api "$video_id" --languages en 2>/dev/null)
     else
-        echo "No translatable subtitles found."
-        exit 1
+        echo "English subtitles not found. Attempting to use translated subtitles."
+        # Attempt to use any available manually created and translatable subtitles
+        subtitles=$(youtube_transcript_api "$video_id" --languages 'sq,ar,bn,be,bs,bg,zh-Hans,zh-Hant,hr,cs,da,nl,et,fil,fi,fr,ka,de,el,iw,hi,hu,is,id,ga,it,ja,kn,kk,km,ko,ky,lo,la,lv,lt,lb,mk,ms,mn,no,fa,pl,pt,ro,ru,sr,sk,sl,es,sv,tg,ta,th,tr,tk,uk,ur,uz,vi' --translate en 2>/dev/null)
     fi
 
-    if [[ -z "$subtitles" || "$subtitles" == *"Could not retrieve a transcript for the video"* ]]; then
+    if [[ -z "$subtitles" ]]; then
         echo "Failed to retrieve subtitles. Subtitles may be disabled for this video."
         exit 1
     fi
 
     echo "Extracting: $subtitles"
-
-    # Save subtitles to a JSON file
     echo "$subtitles" >"${video_id}.json"
 
     # Use Python to process JSON-like structure and save to a text file
@@ -85,26 +88,26 @@ cleaned_content = re.sub(r"start:\s*\d+\.\d+,\s*", "", cleaned_content)
 cleaned_content = re.sub(r"\s+", " ", cleaned_content)
 
 # Write the cleaned content to the output file
-with open("${video_id}.txt", "w") as file:
+with open("${video_id}__subtitles.txt", "w") as file:
     file.write(cleaned_content.strip())
 END
 
     # Read the text content for prompt_prefix
-    prompt_prefix=$(cat "${video_id}.txt")
+    prompt_prefix=$(cat "${video_id}__subtitles.txt")
 
     # Create JSON payload
     payload=$(jq -n --arg prompt "Analyze the following YouTube transcription text and extract the relevant details. The output should be a JSON object with the keys: ingredients, instructions, title, chefTips, culture, isGlutenFree, isVegan, isLactoseFree, isVegetarian, isKosher, isKeto, isLowCarb, isDairyFree. Add a newline for each ingredient and instruction The JSON should look like this:\n\n{\n  \"ingredients\": \"\",\n  \"instructions\": \"\",\n  \"title\": \"\",\n  \"chefTips\": \"\",\n  \"culture\": \"\",\n  \"isGlutenFree\": false,\n  \"isVegan\": false,\n  \"isLactoseFree\": false,\n  \"isVegetarian\": false,\n  \"isKosher\": false,\n  \"isKeto\": false,\n  \"isLowCarb\": false,\n  \"isDairyFree\": false\n}\n\nTranscription Text:\n\n$prompt_prefix" '{model: "openhermes", prompt: $prompt, stream: false}')
-    echo "$payload" >"${video_id}_payload.json"
+    echo "$payload" >"${video_id}__payload.json"
 
     echo "Subtitles saved to JSON file: ${video_id}.json"
-    echo "Subtitles content saved to text file: ${video_id}.txt"
-    echo "Payload saved to ${video_id}_payload.json"
+    echo "Subtitles content saved to text file: ${video_id}__subtitles.txt"
+    echo "Payload saved to ${video_id}__payload.json"
 }
 
 # Function to send the payload and save the response
 send_payload() {
     local payload_file="$1"
-    local output_file="${payload_file%.json}_output.json"
+    local output_file="${payload_file%.json}__output.json"
 
     # Skip processing if payload_output.json already exists
     if [[ -f "$output_file" ]]; then
@@ -141,32 +144,18 @@ update_appwrite_record() {
     local payload_file="$1"
     local data=$(cat "$payload_file")
 
-    python3 insert_single.py "$video_id"_payload_output.json
-}
-
-# Extract video ID from the URL
-extract_video_id() {
-    local url="$1"
-    if [[ "$url" == *"watch?v="* ]]; then
-        video_id=$(echo "$url" | sed -n 's/.*watch?v=\([^&]*\).*/\1/p')
-    elif [[ "$url" == *"youtu.be/"* ]]; then
-        video_id=$(echo "$url" | sed -n 's/.*youtu.be\/\([^&]*\).*/\1/p')
-    else
-        echo "Invalid URL format"
-        exit 1
-    fi
-    echo "Extracted video ID: $video_id"
+    python3 insert_single.py "${video_id}__payload__output.json"
 }
 
 # Function to clean up temporary files
 cleanup_temp_files() {
     if [[ "$REMOVE_TEMP_FILES" == "true" ]]; then
-        rm -f "${video_id}.json" "${video_id}.txt" "${video_id}_payload.json"
+        rm -f "${video_id}.json" "${video_id}__subtitles.txt" "${video_id}__payload.json"
         echo "Temporary files removed."
     fi
 }
 
-# Check if URL is provided
+# Main script execution
 if [ -z "$1" ]; then
     echo "No URL provided. Usage: $0 <YouTube URL>"
     exit 1
@@ -176,25 +165,28 @@ url="$1"
 extract_video_id "$url"
 video_id="$video_id"
 
+echo "Working with video ID: $video_id"
+
+# Fetch metadata
+fetch_video_metadata "$video_id"
+
 # Timer for subtitle extraction and translation
 start_subtitle_extraction=$(date +%s)
-# Extract and translate subtitles, then create and save the payload
 extract_and_translate_subtitles "$video_id"
 end_subtitle_extraction=$(date +%s)
 subtitle_extraction_time=$((end_subtitle_extraction - start_subtitle_extraction))
 
 # Timer for sending the payload
 start_payload_send=$(date +%s)
-# Send the payload and save the response
-send_payload "${video_id}_payload.json"
+send_payload "${video_id}__payload.json"
 end_payload_send=$(date +%s)
 payload_send_time=$((end_payload_send - start_payload_send))
 
 # Validate the JSON output
-validate_json_output "${video_id}_payload_output.json"
+validate_json_output "${video_id}__payload__output.json"
 
 # Update the Appwrite record with the new data
-update_appwrite_record "${video_id}_payload_output.json"
+update_appwrite_record "${video_id}__payload__output.json"
 
 # Cleanup temporary files if the flag is set
 cleanup_temp_files
