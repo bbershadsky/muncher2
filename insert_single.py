@@ -53,6 +53,20 @@ def main():
         if 'chefTips' in data and isinstance(data['chefTips'], str):
             data['chefTips'] = data['chefTips'].split('\n')
 
+        # Load additional metadata from the meta file
+        try:
+            meta_file_path = f"{video_id}__meta.json"
+            if os.path.exists(meta_file_path):
+                with open(meta_file_path, 'r') as f:
+                    meta_data = json.load(f)
+                    data.update(meta_data)
+            else:
+                raise FileNotFoundError(f"Meta file {meta_file_path} not found.")
+        except json.JSONDecodeError:
+            print("Failed to decode JSON from the meta file.")
+        except FileNotFoundError as e:
+            print(f"File not found: {e}")
+
         # Set isSubtitlesProcessed and isNeedsReview
         data['isSubtitlesProcessed'] = True
         data['isNeedsReview'] = False

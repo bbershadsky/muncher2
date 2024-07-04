@@ -61,7 +61,6 @@ const CardWithCollapse: React.FC<CardWithCollapseProps> = ({ recipe }) => {
             {recipe.title}
           </Typography>
         )}
-        {recipe.instructions && <Typography>{recipe.instructions}</Typography>}
       </CardContent>
       <CardActions className="card-actions-dense justify-between">
         <Button onClick={() => setExpanded(!expanded)}>See More</Button>

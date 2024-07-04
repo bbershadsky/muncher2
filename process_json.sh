@@ -28,7 +28,7 @@ extract_video_id() {
 fetch_video_metadata() {
     local video_id="$1"
     echo "Fetching metadata for video ID: $video_id"
-    yt-dlp -j --skip-download "https://www.youtube.com/watch?v=$video_id" | jq '. | {image: .thumbnail, title: .title, totalTimeMinutes: (.duration // 60), score: .like_count}' >"${video_id}__meta.json"
+    yt-dlp -j --skip-download "https://www.youtube.com/watch?v=$video_id" | jq '. | {image: .thumbnail, title: .title, totalTimeMinutes: (.duration // 60), score: .like_count}' >"${video_id}__payload___meta.json"
     echo "Metadata saved to ${video_id}__meta.json"
 }
 
