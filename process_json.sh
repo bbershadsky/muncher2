@@ -20,7 +20,6 @@ fi
 # Extract video ID from the URL
 extract_video_id() {
     local url="$1"
-    # This uses a compatible sed pattern to extract the video ID
     video_id=$(echo "$url" | sed -E 's/.*(v=|\/)([^&?]*).*/\2/')
     echo "Extracted video ID: $video_id"
 }
@@ -29,7 +28,7 @@ extract_video_id() {
 fetch_video_metadata() {
     local video_id="$1"
     echo "Fetching metadata for video ID: $video_id"
-    yt-dlp -j --skip-download "https://www.youtube.com/watch?v=$video_id" | jq '. | {image: .thumbnail, totalTimeMinutes: (.duration // 60), score: .like_count}' >"${video_id}__meta.json"
+    yt-dlp -j --skip-download "https://www.youtube.com/watch?v=$video_id" | jq '. | {image: .thumbnail, title: .title, totalTimeMinutes: (.duration // 60), score: .like_count}' >"${video_id}__meta.json"
     echo "Metadata saved to ${video_id}__meta.json"
 }
 
