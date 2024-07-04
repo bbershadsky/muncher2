@@ -55,8 +55,8 @@ extract_and_translate_subtitles() {
         exit 1
     fi
 
-    if [[ -z "$subtitles" ]]; then
-        echo "Failed to retrieve subtitles."
+    if [[ -z "$subtitles" || "$subtitles" == *"Could not retrieve a transcript for the video"* ]]; then
+        echo "Failed to retrieve subtitles. Subtitles may be disabled for this video."
         exit 1
     fi
 

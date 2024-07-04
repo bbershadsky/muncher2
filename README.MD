@@ -2,7 +2,7 @@
 
 Purpose: Use Appwrite for Munch as a backend service.
 
-Limitations: Videos over 8 minutes overflow `openhermes` context and prompt instructions break during output
+Limitations: Videos over 6-7 minutes overflow `openhermes` context and prompt instructions break during output
 
 <!-- ## TODO -->
 

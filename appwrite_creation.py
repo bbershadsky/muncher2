@@ -71,7 +71,7 @@ def create_recipes_collection():
 @time_tracker
 def create_attributes(collection_id):
     attributes = [
-        ("id", "integer"),
+        ("id", "string"),
         ("title", "string"),
         ("rawSubtitles", "string20000"),
         ("modelUsed", "string"),
