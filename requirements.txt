@@ -1,3 +1,6 @@
-appwrite>="5.0.3"
-python_dotenv>="0.0.5"
-youtube_transcript_api>="0.6.2"
+python_dotenv>=1.0.1
+appwrite==7.0.0
+requests==2.31.0
+yt-dlp==2024.11.4
+youtube-transcript-api==0.6.2
+tqdm

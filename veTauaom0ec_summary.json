@@ -1,0 +1,16 @@
+{
+  "all_responses": {
+    "llama3-gradient:8b": "{\n   \"summary\": \"After a bad experience with procrastination, the author set out to find a solution. He started by cutting back on social media and making progress towards his goals, but found that it was easy to start something new but hard to see it through to the end. He eventually figured out why: he hadn't believed in his ability to succeed due to past failures. He used Thomas Edison as an example of someone who failed many times before finding success, rather than giving up after 2 or 3 attempts and thought about expectancy value theory (how important the reward is and how confident one is) for motivation and then finally accepted that mistakes are part of the learning process.\",\n   \"key_points\": [\n    \"...\",\n    \"Failure is not evidence that things won't work out, but rather part of a process where every failure gets us closer to success as long as we learn from it.\",\n    \"The author didn't let fear of falling make him choose the path where falling is 100% guaranteed and instead developed a habit of stopping to analyze what went wrong and thinking how to do things differently after each failure.\"\n   ]\n}"
+  },
+  "summary": "{\n   \"summary\": \"After a bad experience with procrastination, the author set out to find a solution. He started by cutting back on social media and making progress towards his goals, but found that it was easy to start something new but hard to see it through to the end. He eventually figured out why: he hadn't believed in his ability to succeed due to past failures. He used Thomas Edison as an example of someone who failed many times before finding success, rather than giving up after 2 or 3 attempts and thought about expectancy value theory (how important the reward is and how confident one is) for motivation and then finally accepted that mistakes are part of the learning process.\",\n   \"key_points\": [\n    \"...\",\n    \"Failure is not evidence that things won't work out, but rather part of a process where every failure gets us closer to success as long as we learn from it.\",\n    \"The author didn't let fear of falling make him choose the path where falling is 100% guaranteed and instead developed a habit of stopping to analyze what went wrong and thinking how to do things differently after each failure.\"\n   ]\n}",
+  "modelUsed": "llama3-gradient:8b",
+  "id": "veTauaom0ec",
+  "sourceUrl": "https://youtu.be/veTauaom0ec",
+  "isSubtitlesProcessed": true,
+  "isNeedsReview": false,
+  "totalTimeMinutes": 5,
+  "title": "If you're ambitious but lazy, please watch this video…",
+  "creator": "Simplifying Ideas",
+  "views": 301535,
+  "playtime": "0:05:27"
+}

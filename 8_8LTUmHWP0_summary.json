@@ -1,0 +1,7 @@
+{
+  "all_responses": {
+    "llama3-gradient:8b": "{\n    \"summary\": \"An expert discusses the global food shortages, supply chain collapses and climate crisis caused by the widespread meat consumption in humans as a result of meat eating. The main goal is to bring an end to this practice but instead of being catastrophic it has been turned into an opportunity through Science's discovery of insects as a sustainable source of protein and reducing carbon footprint.\",\n    \"key_points\": [\n        \"...to mandate social and cultural change\",\n        \"...mandate insect- based foods only\"\n    ]\n}"
+  },
+  "summary": "{\n    \"summary\": \"An expert discusses the global food shortages, supply chain collapses and climate crisis caused by the widespread meat consumption in humans as a result of meat eating. The main goal is to bring an end to this practice but instead of being catastrophic it has been turned into an opportunity through Science's discovery of insects as a sustainable source of protein and reducing carbon footprint.\",\n    \"key_points\": [\n        \"...to mandate social and cultural change\",\n        \"...mandate insect- based foods only\"\n    ]\n}",
+  "modelUsed": "llama3-gradient:8b"
+}

@@ -1,0 +1,16 @@
+{
+  "all_responses": {
+    "llama3-gradient:8b": "{\n  \"summary\": \"Make cool through a project-based approach, which has multiple benefits including increased motivation, general happiness, confidence and self-esteen. The reasons why making cool is awesome can vary from person to person and field of interest. Choosing the right field to work on should be considered based on one's resources, interests and goals.\",\n  \"key_points\": [\n    \"The first step in working on a project is having a goal for which to aim.\",\n    \"Doing research about the tools and techniques needed for the project is important.\",\n    \"Starting with small projects is necessary and not losing yourself in those small projects is key.\"\n  ]\n}"
+  },
+  "summary": "{\n  \"summary\": \"Make cool through a project-based approach, which has multiple benefits including increased motivation, general happiness, confidence and self-esteen. The reasons why making cool is awesome can vary from person to person and field of interest. Choosing the right field to work on should be considered based on one's resources, interests and goals.\",\n  \"key_points\": [\n    \"The first step in working on a project is having a goal for which to aim.\",\n    \"Doing research about the tools and techniques needed for the project is important.\",\n    \"Starting with small projects is necessary and not losing yourself in those small projects is key.\"\n  ]\n}",
+  "modelUsed": "llama3-gradient:8b",
+  "id": "QXf10rw_dqo",
+  "sourceUrl": "https://youtu.be/QXf10rw_dqo",
+  "isSubtitlesProcessed": true,
+  "isNeedsReview": false,
+  "totalTimeMinutes": 6,
+  "title": "Start making cool shit",
+  "creator": "Pixelated Life Lessons",
+  "views": 405752,
+  "playtime": "0:06:39"
+}

@@ -1,0 +1,2867 @@
+[
+  {
+    "text": "if you already know who equinex is you",
+    "start": 0.12,
+    "duration": 5.199
+  },
+  {
+    "text": "know the treat you're in for today for",
+    "start": 3.0,
+    "duration": 4.759
+  },
+  {
+    "text": "everyone else equinex who sponsored this",
+    "start": 5.319,
+    "duration": 5.24
+  },
+  {
+    "text": "facility tour was founded in 1998 and",
+    "start": 7.759,
+    "duration": 6.321
+  },
+  {
+    "text": "currently operates over 260 data centers",
+    "start": 10.559,
+    "duration": 6.64
+  },
+  {
+    "text": "globally through which flows over half",
+    "start": 14.08,
+    "duration": 5.279
+  },
+  {
+    "text": "of the tier one internet backbone in a",
+    "start": 17.199,
+    "duration": 3.801
+  },
+  {
+    "text": "nutshell if you're using a computer",
+    "start": 19.359,
+    "duration": 4.16
+  },
+  {
+    "text": "right now which you probably are like",
+    "start": 21.0,
+    "duration": 4.84
+  },
+  {
+    "text": "this guy you are more likely than not",
+    "start": 23.519,
+    "duration": 4.92
+  },
+  {
+    "text": "touching equinex infrastructure right",
+    "start": 25.84,
+    "duration": 5.08
+  },
+  {
+    "text": "now and guys I get to take take you deep",
+    "start": 28.439,
+    "duration": 4.841
+  },
+  {
+    "text": "behind the curtain I'm talking power",
+    "start": 30.92,
+    "duration": 4.88
+  },
+  {
+    "text": "data cooling security it's pretty much",
+    "start": 33.28,
+    "duration": 4.959
+  },
+  {
+    "text": "everything that we do on our Channel yes",
+    "start": 35.8,
+    "duration": 6.96
+  },
+  {
+    "text": "even pool server cooling except",
+    "start": 38.239,
+    "duration": 4.521
+  },
+  {
+    "text": "legit you see as pretty as it might look",
+    "start": 50.719,
+    "duration": 5.32
+  },
+  {
+    "text": "the building behind me was purpose-built",
+    "start": 53.96,
+    "duration": 4.72
+  },
+  {
+    "text": "from the ground up to be a function",
+    "start": 56.039,
+    "duration": 4.721
+  },
+  {
+    "text": "First Data Center and and that manifests",
+    "start": 58.68,
+    "duration": 4.28
+  },
+  {
+    "text": "in a lot of interesting ways for",
+    "start": 60.76,
+    "duration": 4.479
+  },
+  {
+    "text": "starters it was not built from the",
+    "start": 62.96,
+    "duration": 4.72
+  },
+  {
+    "text": "ground up but rather the first floor was",
+    "start": 65.239,
+    "duration": 5.721
+  },
+  {
+    "text": "lifted a few feet off of ground level",
+    "start": 67.68,
+    "duration": 7.28
+  },
+  {
+    "text": "why security like any equinex facility",
+    "start": 70.96,
+    "duration": 5.519
+  },
+  {
+    "text": "that building needs to be able to",
+    "start": 74.96,
+    "duration": 3.08
+  },
+  {
+    "text": "withstand a breach attempt from a",
+    "start": 76.479,
+    "duration": 3.96
+  },
+  {
+    "text": "vehicle ramming into it but the city",
+    "start": 78.04,
+    "duration": 4.119
+  },
+  {
+    "text": "wouldn't let them surround it with ugly",
+    "start": 80.439,
+    "duration": 4.881
+  },
+  {
+    "text": "barriers so instead they lifted up the",
+    "start": 82.159,
+    "duration": 5.361
+  },
+  {
+    "text": "foundation itself so if you drove",
+    "start": 85.32,
+    "duration": 6.4
+  },
+  {
+    "text": "anything less than that city bus into 45",
+    "start": 87.52,
+    "duration": 6.48
+  },
+  {
+    "text": "Parliament Street Toronto you would",
+    "start": 91.72,
+    "duration": 4.28
+  },
+  {
+    "text": "eventually regain Consciousness and find",
+    "start": 94.0,
+    "duration": 4.56
+  },
+  {
+    "text": "the building to be quite unbreached",
+    "start": 96.0,
+    "duration": 4.439
+  },
+  {
+    "text": "honestly speaking you'd probably have",
+    "start": 98.56,
+    "duration": 3.559
+  },
+  {
+    "text": "better luck getting inside if you just",
+    "start": 100.439,
+    "duration": 3.28
+  },
+  {
+    "text": "walk through the front",
+    "start": 102.119,
+    "duration": 5.121
+  },
+  {
+    "text": "door JK once you get in there you'll",
+    "start": 103.719,
+    "duration": 6.201
+  },
+  {
+    "text": "find yourself in a series of airlock",
+    "start": 107.24,
+    "duration": 5.64
+  },
+  {
+    "text": "style doors like this one with at least",
+    "start": 109.92,
+    "duration": 5.239
+  },
+  {
+    "text": "three biometric security checkpoints",
+    "start": 112.88,
+    "duration": 4.519
+  },
+  {
+    "text": "before you so much as catch a glimpse of",
+    "start": 115.159,
+    "duration": 6.64
+  },
+  {
+    "text": "a customer rack oo but I get to go but",
+    "start": 117.399,
+    "duration": 6.921
+  },
+  {
+    "text": "what's the big deal you might think it's",
+    "start": 121.799,
+    "duration": 4.6
+  },
+  {
+    "text": "just some servers and network switches",
+    "start": 124.32,
+    "duration": 5.68
+  },
+  {
+    "text": "right well yeah but really important",
+    "start": 126.399,
+    "duration": 5.92
+  },
+  {
+    "text": "ones equinix houses critical",
+    "start": 130.0,
+    "duration": 4.08
+  },
+  {
+    "text": "infrastructure for everyone from",
+    "start": 132.319,
+    "duration": 3.761
+  },
+  {
+    "text": "telecommunications providers to cloud",
+    "start": 134.08,
+    "duration": 3.64
+  },
+  {
+    "text": "service providers to Securities",
+    "start": 136.08,
+    "duration": 4.2
+  },
+  {
+    "text": "exchanges and even governments to put it",
+    "start": 137.72,
+    "duration": 5.08
+  },
+  {
+    "text": "in perspective some poor schlub",
+    "start": 140.28,
+    "duration": 4.16
+  },
+  {
+    "text": "accidentally overcooked a bag of",
+    "start": 142.8,
+    "duration": 4.36
+  },
+  {
+    "text": "microwave popcorn at this location and",
+    "start": 144.44,
+    "duration": 5.56
+  },
+  {
+    "text": "the city sent seven fir trucks on the",
+    "start": 147.16,
+    "duration": 5.4
+  },
+  {
+    "text": "off chance that equinex was on fire and",
+    "start": 150.0,
+    "duration": 4.48
+  },
+  {
+    "text": "hadn't already Managed IT with their own",
+    "start": 152.56,
+    "duration": 3.84
+  },
+  {
+    "text": "fire suppression systems for more",
+    "start": 154.48,
+    "duration": 3.88
+  },
+  {
+    "text": "context their service level agreement",
+    "start": 156.4,
+    "duration": 4.24
+  },
+  {
+    "text": "with diesel fuel providers is on par",
+    "start": 158.36,
+    "duration": 4.599
+  },
+  {
+    "text": "with the local hospital because well",
+    "start": 160.64,
+    "duration": 4.36
+  },
+  {
+    "text": "think about it realistically is that",
+    "start": 162.959,
+    "duration": 3.441
+  },
+  {
+    "text": "hospital getting anything done without",
+    "start": 165.0,
+    "duration": 5.159
+  },
+  {
+    "text": "data services probably not let's head up",
+    "start": 166.4,
+    "duration": 6.6
+  },
+  {
+    "text": "here's something cool everything in this",
+    "start": 170.159,
+    "duration": 4.921
+  },
+  {
+    "text": "building except the generators we're",
+    "start": 173.0,
+    "duration": 3.84
+  },
+  {
+    "text": "about to see on the fifth floor was",
+    "start": 175.08,
+    "duration": 4.2
+  },
+  {
+    "text": "brought up in this freight elevator it",
+    "start": 176.84,
+    "duration": 4.16
+  },
+  {
+    "text": "has a full ful loaded capacity that's",
+    "start": 179.28,
+    "duration": 4.039
+  },
+  {
+    "text": "equivalent to about four loaded Mini",
+    "start": 181.0,
+    "duration": 5.08
+  },
+  {
+    "text": "Coopers and this is really important for",
+    "start": 183.319,
+    "duration": 4.48
+  },
+  {
+    "text": "cloud providers who pre-build their",
+    "start": 186.08,
+    "duration": 4.56
+  },
+  {
+    "text": "racks offsite it allows them to wheel a",
+    "start": 187.799,
+    "duration": 5.16
+  },
+  {
+    "text": "rack into their cage hook up power hook",
+    "start": 190.64,
+    "duration": 4.48
+  },
+  {
+    "text": "up Cooling and walk away we'll take a",
+    "start": 192.959,
+    "duration": 3.84
+  },
+  {
+    "text": "look at some of those cages later but",
+    "start": 195.12,
+    "duration": 5.679
+  },
+  {
+    "text": "first we need to go all the way up to",
+    "start": 196.799,
+    "duration": 7.121
+  },
+  {
+    "text": "the fifth floor where possible equinex",
+    "start": 200.799,
+    "duration": 5.08
+  },
+  {
+    "text": "uses a top to bottom approach to",
+    "start": 203.92,
+    "duration": 3.8
+  },
+  {
+    "text": "building design so we're going to go in",
+    "start": 205.879,
+    "duration": 3.92
+  },
+  {
+    "text": "that order why do they design top down",
+    "start": 207.72,
+    "duration": 3.76
+  },
+  {
+    "text": "you might ask that's because if you",
+    "start": 209.799,
+    "duration": 4.561
+  },
+  {
+    "text": "spring a leak it's going to go down so",
+    "start": 211.48,
+    "duration": 4.92
+  },
+  {
+    "text": "this floor contains everything that's",
+    "start": 214.36,
+    "duration": 4.32
+  },
+  {
+    "text": "needed to run the whole building in the",
+    "start": 216.4,
+    "duration": 4.32
+  },
+  {
+    "text": "event of a major outside Interruption",
+    "start": 218.68,
+    "duration": 4.96
+  },
+  {
+    "text": "and nothing can leak on top of it which",
+    "start": 220.72,
+    "duration": 6.56
+  },
+  {
+    "text": "is especially important for this inside",
+    "start": 223.64,
+    "duration": 6.36
+  },
+  {
+    "text": "the apply named battery room is enough",
+    "start": 227.28,
+    "duration": 5.08
+  },
+  {
+    "text": "capacity to run the entire building at",
+    "start": 230.0,
+    "duration": 5.4
+  },
+  {
+    "text": "full load for up to 15 minutes and if",
+    "start": 232.36,
+    "duration": 5.56
+  },
+  {
+    "text": "they need more time that's where these",
+    "start": 235.4,
+    "duration": 4.72
+  },
+  {
+    "text": "come in these diesel generators are",
+    "start": 237.92,
+    "duration": 4.239
+  },
+  {
+    "text": "designed to run continuously at a",
+    "start": 240.12,
+    "duration": 5.319
+  },
+  {
+    "text": "capacity of 2.5 megaw each yes my",
+    "start": 242.159,
+    "duration": 7.92
+  },
+  {
+    "text": "friends 2.5 million watts each getting",
+    "start": 245.439,
+    "duration": 6.681
+  },
+  {
+    "text": "these up here by the way took some",
+    "start": 250.079,
+    "duration": 4.201
+  },
+  {
+    "text": "special planning which I'm told involves",
+    "start": 252.12,
+    "duration": 3.479
+  },
+  {
+    "text": "cutting a hole in the side of the",
+    "start": 254.28,
+    "duration": 4.16
+  },
+  {
+    "text": "building renting a crane and then",
+    "start": 255.599,
+    "duration": 6.921
+  },
+  {
+    "text": "sliding them in absolutely badass but",
+    "start": 258.44,
+    "duration": 6.44
+  },
+  {
+    "text": "there's one small problem now they've",
+    "start": 262.52,
+    "duration": 5.04
+  },
+  {
+    "text": "got to fuel them I mean they've got this",
+    "start": 264.88,
+    "duration": 5.0
+  },
+  {
+    "text": "little Reservoir here but this one run",
+    "start": 267.56,
+    "duration": 5.079
+  },
+  {
+    "text": "one of these bad boys for what an",
+    "start": 269.88,
+    "duration": 5.92
+  },
+  {
+    "text": "hour well as it turns out the main tanks",
+    "start": 272.639,
+    "duration": 5.721
+  },
+  {
+    "text": "which include an onsite polisher to",
+    "start": 275.8,
+    "duration": 4.56
+  },
+  {
+    "text": "remove water and other impurities that",
+    "start": 278.36,
+    "duration": 4.96
+  },
+  {
+    "text": "can spoil the fuel those are underground",
+    "start": 280.36,
+    "duration": 5.0
+  },
+  {
+    "text": "and this was done because diesel fuel is",
+    "start": 283.32,
+    "duration": 4.56
+  },
+  {
+    "text": "lighter than water and equinex wanted to",
+    "start": 285.36,
+    "duration": 4.96
+  },
+  {
+    "text": "design this building such that if the",
+    "start": 287.88,
+    "duration": 5.319
+  },
+  {
+    "text": "entire first floor was flooded the tanks",
+    "start": 290.32,
+    "duration": 6.0
+  },
+  {
+    "text": "wouldn't float away Wicked smart the",
+    "start": 293.199,
+    "duration": 4.681
+  },
+  {
+    "text": "last thing they had to manage was the",
+    "start": 296.32,
+    "duration": 5.08
+  },
+  {
+    "text": "noise oh the noise noise noise",
+    "start": 297.88,
+    "duration": 6.96
+  },
+  {
+    "text": "noise now obviously equinex isn't going",
+    "start": 301.4,
+    "duration": 5.76
+  },
+  {
+    "text": "to hit their 2030 renewable energy goals",
+    "start": 304.84,
+    "duration": 5.359
+  },
+  {
+    "text": "by running diesel generators 247 but",
+    "start": 307.16,
+    "duration": 4.759
+  },
+  {
+    "text": "they do need to perform monthly checks",
+    "start": 310.199,
+    "duration": 3.401
+  },
+  {
+    "text": "on them and I'm told that when you fire",
+    "start": 311.919,
+    "duration": 3.28
+  },
+  {
+    "text": "those things up you can't even hear",
+    "start": 313.6,
+    "duration": 4.159
+  },
+  {
+    "text": "yourself think in here now given there",
+    "start": 315.199,
+    "duration": 4.72
+  },
+  {
+    "text": "used to be a public library on the other",
+    "start": 317.759,
+    "duration": 5.56
+  },
+  {
+    "text": "side of this wall that was a problem so",
+    "start": 319.919,
+    "duration": 6.12
+  },
+  {
+    "text": "equinix designed These acoustic baffles",
+    "start": 323.319,
+    "duration": 4.6
+  },
+  {
+    "text": "that Bring the Noise down to the same as",
+    "start": 326.039,
+    "duration": 4.201
+  },
+  {
+    "text": "a typical City Road",
+    "start": 327.919,
+    "duration": 4.801
+  },
+  {
+    "text": "and you can oh wow can you can probably",
+    "start": 330.24,
+    "duration": 4.16
+  },
+  {
+    "text": "hear the difference right when I go in",
+    "start": 332.72,
+    "duration": 5.319
+  },
+  {
+    "text": "there oh yeah crazy kind of necessary if",
+    "start": 334.4,
+    "duration": 5.76
+  },
+  {
+    "text": "you consider that this is about the",
+    "start": 338.039,
+    "duration": 4.841
+  },
+  {
+    "text": "equivalent of having five bloody trains",
+    "start": 340.16,
+    "duration": 5.92
+  },
+  {
+    "text": "running in here fun fact before we leave",
+    "start": 342.88,
+    "duration": 5.24
+  },
+  {
+    "text": "this room by the way diesel generation",
+    "start": 346.08,
+    "duration": 4.28
+  },
+  {
+    "text": "kicks off enough smoke that conventional",
+    "start": 348.12,
+    "duration": 3.88
+  },
+  {
+    "text": "smoke detectors would be giving off",
+    "start": 350.36,
+    "duration": 4.52
+  },
+  {
+    "text": "constant false alarms so this room uses",
+    "start": 352.0,
+    "duration": 5.84
+  },
+  {
+    "text": "flame detectors special cameras that can",
+    "start": 354.88,
+    "duration": 5.2
+  },
+  {
+    "text": "see through smoke to see if there's",
+    "start": 357.84,
+    "duration": 5.079
+  },
+  {
+    "text": "actual fire moving into the chiller room",
+    "start": 360.08,
+    "duration": 5.239
+  },
+  {
+    "text": "we've got the exact opposite problem you",
+    "start": 362.919,
+    "duration": 5.521
+  },
+  {
+    "text": "can fit so much water in this bad boy",
+    "start": 365.319,
+    "duration": 5.88
+  },
+  {
+    "text": "that is why absolutely no customer",
+    "start": 368.44,
+    "duration": 5.12
+  },
+  {
+    "text": "infrastructure is allowed under this",
+    "start": 371.199,
+    "duration": 5.241
+  },
+  {
+    "text": "room in here are three main cooling",
+    "start": 373.56,
+    "duration": 5.079
+  },
+  {
+    "text": "Loops the one behind me is filled with",
+    "start": 376.44,
+    "duration": 4.36
+  },
+  {
+    "text": "antifreeze that goes between these",
+    "start": 378.639,
+    "duration": 4.641
+  },
+  {
+    "text": "liquid to liquid Heat exchangers and the",
+    "start": 380.8,
+    "duration": 5.04
+  },
+  {
+    "text": "large evaporative cooling fin Stacks",
+    "start": 383.28,
+    "duration": 4.24
+  },
+  {
+    "text": "that are Up on the Roof we're going to",
+    "start": 385.84,
+    "duration": 3.32
+  },
+  {
+    "text": "take a closer look at those in a minute",
+    "start": 387.52,
+    "duration": 4.0
+  },
+  {
+    "text": "but for now now I want to look at the",
+    "start": 389.16,
+    "duration": 5.0
+  },
+  {
+    "text": "other Loops those two are connected to",
+    "start": 391.52,
+    "duration": 5.88
+  },
+  {
+    "text": "what is in effect the biggest freaking",
+    "start": 394.16,
+    "duration": 5.479
+  },
+  {
+    "text": "air conditioner that I have ever seen",
+    "start": 397.4,
+    "duration": 4.639
+  },
+  {
+    "text": "except instead of cooling air like your",
+    "start": 399.639,
+    "duration": 5.601
+  },
+  {
+    "text": "air conditioner does it cools water the",
+    "start": 402.039,
+    "duration": 5.88
+  },
+  {
+    "text": "hot side here carries heat to those same",
+    "start": 405.24,
+    "duration": 4.519
+  },
+  {
+    "text": "heat exchangers that we just talked",
+    "start": 407.919,
+    "duration": 4.4
+  },
+  {
+    "text": "about while the cold side is connected",
+    "start": 409.759,
+    "duration": 4.321
+  },
+  {
+    "text": "to the rest of the building through what",
+    "start": 412.319,
+    "duration": 4.6
+  },
+  {
+    "text": "equinex calls their bus architecture",
+    "start": 414.08,
+    "duration": 4.959
+  },
+  {
+    "text": "which is kind of just a fancy way of",
+    "start": 416.919,
+    "duration": 4.601
+  },
+  {
+    "text": "saying that it's all redundant it's all",
+    "start": 419.039,
+    "duration": 4.681
+  },
+  {
+    "text": "interconnected and it's all controlled",
+    "start": 421.52,
+    "duration": 5.0
+  },
+  {
+    "text": "by a BMS or building management system",
+    "start": 423.72,
+    "duration": 4.72
+  },
+  {
+    "text": "and I'll show you why that's cool right",
+    "start": 426.52,
+    "duration": 4.0
+  },
+  {
+    "text": "above me is our chilled water return",
+    "start": 428.44,
+    "duration": 4.08
+  },
+  {
+    "text": "which is bringing heat up from the data",
+    "start": 430.52,
+    "duration": 4.92
+  },
+  {
+    "text": "center floors below okay so far so",
+    "start": 432.52,
+    "duration": 6.519
+  },
+  {
+    "text": "simple but where does it go",
+    "start": 435.44,
+    "duration": 6.759
+  },
+  {
+    "text": "well as you can see it gets a little",
+    "start": 439.039,
+    "duration": 6.201
+  },
+  {
+    "text": "complicated when it's below 4\u00b0 C in",
+    "start": 442.199,
+    "duration": 5.68
+  },
+  {
+    "text": "Canadian winter it essentially passes",
+    "start": 445.24,
+    "duration": 4.399
+  },
+  {
+    "text": "straight through with the compressors",
+    "start": 447.879,
+    "duration": 3.6
+  },
+  {
+    "text": "barely running and goes to the heat",
+    "start": 449.639,
+    "duration": 4.24
+  },
+  {
+    "text": "exchangers on the roof sweet free",
+    "start": 451.479,
+    "duration": 5.12
+  },
+  {
+    "text": "cooling thanks Mother Nature but then",
+    "start": 453.879,
+    "duration": 5.241
+  },
+  {
+    "text": "spring rolls around and the outside air",
+    "start": 456.599,
+    "duration": 4.6
+  },
+  {
+    "text": "needs some help that's when our highly",
+    "start": 459.12,
+    "duration": 4.12
+  },
+  {
+    "text": "efficient magnetic bearing compressors",
+    "start": 461.199,
+    "duration": 3.84
+  },
+  {
+    "text": "ramp up their cooling efforts bringing",
+    "start": 463.24,
+    "duration": 4.88
+  },
+  {
+    "text": "our thermals under control but wait now",
+    "start": 465.039,
+    "duration": 5.72
+  },
+  {
+    "text": "it's Midsummer and there's a heat Dome",
+    "start": 468.12,
+    "duration": 6.039
+  },
+  {
+    "text": "we need more cooling Captain thankfully",
+    "start": 470.759,
+    "duration": 6.241
+  },
+  {
+    "text": "we've got it now most of the time the",
+    "start": 474.159,
+    "duration": 5.801
+  },
+  {
+    "text": "misters are not needed but for a",
+    "start": 477.0,
+    "duration": 5.44
+  },
+  {
+    "text": "building like this you don't design for",
+    "start": 479.96,
+    "duration": 4.88
+  },
+  {
+    "text": "most of the time and these rooftop fin",
+    "start": 482.44,
+    "duration": 5.599
+  },
+  {
+    "text": "Stacks can either be run bare or they",
+    "start": 484.84,
+    "duration": 5.44
+  },
+  {
+    "text": "can be lightly coated in water to",
+    "start": 488.039,
+    "duration": 4.0
+  },
+  {
+    "text": "dramatically increase their cooling",
+    "start": 490.28,
+    "duration": 4.16
+  },
+  {
+    "text": "capacity it works in the same way that",
+    "start": 492.039,
+    "duration": 5.72
+  },
+  {
+    "text": "your arm gets much colder if you lick it",
+    "start": 494.44,
+    "duration": 6.12
+  },
+  {
+    "text": "before you blow on it the best part is",
+    "start": 497.759,
+    "duration": 5.321
+  },
+  {
+    "text": "that everything we've seen is fully",
+    "start": 500.56,
+    "duration": 5.199
+  },
+  {
+    "text": "redundant including cold spares of key",
+    "start": 503.08,
+    "duration": 5.16
+  },
+  {
+    "text": "components that gives equinix's team",
+    "start": 505.759,
+    "duration": 4.44
+  },
+  {
+    "text": "lots of options for load balancing",
+    "start": 508.24,
+    "duration": 3.919
+  },
+  {
+    "text": "during maintenance and it means that in",
+    "start": 510.199,
+    "duration": 3.561
+  },
+  {
+    "text": "the event of an equipment failure or",
+    "start": 512.159,
+    "duration": 4.081
+  },
+  {
+    "text": "another event equinex won't risk giving",
+    "start": 513.76,
+    "duration": 6.159
+  },
+  {
+    "text": "up their nice 69 uptime Target that's an",
+    "start": 516.24,
+    "duration": 6.239
+  },
+  {
+    "text": "average of about 32 seconds of downtime",
+    "start": 519.919,
+    "duration": 6.401
+  },
+  {
+    "text": "per year by the way wow hilariously",
+    "start": 522.479,
+    "duration": 5.841
+  },
+  {
+    "text": "sometime in the near future all the",
+    "start": 526.32,
+    "duration": 3.28
+  },
+  {
+    "text": "cooling we just looked at will be",
+    "start": 528.32,
+    "duration": 3.519
+  },
+  {
+    "text": "rendered redundant though when the forth",
+    "start": 529.6,
+    "duration": 5.239
+  },
+  {
+    "text": "pipe goes online in the dlwc or deep",
+    "start": 531.839,
+    "duration": 5.161
+  },
+  {
+    "text": "lake water cooling system if you haven't",
+    "start": 534.839,
+    "duration": 4.361
+  },
+  {
+    "text": "heard of it it's basically my pool water",
+    "start": 537.0,
+    "duration": 4.48
+  },
+  {
+    "text": "cool cooling setup except done properly",
+    "start": 539.2,
+    "duration": 5.48
+  },
+  {
+    "text": "with massive pipes that draw 4\u00b0 water",
+    "start": 541.48,
+    "duration": 5.32
+  },
+  {
+    "text": "from the bottom of Lake Ontario and then",
+    "start": 544.68,
+    "duration": 4.04
+  },
+  {
+    "text": "pump it into the city to cool office",
+    "start": 546.8,
+    "duration": 5.44
+  },
+  {
+    "text": "towers and Arenas and well data centers",
+    "start": 548.72,
+    "duration": 6.04
+  },
+  {
+    "text": "that sort of thing super cool project",
+    "start": 552.24,
+    "duration": 4.52
+  },
+  {
+    "text": "since we're up here by the way these",
+    "start": 554.76,
+    "duration": 4.96
+  },
+  {
+    "text": "freaking blew my mind now as consumers",
+    "start": 556.76,
+    "duration": 5.04
+  },
+  {
+    "text": "when we want the lowest latency say for",
+    "start": 559.72,
+    "duration": 4.119
+  },
+  {
+    "text": "gaming or video conferencing we think",
+    "start": 561.8,
+    "duration": 4.96
+  },
+  {
+    "text": "fiber right well what if I told you that",
+    "start": 563.839,
+    "duration": 6.24
+  },
+  {
+    "text": "there's a tier above the speed of light",
+    "start": 566.76,
+    "duration": 6.759
+  },
+  {
+    "text": "well you'd probably tell me there is not",
+    "start": 570.079,
+    "duration": 5.801
+  },
+  {
+    "text": "and all right you got me but here's the",
+    "start": 573.519,
+    "duration": 5.521
+  },
+  {
+    "text": "thing light does not always go the same",
+    "start": 575.88,
+    "duration": 5.56
+  },
+  {
+    "text": "speed and fiber optic cable slows it",
+    "start": 579.04,
+    "duration": 5.44
+  },
+  {
+    "text": "down to about 2/3 of its theoretical",
+    "start": 581.44,
+    "duration": 5.079
+  },
+  {
+    "text": "maximum in a vacuum now that's not",
+    "start": 584.48,
+    "duration": 4.24
+  },
+  {
+    "text": "enough to matter for your game but for",
+    "start": 586.519,
+    "duration": 4.601
+  },
+  {
+    "text": "Capital Market transactions where micros",
+    "start": 588.72,
+    "duration": 4.08
+  },
+  {
+    "text": "seconds can be the difference between",
+    "start": 591.12,
+    "duration": 3.92
+  },
+  {
+    "text": "making your trade and losing a huge",
+    "start": 592.8,
+    "duration": 4.68
+  },
+  {
+    "text": "opportunity every Competitive Edge",
+    "start": 595.04,
+    "duration": 4.919
+  },
+  {
+    "text": "matters and that is where these",
+    "start": 597.48,
+    "duration": 5.72
+  },
+  {
+    "text": "microwave arrays come in these provide",
+    "start": 599.959,
+    "duration": 5.601
+  },
+  {
+    "text": "direct line of sight links North to the",
+    "start": 603.2,
+    "duration": 4.96
+  },
+  {
+    "text": "Toronto Stock Exchange and South to New",
+    "start": 605.56,
+    "duration": 5.0
+  },
+  {
+    "text": "York now of course for anything where",
+    "start": 608.16,
+    "duration": 5.28
+  },
+  {
+    "text": "throughput matters nobody's using these",
+    "start": 610.56,
+    "duration": 4.88
+  },
+  {
+    "text": "so let's go back inside and look at good",
+    "start": 613.44,
+    "duration": 4.28
+  },
+  {
+    "text": "oldfashioned fiber by the way you guys",
+    "start": 615.44,
+    "duration": 4.04
+  },
+  {
+    "text": "might have noticed some extra pads and",
+    "start": 617.72,
+    "duration": 3.4
+  },
+  {
+    "text": "footings for additional equipment up",
+    "start": 619.48,
+    "duration": 3.359
+  },
+  {
+    "text": "here that's another nice thing about a",
+    "start": 621.12,
+    "duration": 3.68
+  },
+  {
+    "text": "purpose-built building you can plan out",
+    "start": 622.839,
+    "duration": 3.56
+  },
+  {
+    "text": "your future capacity and then you can",
+    "start": 624.8,
+    "duration": 3.92
+  },
+  {
+    "text": "build it as needed this for instance is",
+    "start": 626.399,
+    "duration": 4.521
+  },
+  {
+    "text": "a spot for another fin stack and here in",
+    "start": 628.72,
+    "duration": 4.119
+  },
+  {
+    "text": "the electrical room you'll see much of",
+    "start": 630.92,
+    "duration": 4.64
+  },
+  {
+    "text": "the same thing look at the Glorious",
+    "start": 632.839,
+    "duration": 6.041
+  },
+  {
+    "text": "extra conduit for future installs isn't",
+    "start": 635.56,
+    "duration": 4.12
+  },
+  {
+    "text": "it",
+    "start": 638.88,
+    "duration": 3.6
+  },
+  {
+    "text": "beautiful this room takes in",
+    "start": 639.68,
+    "duration": 5.92
+  },
+  {
+    "text": "13,800 volt power steps it down and",
+    "start": 642.48,
+    "duration": 5.56
+  },
+  {
+    "text": "distributes it throughout the building",
+    "start": 645.6,
+    "duration": 4.28
+  },
+  {
+    "text": "but all right enough about",
+    "start": 648.04,
+    "duration": 3.76
+  },
+  {
+    "text": "infrastructure how about some customer",
+    "start": 649.88,
+    "duration": 4.56
+  },
+  {
+    "text": "systems right the next two floors are",
+    "start": 651.8,
+    "duration": 5.56
+  },
+  {
+    "text": "very similar so let's go with number",
+    "start": 654.44,
+    "duration": 5.48
+  },
+  {
+    "text": "four this is the oldest floor and",
+    "start": 657.36,
+    "duration": 4.52
+  },
+  {
+    "text": "therefore uses some older design",
+    "start": 659.92,
+    "duration": 4.32
+  },
+  {
+    "text": "paradigms for starters cooling is",
+    "start": 661.88,
+    "duration": 4.6
+  },
+  {
+    "text": "handled using cold Isle containment",
+    "start": 664.24,
+    "duration": 3.92
+  },
+  {
+    "text": "rather than hot aisle containment and",
+    "start": 666.48,
+    "duration": 3.68
+  },
+  {
+    "text": "let me show you what that means the",
+    "start": 668.16,
+    "duration": 4.56
+  },
+  {
+    "text": "water from above us is getting pumped",
+    "start": 670.16,
+    "duration": 4.88
+  },
+  {
+    "text": "into this air handler Corridor that",
+    "start": 672.72,
+    "duration": 4.76
+  },
+  {
+    "text": "chills the air chilled air then gets",
+    "start": 675.04,
+    "duration": 4.68
+  },
+  {
+    "text": "carried through ducts to the center of",
+    "start": 677.48,
+    "duration": 5.72
+  },
+  {
+    "text": "the customer's cage where a thermal",
+    "start": 679.72,
+    "duration": 7.84
+  },
+  {
+    "text": "probe aha will inform the system when",
+    "start": 683.2,
+    "duration": 7.0
+  },
+  {
+    "text": "cooling is needed it opens up the",
+    "start": 687.56,
+    "duration": 5.959
+  },
+  {
+    "text": "motorized Vents and then blasts cold air",
+    "start": 690.2,
+    "duration": 6.12
+  },
+  {
+    "text": "downward it then gets sucked up into the",
+    "start": 693.519,
+    "duration": 4.961
+  },
+  {
+    "text": "rack which is going to be on either side",
+    "start": 696.32,
+    "duration": 4.16
+  },
+  {
+    "text": "and then exhausted out into the room",
+    "start": 698.48,
+    "duration": 4.28
+  },
+  {
+    "text": "where it gets sucked into that Corridor",
+    "start": 700.48,
+    "duration": 5.12
+  },
+  {
+    "text": "rinse and repeat now the main drawback",
+    "start": 702.76,
+    "duration": 5.36
+  },
+  {
+    "text": "of this approach is that it allows some",
+    "start": 705.6,
+    "duration": 5.12
+  },
+  {
+    "text": "mixing of the hot and cold air but",
+    "start": 708.12,
+    "duration": 5.36
+  },
+  {
+    "text": "equinex still managed a solid power",
+    "start": 710.72,
+    "duration": 4.84
+  },
+  {
+    "text": "usage effectiveness of",
+    "start": 713.48,
+    "duration": 4.76
+  },
+  {
+    "text": "1.42 for this site since you're",
+    "start": 715.56,
+    "duration": 4.8
+  },
+  {
+    "text": "wondering by the way I should probably",
+    "start": 718.24,
+    "duration": 4.92
+  },
+  {
+    "text": "acknowledge that this is an Unleashed",
+    "start": 720.36,
+    "duration": 4.96
+  },
+  {
+    "text": "space and there are normally strict",
+    "start": 723.16,
+    "duration": 4.76
+  },
+  {
+    "text": "rules about access to these cages for",
+    "start": 725.32,
+    "duration": 5.079
+  },
+  {
+    "text": "example exchanges cannot have their",
+    "start": 727.92,
+    "duration": 5.279
+  },
+  {
+    "text": "cages entered at all during trading",
+    "start": 730.399,
+    "duration": 6.281
+  },
+  {
+    "text": "hours and even for equinex staff unless",
+    "start": 733.199,
+    "duration": 5.88
+  },
+  {
+    "text": "there's an emergency or contracted work",
+    "start": 736.68,
+    "duration": 4.88
+  },
+  {
+    "text": "that needs to be done they are not",
+    "start": 739.079,
+    "duration": 4.601
+  },
+  {
+    "text": "supposed to be entering customer spaces",
+    "start": 741.56,
+    "duration": 4.959
+  },
+  {
+    "text": "so they built these cool access panels",
+    "start": 743.68,
+    "duration": 4.92
+  },
+  {
+    "text": "where they can run any connections that",
+    "start": 746.519,
+    "duration": 4.56
+  },
+  {
+    "text": "the customer requests to the outside of",
+    "start": 748.6,
+    "duration": 4.88
+  },
+  {
+    "text": "the cage and then the customer can come",
+    "start": 751.079,
+    "duration": 4.841
+  },
+  {
+    "text": "in and Route whatever they need for",
+    "start": 753.48,
+    "duration": 4.84
+  },
+  {
+    "text": "whatever they're doing access to the",
+    "start": 755.92,
+    "duration": 4.76
+  },
+  {
+    "text": "cages is controlled by access cards and",
+    "start": 758.32,
+    "duration": 4.6
+  },
+  {
+    "text": "Biometrics either a hand or a",
+    "start": 760.68,
+    "duration": 4.719
+  },
+  {
+    "text": "fingerprint that's stored as a hash for",
+    "start": 762.92,
+    "duration": 6.039
+  },
+  {
+    "text": "customer privacy and any use of your",
+    "start": 765.399,
+    "duration": 6.481
+  },
+  {
+    "text": "card is logged on top of the logs for",
+    "start": 768.959,
+    "duration": 5.32
+  },
+  {
+    "text": "the biometric sensor the contact sensor",
+    "start": 771.88,
+    "duration": 4.72
+  },
+  {
+    "text": "on the door the motion sensor near the",
+    "start": 774.279,
+    "duration": 5.281
+  },
+  {
+    "text": "door ah there it is and of course the",
+    "start": 776.6,
+    "duration": 4.679
+  },
+  {
+    "text": "camera pointed at the back of the rack",
+    "start": 779.56,
+    "duration": 4.68
+  },
+  {
+    "text": "space and if all this seems Overkill You",
+    "start": 781.279,
+    "duration": 5.92
+  },
+  {
+    "text": "Ain't Seen Nothing Yet many of the cages",
+    "start": 784.24,
+    "duration": 5.719
+  },
+  {
+    "text": "not only have physical access barriers",
+    "start": 787.199,
+    "duration": 5.241
+  },
+  {
+    "text": "but even visual blockers so no one can",
+    "start": 789.959,
+    "duration": 5.521
+  },
+  {
+    "text": "see any of the equipment in use and for",
+    "start": 792.44,
+    "duration": 5.72
+  },
+  {
+    "text": "the extra paranoid a top cage can be",
+    "start": 795.48,
+    "duration": 4.56
+  },
+  {
+    "text": "installed to ensure that nobody can",
+    "start": 798.16,
+    "duration": 4.44
+  },
+  {
+    "text": "climb over the top though of course",
+    "start": 800.04,
+    "duration": 3.96
+  },
+  {
+    "text": "anyone trying to do that would have been",
+    "start": 802.6,
+    "duration": 3.44
+  },
+  {
+    "text": "spotted by one of the hundreds of",
+    "start": 804.0,
+    "duration": 4.76
+  },
+  {
+    "text": "cameras in this place but then as you",
+    "start": 806.04,
+    "duration": 4.4
+  },
+  {
+    "text": "probably picked up by now in this",
+    "start": 808.76,
+    "duration": 4.199
+  },
+  {
+    "text": "business redundancy is the name of the",
+    "start": 810.44,
+    "duration": 5.56
+  },
+  {
+    "text": "game some cages go even further",
+    "start": 812.959,
+    "duration": 5.641
+  },
+  {
+    "text": "requiring what's called double access",
+    "start": 816.0,
+    "duration": 5.16
+  },
+  {
+    "text": "meaning that to get inside you need both",
+    "start": 818.6,
+    "duration": 5.28
+  },
+  {
+    "text": "an equinex employee and a customer",
+    "start": 821.16,
+    "duration": 5.4
+  },
+  {
+    "text": "employee and we even saw one with a",
+    "start": 823.88,
+    "duration": 5.28
+  },
+  {
+    "text": "touch sensitive cage so if you so much",
+    "start": 826.56,
+    "duration": 5.04
+  },
+  {
+    "text": "as leaned against it a ticket would get",
+    "start": 829.16,
+    "duration": 4.599
+  },
+  {
+    "text": "automatically created and equinex",
+    "start": 831.6,
+    "duration": 4.28
+  },
+  {
+    "text": "security would get an Irate phone call",
+    "start": 833.759,
+    "duration": 4.961
+  },
+  {
+    "text": "but wait there's more they told me that",
+    "start": 835.88,
+    "duration": 5.639
+  },
+  {
+    "text": "some customers will even post a guard",
+    "start": 838.72,
+    "duration": 5.479
+  },
+  {
+    "text": "who stands outside their cage 24 hours a",
+    "start": 841.519,
+    "duration": 5.88
+  },
+  {
+    "text": "day 7 days a week financial institutions",
+    "start": 844.199,
+    "duration": 5.041
+  },
+  {
+    "text": "and government agencies will often",
+    "start": 847.399,
+    "duration": 3.761
+  },
+  {
+    "text": "operate with a high degree of security",
+    "start": 849.24,
+    "duration": 4.88
+  },
+  {
+    "text": "like that speaking of financial",
+    "start": 851.16,
+    "duration": 5.72
+  },
+  {
+    "text": "institutions certain customers have",
+    "start": 854.12,
+    "duration": 4.839
+  },
+  {
+    "text": "noticed that if they're closer to each",
+    "start": 856.88,
+    "duration": 4.36
+  },
+  {
+    "text": "other they can have a physical advantage",
+    "start": 858.959,
+    "duration": 5.32
+  },
+  {
+    "text": "in connection times well that's not",
+    "start": 861.24,
+    "duration": 5.64
+  },
+  {
+    "text": "necessarily a good thing to solve that",
+    "start": 864.279,
+    "duration": 5.12
+  },
+  {
+    "text": "problem then equinex has a system called",
+    "start": 866.88,
+    "duration": 5.48
+  },
+  {
+    "text": "equidistant trading that neutralizes any",
+    "start": 869.399,
+    "duration": 5.481
+  },
+  {
+    "text": "latency Advantage by running the exact",
+    "start": 872.36,
+    "duration": 5.2
+  },
+  {
+    "text": "same length of fiber to every customer",
+    "start": 874.88,
+    "duration": 5.519
+  },
+  {
+    "text": "who requires that the spools of excess",
+    "start": 877.56,
+    "duration": 5.04
+  },
+  {
+    "text": "fiber optic cable are one of the most",
+    "start": 880.399,
+    "duration": 5.12
+  },
+  {
+    "text": "protected things in the entire facility",
+    "start": 882.6,
+    "duration": 5.08
+  },
+  {
+    "text": "now I was able to convince them to open",
+    "start": 885.519,
+    "duration": 4.68
+  },
+  {
+    "text": "the door earlier for a quick b-roll shot",
+    "start": 887.68,
+    "duration": 4.88
+  },
+  {
+    "text": "but they wouldn't let us any closer",
+    "start": 890.199,
+    "duration": 4.521
+  },
+  {
+    "text": "there's a camera pointed at the cabinet",
+    "start": 892.56,
+    "duration": 4.399
+  },
+  {
+    "text": "and if anyone so much as goes near it",
+    "start": 894.72,
+    "duration": 4.88
+  },
+  {
+    "text": "security shows up and it's a whole to do",
+    "start": 896.959,
+    "duration": 5.161
+  },
+  {
+    "text": "with reports to the SEC and the whole",
+    "start": 899.6,
+    "duration": 5.359
+  },
+  {
+    "text": "kazoo moving on to the second floor this",
+    "start": 902.12,
+    "duration": 5.68
+  },
+  {
+    "text": "place is sick now we weren't able to",
+    "start": 904.959,
+    "duration": 4.56
+  },
+  {
+    "text": "shoot as much here due to customer",
+    "start": 907.8,
+    "duration": 4.08
+  },
+  {
+    "text": "privacy concerns but we did manage to",
+    "start": 909.519,
+    "duration": 4.041
+  },
+  {
+    "text": "get some footage of one of the liquid",
+    "start": 911.88,
+    "duration": 4.48
+  },
+  {
+    "text": "cooled cages here building cold water",
+    "start": 913.56,
+    "duration": 5.24
+  },
+  {
+    "text": "goes into a heat exchanger that pumps",
+    "start": 916.36,
+    "duration": 4.399
+  },
+  {
+    "text": "chilled water to their highdensity",
+    "start": 918.8,
+    "duration": 4.279
+  },
+  {
+    "text": "servers these kinds of deployments are",
+    "start": 920.759,
+    "duration": 5.121
+  },
+  {
+    "text": "becoming much more common but they're",
+    "start": 923.079,
+    "duration": 4.721
+  },
+  {
+    "text": "kind of an ongoing challenge for",
+    "start": 925.88,
+    "duration": 5.079
+  },
+  {
+    "text": "standards lovers equinex at the moment",
+    "start": 927.8,
+    "duration": 5.88
+  },
+  {
+    "text": "these guys dial in flipping everything",
+    "start": 930.959,
+    "duration": 5.24
+  },
+  {
+    "text": "down to the colors of the metal posts in",
+    "start": 933.68,
+    "duration": 5.279
+  },
+  {
+    "text": "their facilities by the way blue means",
+    "start": 936.199,
+    "duration": 5.521
+  },
+  {
+    "text": "you hang stuff off them and gray means",
+    "start": 938.959,
+    "duration": 6.921
+  },
+  {
+    "text": "they hold stuff up the more you know but",
+    "start": 941.72,
+    "duration": 5.919
+  },
+  {
+    "text": "the lack of standards in the liquid",
+    "start": 945.88,
+    "duration": 4.079
+  },
+  {
+    "text": "cooling space right now means that these",
+    "start": 947.639,
+    "duration": 5.041
+  },
+  {
+    "text": "cages often need special provisions and",
+    "start": 949.959,
+    "duration": 3.841
+  },
+  {
+    "text": "that's something that they're working",
+    "start": 952.68,
+    "duration": 3.399
+  },
+  {
+    "text": "with others in the industry to solve as",
+    "start": 953.8,
+    "duration": 4.88
+  },
+  {
+    "text": "rack power density continues to scale to",
+    "start": 956.079,
+    "duration": 6.041
+  },
+  {
+    "text": "l ludicrous levels looking at you AI",
+    "start": 958.68,
+    "duration": 4.68
+  },
+  {
+    "text": "while we're here there's a couple other",
+    "start": 962.12,
+    "duration": 3.519
+  },
+  {
+    "text": "cool things about this cage there's leak",
+    "start": 963.36,
+    "duration": 4.399
+  },
+  {
+    "text": "containment troughs in the ceiling under",
+    "start": 965.639,
+    "duration": 4.12
+  },
+  {
+    "text": "any water pipes to ensure that even a",
+    "start": 967.759,
+    "duration": 4.161
+  },
+  {
+    "text": "small leak will be caught and can't fall",
+    "start": 969.759,
+    "duration": 4.56
+  },
+  {
+    "text": "onto the equipment below it and if you",
+    "start": 971.92,
+    "duration": 4.399
+  },
+  {
+    "text": "look carefully at the floor there's",
+    "start": 974.319,
+    "duration": 4.08
+  },
+  {
+    "text": "actually little yellow ropes running",
+    "start": 976.319,
+    "duration": 4.401
+  },
+  {
+    "text": "around the outside of this cage and here",
+    "start": 978.399,
+    "duration": 4.961
+  },
+  {
+    "text": "on the first floor I see another one now",
+    "start": 980.72,
+    "duration": 4.2
+  },
+  {
+    "text": "I wouldn't blame you guys for thinking",
+    "start": 983.36,
+    "duration": 4.24
+  },
+  {
+    "text": "gee it seems uncharacteristically sloppy",
+    "start": 984.92,
+    "duration": 4.24
+  },
+  {
+    "text": "of these guys to leave this kind of",
+    "start": 987.6,
+    "duration": 4.08
+  },
+  {
+    "text": "thing lying around all over the place",
+    "start": 989.16,
+    "duration": 5.76
+  },
+  {
+    "text": "but it's actually not a rope they are",
+    "start": 991.68,
+    "duration": 4.92
+  },
+  {
+    "text": "everywhere in this facility where",
+    "start": 994.92,
+    "duration": 3.76
+  },
+  {
+    "text": "there's water and they're part of a leak",
+    "start": 996.6,
+    "duration": 4.239
+  },
+  {
+    "text": "detection system that tells their team",
+    "start": 998.68,
+    "duration": 4.959
+  },
+  {
+    "text": "not only if there's been a leak but",
+    "start": 1000.839,
+    "duration": 7.24
+  },
+  {
+    "text": "exactly exactly where it was boy would",
+    "start": 1003.639,
+    "duration": 6.12
+  },
+  {
+    "text": "that ever have been handy boy would that",
+    "start": 1008.079,
+    "duration": 3.44
+  },
+  {
+    "text": "ever have been handy boy would that ever",
+    "start": 1009.759,
+    "duration": 4.721
+  },
+  {
+    "text": "been handy since we're here by the way",
+    "start": 1011.519,
+    "duration": 4.721
+  },
+  {
+    "text": "this happens to be the newest floor in",
+    "start": 1014.48,
+    "duration": 3.96
+  },
+  {
+    "text": "the building remember top to bottom",
+    "start": 1016.24,
+    "duration": 4.44
+  },
+  {
+    "text": "buildout right this one was done about a",
+    "start": 1018.44,
+    "duration": 3.959
+  },
+  {
+    "text": "year ago and they refer to this data",
+    "start": 1020.68,
+    "duration": 5.239
+  },
+  {
+    "text": "Hall as a as a mark1 design but now that",
+    "start": 1022.399,
+    "duration": 5.481
+  },
+  {
+    "text": "AI has exploded power densities to",
+    "start": 1025.919,
+    "duration": 3.441
+  },
+  {
+    "text": "numbers that would have been Unthinkable",
+    "start": 1027.88,
+    "duration": 4.199
+  },
+  {
+    "text": "even 2 to 3 years ago the mark 2 designs",
+    "start": 1029.36,
+    "duration": 4.36
+  },
+  {
+    "text": "that they're currently constructing are",
+    "start": 1032.079,
+    "duration": 5.081
+  },
+  {
+    "text": "aiming at around 10 times the power per",
+    "start": 1033.72,
+    "duration": 5.839
+  },
+  {
+    "text": "square foot that they targeted here so",
+    "start": 1037.16,
+    "duration": 3.759
+  },
+  {
+    "text": "maybe that's something we could see in",
+    "start": 1039.559,
+    "duration": 5.76
+  },
+  {
+    "text": "another video equinex andho this floor",
+    "start": 1040.919,
+    "duration": 6.16
+  },
+  {
+    "text": "uses a very different system for",
+    "start": 1045.319,
+    "duration": 4.161
+  },
+  {
+    "text": "handling Air instead of pushing cold air",
+    "start": 1047.079,
+    "duration": 5.441
+  },
+  {
+    "text": "to the cages now they pull hot air out",
+    "start": 1049.48,
+    "duration": 5.92
+  },
+  {
+    "text": "of the cages into these chimneys that go",
+    "start": 1052.52,
+    "duration": 4.96
+  },
+  {
+    "text": "up into the plenum which runs into the",
+    "start": 1055.4,
+    "duration": 5.08
+  },
+  {
+    "text": "air handlers now it might seem like an",
+    "start": 1057.48,
+    "duration": 5.4
+  },
+  {
+    "text": "unimportant distinction but the higher",
+    "start": 1060.48,
+    "duration": 4.28
+  },
+  {
+    "text": "the temperature difference the more",
+    "start": 1062.88,
+    "duration": 3.76
+  },
+  {
+    "text": "efficient the thermal transfer and when",
+    "start": 1064.76,
+    "duration": 4.96
+  },
+  {
+    "text": "you're dealing with very high draw racks",
+    "start": 1066.64,
+    "duration": 5.279
+  },
+  {
+    "text": "this ensures that the hottest possible",
+    "start": 1069.72,
+    "duration": 5.28
+  },
+  {
+    "text": "air goes into the handling it also all",
+    "start": 1071.919,
+    "duration": 5.561
+  },
+  {
+    "text": "but completely prevents hot and cold air",
+    "start": 1075.0,
+    "duration": 4.64
+  },
+  {
+    "text": "from mixing which is a major winre",
+    "start": 1077.48,
+    "duration": 4.88
+  },
+  {
+    "text": "efficiency now I can practically hear",
+    "start": 1079.64,
+    "duration": 5.24
+  },
+  {
+    "text": "you guys shouting if you've got all the",
+    "start": 1082.36,
+    "duration": 5.52
+  },
+  {
+    "text": "hot air in a chimney why don't you do",
+    "start": 1084.88,
+    "duration": 5.279
+  },
+  {
+    "text": "what a chimney does best and blast it",
+    "start": 1087.88,
+    "duration": 5.2
+  },
+  {
+    "text": "out of the building well you can do that",
+    "start": 1090.159,
+    "duration": 4.961
+  },
+  {
+    "text": "but then you need to bring in air to",
+    "start": 1093.08,
+    "duration": 4.36
+  },
+  {
+    "text": "replace it air that needs to be filtered",
+    "start": 1095.12,
+    "duration": 4.76
+  },
+  {
+    "text": "and that needs to be humidity controlled",
+    "start": 1097.44,
+    "duration": 4.84
+  },
+  {
+    "text": "to handle that at the kind of volume",
+    "start": 1099.88,
+    "duration": 6.32
+  },
+  {
+    "text": "that you would need it's impractical so",
+    "start": 1102.28,
+    "duration": 6.16
+  },
+  {
+    "text": "even under very extreme conditions like",
+    "start": 1106.2,
+    "duration": 4.8
+  },
+  {
+    "text": "we saw last winter in Chicago I'm sorry",
+    "start": 1108.44,
+    "duration": 4.96
+  },
+  {
+    "text": "but you can't just swing open the doors",
+    "start": 1111.0,
+    "duration": 4.559
+  },
+  {
+    "text": "of a Data Center and hope that it'll run",
+    "start": 1113.4,
+    "duration": 4.279
+  },
+  {
+    "text": "cooler by the way we didn't show this on",
+    "start": 1115.559,
+    "duration": 3.921
+  },
+  {
+    "text": "the other customer floors but there's",
+    "start": 1117.679,
+    "duration": 4.12
+  },
+  {
+    "text": "actually two equivalent air handling",
+    "start": 1119.48,
+    "duration": 5.8
+  },
+  {
+    "text": "systems on opposite sides of each floor",
+    "start": 1121.799,
+    "duration": 5.36
+  },
+  {
+    "text": "each with the capacity to handle the",
+    "start": 1125.28,
+    "duration": 4.84
+  },
+  {
+    "text": "entire floor in the event of a failure",
+    "start": 1127.159,
+    "duration": 4.52
+  },
+  {
+    "text": "by the way before we leave the customer",
+    "start": 1130.12,
+    "duration": 4.24
+  },
+  {
+    "text": "systems area I was very surprised to",
+    "start": 1131.679,
+    "duration": 5.401
+  },
+  {
+    "text": "hear that equinex does not use exotic",
+    "start": 1134.36,
+    "duration": 5.199
+  },
+  {
+    "text": "fire suppression methods op instead for",
+    "start": 1137.08,
+    "duration": 5.079
+  },
+  {
+    "text": "standard water sprinklers but then I",
+    "start": 1139.559,
+    "duration": 5.681
+  },
+  {
+    "text": "found out they're not quite standard see",
+    "start": 1142.159,
+    "duration": 5.64
+  },
+  {
+    "text": "the pipes are not flooded with water all",
+    "start": 1145.24,
+    "duration": 4.24
+  },
+  {
+    "text": "the time but rather they're full of",
+    "start": 1147.799,
+    "duration": 4.921
+  },
+  {
+    "text": "inert gas and water only flows into them",
+    "start": 1149.48,
+    "duration": 6.52
+  },
+  {
+    "text": "if two out of three systems go off and a",
+    "start": 1152.72,
+    "duration": 5.56
+  },
+  {
+    "text": "plastic head melt so they use heat",
+    "start": 1156.0,
+    "duration": 5.08
+  },
+  {
+    "text": "detection smoke detection and the",
+    "start": 1158.28,
+    "duration": 6.399
+  },
+  {
+    "text": "world's most expensive PVC runs these",
+    "start": 1161.08,
+    "duration": 6.52
+  },
+  {
+    "text": "are part of a vesda or very early smoke",
+    "start": 1164.679,
+    "duration": 4.961
+  },
+  {
+    "text": "detection alarm system system that can",
+    "start": 1167.6,
+    "duration": 4.68
+  },
+  {
+    "text": "not only detect smoke but also",
+    "start": 1169.64,
+    "duration": 5.08
+  },
+  {
+    "text": "triangulate where it's coming from to",
+    "start": 1172.28,
+    "duration": 4.8
+  },
+  {
+    "text": "ensure that only the necessary sprinkler",
+    "start": 1174.72,
+    "duration": 4.8
+  },
+  {
+    "text": "head goes off they made this choice",
+    "start": 1177.08,
+    "duration": 4.079
+  },
+  {
+    "text": "because oxygen depletion fire",
+    "start": 1179.52,
+    "duration": 4.36
+  },
+  {
+    "text": "suppression can pose very real risks to",
+    "start": 1181.159,
+    "duration": 4.201
+  },
+  {
+    "text": "any Personnel who get accidentally",
+    "start": 1183.88,
+    "duration": 5.12
+  },
+  {
+    "text": "trapped so good guy equinex let's go to",
+    "start": 1185.36,
+    "duration": 6.199
+  },
+  {
+    "text": "the basement above me is where utility",
+    "start": 1189.0,
+    "duration": 4.6
+  },
+  {
+    "text": "power comes into the building or rather",
+    "start": 1191.559,
+    "duration": 4.281
+  },
+  {
+    "text": "this is one of the two rooms because",
+    "start": 1193.6,
+    "duration": 5.559
+  },
+  {
+    "text": "redundancy right now interestingly the",
+    "start": 1195.84,
+    "duration": 5.839
+  },
+  {
+    "text": "power company can actually control this",
+    "start": 1199.159,
+    "duration": 4.721
+  },
+  {
+    "text": "unit remotely allowing them to turn it",
+    "start": 1201.679,
+    "duration": 4.521
+  },
+  {
+    "text": "on and off and even scale how much power",
+    "start": 1203.88,
+    "duration": 6.52
+  },
+  {
+    "text": "comes in that is not a normal thing but",
+    "start": 1206.2,
+    "duration": 7.32
+  },
+  {
+    "text": "because there's so much power going into",
+    "start": 1210.4,
+    "duration": 5.759
+  },
+  {
+    "text": "this building in an emergency they might",
+    "start": 1213.52,
+    "duration": 6.159
+  },
+  {
+    "text": "need to call equinix and say hey um we",
+    "start": 1216.159,
+    "duration": 6.0
+  },
+  {
+    "text": "need more power could you guys just turn",
+    "start": 1219.679,
+    "duration": 4.561
+  },
+  {
+    "text": "all of this off and Island yourselves",
+    "start": 1222.159,
+    "duration": 4.0
+  },
+  {
+    "text": "this kind of collaboration is really",
+    "start": 1224.24,
+    "duration": 4.28
+  },
+  {
+    "text": "important because equinex estimates that",
+    "start": 1226.159,
+    "duration": 3.961
+  },
+  {
+    "text": "this this building draws somewhere in",
+    "start": 1228.52,
+    "duration": 4.039
+  },
+  {
+    "text": "the neighborhood of 3% of the city's",
+    "start": 1230.12,
+    "duration": 5.799
+  },
+  {
+    "text": "entire power budget if a multi megawatt",
+    "start": 1232.559,
+    "duration": 5.681
+  },
+  {
+    "text": "load kicks in suddenly without warning",
+    "start": 1235.919,
+    "duration": 4.401
+  },
+  {
+    "text": "or drops suddenly without warning it is",
+    "start": 1238.24,
+    "duration": 4.6
+  },
+  {
+    "text": "a big problem for grid stability with",
+    "start": 1240.32,
+    "duration": 4.88
+  },
+  {
+    "text": "that said they do turn it off and on",
+    "start": 1242.84,
+    "duration": 4.64
+  },
+  {
+    "text": "regularly though every year they do a",
+    "start": 1245.2,
+    "duration": 4.719
+  },
+  {
+    "text": "scheduled pull the plug test and",
+    "start": 1247.48,
+    "duration": 4.72
+  },
+  {
+    "text": "quarterly they do load tests where they",
+    "start": 1249.919,
+    "duration": 4.76
+  },
+  {
+    "text": "will bring in load Banks to ensure that",
+    "start": 1252.2,
+    "duration": 4.2
+  },
+  {
+    "text": "the building can actually power",
+    "start": 1254.679,
+    "duration": 3.441
+  },
+  {
+    "text": "everything that it's rated for these",
+    "start": 1256.4,
+    "duration": 3.44
+  },
+  {
+    "text": "things sound pretty cool basically if",
+    "start": 1258.12,
+    "duration": 3.2
+  },
+  {
+    "text": "they don't have enough servers running",
+    "start": 1259.84,
+    "duration": 3.959
+  },
+  {
+    "text": "they bring in Big Blocks of metal and",
+    "start": 1261.32,
+    "duration": 4.0
+  },
+  {
+    "text": "they fire up the generators and make",
+    "start": 1263.799,
+    "duration": 5.681
+  },
+  {
+    "text": "them glow red hot flipping wild finally",
+    "start": 1265.32,
+    "duration": 6.28
+  },
+  {
+    "text": "there's the fiber in room it's funny",
+    "start": 1269.48,
+    "duration": 3.64
+  },
+  {
+    "text": "they thought that this was going to be",
+    "start": 1271.6,
+    "duration": 3.4
+  },
+  {
+    "text": "underwhelming and they were all like are",
+    "start": 1273.12,
+    "duration": 4.039
+  },
+  {
+    "text": "you sure you even want to see it but it",
+    "start": 1275.0,
+    "duration": 4.08
+  },
+  {
+    "text": "really goes to show you how numb you can",
+    "start": 1277.159,
+    "duration": 3.721
+  },
+  {
+    "text": "get to cool stuff if you spend your",
+    "start": 1279.08,
+    "duration": 4.56
+  },
+  {
+    "text": "whole day around it now in fairness to",
+    "start": 1280.88,
+    "duration": 5.64
+  },
+  {
+    "text": "them they are kind of right I mean it",
+    "start": 1283.64,
+    "duration": 4.56
+  },
+  {
+    "text": "pretty much looks exactly like the fiber",
+    "start": 1286.52,
+    "duration": 4.039
+  },
+  {
+    "text": "room our building back home line comes",
+    "start": 1288.2,
+    "duration": 5.839
+  },
+  {
+    "text": "in from outside line loops around as is",
+    "start": 1290.559,
+    "duration": 5.761
+  },
+  {
+    "text": "tradition and then gets spliced or",
+    "start": 1294.039,
+    "duration": 5.921
+  },
+  {
+    "text": "patched to wherever the difference is",
+    "start": 1296.32,
+    "duration": 5.76
+  },
+  {
+    "text": "that I could probably fit my entire",
+    "start": 1299.96,
+    "duration": 4.839
+  },
+  {
+    "text": "family hula hooping inside these",
+    "start": 1302.08,
+    "duration": 5.56
+  },
+  {
+    "text": "freaking loops and where they go to is",
+    "start": 1304.799,
+    "duration": 6.281
+  },
+  {
+    "text": "even cooler they go outside to one of",
+    "start": 1307.64,
+    "duration": 5.44
+  },
+  {
+    "text": "the seven manholes that get shared by",
+    "start": 1311.08,
+    "duration": 4.88
+  },
+  {
+    "text": "the approximately 60 carriers that route",
+    "start": 1313.08,
+    "duration": 5.68
+  },
+  {
+    "text": "into this building that is what the",
+    "start": 1315.96,
+    "duration": 6.64
+  },
+  {
+    "text": "carrier's access ends equinix splices",
+    "start": 1318.76,
+    "duration": 6.44
+  },
+  {
+    "text": "runs from the manholes to this room and",
+    "start": 1322.6,
+    "duration": 5.28
+  },
+  {
+    "text": "then they run it up to the floors above",
+    "start": 1325.2,
+    "duration": 4.839
+  },
+  {
+    "text": "the carriers only get access again once",
+    "start": 1327.88,
+    "duration": 5.12
+  },
+  {
+    "text": "it reaches their cage this is how",
+    "start": 1330.039,
+    "duration": 5.361
+  },
+  {
+    "text": "equinex enforces the principle of equity",
+    "start": 1333.0,
+    "duration": 5.88
+  },
+  {
+    "text": "of access that inspired their name oh",
+    "start": 1335.4,
+    "duration": 5.48
+  },
+  {
+    "text": "and of course there are two of these",
+    "start": 1338.88,
+    "duration": 4.24
+  },
+  {
+    "text": "rooms with fiber coming in from two",
+    "start": 1340.88,
+    "duration": 4.2
+  },
+  {
+    "text": "different sides of the building because",
+    "start": 1343.12,
+    "duration": 3.76
+  },
+  {
+    "text": "in the event of a construction worker",
+    "start": 1345.08,
+    "duration": 3.8
+  },
+  {
+    "text": "accidentally cutting one of these or",
+    "start": 1346.88,
+    "duration": 4.36
+  },
+  {
+    "text": "something they got to have redundancy I",
+    "start": 1348.88,
+    "duration": 4.52
+  },
+  {
+    "text": "got to tell you guys there is so much we",
+    "start": 1351.24,
+    "duration": 3.76
+  },
+  {
+    "text": "weren't able to fully cover if you",
+    "start": 1353.4,
+    "duration": 3.92
+  },
+  {
+    "text": "noticed QR codes on everything those are",
+    "start": 1355.0,
+    "duration": 4.799
+  },
+  {
+    "text": "cool they use AR to direct technicians",
+    "start": 1357.32,
+    "duration": 4.239
+  },
+  {
+    "text": "for fault Discovery and to map out",
+    "start": 1359.799,
+    "duration": 3.841
+  },
+  {
+    "text": "customer connection requests um the",
+    "start": 1361.559,
+    "duration": 4.561
+  },
+  {
+    "text": "18-wheeler dock can be completely closed",
+    "start": 1363.64,
+    "duration": 4.44
+  },
+  {
+    "text": "off for privacy and security when you're",
+    "start": 1366.12,
+    "duration": 4.039
+  },
+  {
+    "text": "unloading racks uh they have employee",
+    "start": 1368.08,
+    "duration": 4.44
+  },
+  {
+    "text": "facilities on site so when an emergency",
+    "start": 1370.159,
+    "duration": 4.601
+  },
+  {
+    "text": "you can shower shave sleep you know your",
+    "start": 1372.52,
+    "duration": 4.44
+  },
+  {
+    "text": "3 s's um they turn off the lights",
+    "start": 1374.76,
+    "duration": 4.039
+  },
+  {
+    "text": "whenever no humans are detected to save",
+    "start": 1376.96,
+    "duration": 3.68
+  },
+  {
+    "text": "power they've got grounding strips",
+    "start": 1378.799,
+    "duration": 3.801
+  },
+  {
+    "text": "freaking everywhere they have direct",
+    "start": 1380.64,
+    "duration": 3.84
+  },
+  {
+    "text": "links to their other buildings to turn",
+    "start": 1382.6,
+    "duration": 4.12
+  },
+  {
+    "text": "their entire flock of data centers into",
+    "start": 1384.48,
+    "duration": 5.52
+  },
+  {
+    "text": "a giant redundant mesh guys there is so",
+    "start": 1386.72,
+    "duration": 5.319
+  },
+  {
+    "text": "much more but I think it might have to",
+    "start": 1390.0,
+    "duration": 4.84
+  },
+  {
+    "text": "wait for next time for now massive",
+    "start": 1392.039,
+    "duration": 4.361
+  },
+  {
+    "text": "thanks to equinix for sponsoring this",
+    "start": 1394.84,
+    "duration": 3.8
+  },
+  {
+    "text": "video and giving us such an in-depth",
+    "start": 1396.4,
+    "duration": 4.36
+  },
+  {
+    "text": "look at the kind of space that most",
+    "start": 1398.64,
+    "duration": 3.88
+  },
+  {
+    "text": "people are never going to set foot in",
+    "start": 1400.76,
+    "duration": 4.56
+  },
+  {
+    "text": "let alone get a comprehensive tour of",
+    "start": 1402.52,
+    "duration": 4.159
+  },
+  {
+    "text": "hopefully we'll get a chance to do it",
+    "start": 1405.32,
+    "duration": 3.28
+  },
+  {
+    "text": "again sometime if you guys enjoyed this",
+    "start": 1406.679,
+    "duration": 4.081
+  },
+  {
+    "text": "video hey you might enjoy this kind of",
+    "start": 1408.6,
+    "duration": 4.16
+  },
+  {
+    "text": "high security nobody gets to see it kind",
+    "start": 1410.76,
+    "duration": 4.08
+  },
+  {
+    "text": "of stuff so maybe check out the Intel",
+    "start": 1412.76,
+    "duration": 5.919
+  },
+  {
+    "text": "Fab tour that we did last year",
+    "start": 1414.84,
+    "duration": 3.839
+  }
+]

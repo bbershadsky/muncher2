@@ -1,0 +1,1707 @@
+[
+  {
+    "text": "some bugs are straight up unforgivable",
+    "start": 0.04,
+    "duration": 3.96
+  },
+  {
+    "text": "now before we start I understand this",
+    "start": 2.12,
+    "duration": 3.32
+  },
+  {
+    "text": "video is going to get no views because",
+    "start": 4.0,
+    "duration": 2.48
+  },
+  {
+    "text": "I'm wearing a collared shirt and",
+    "start": 5.44,
+    "duration": 3.199
+  },
+  {
+    "text": "apparently like genen Z hates callar but",
+    "start": 6.48,
+    "duration": 3.72
+  },
+  {
+    "text": "in this video I want to talk about a",
+    "start": 8.639,
+    "duration": 4.401
+  },
+  {
+    "text": "vulnerability in the dlink NZ a network",
+    "start": 10.2,
+    "duration": 5.28
+  },
+  {
+    "text": "attached storage that is so egregious",
+    "start": 13.04,
+    "duration": 4.44
+  },
+  {
+    "text": "that I'm not sure how a company like",
+    "start": 15.48,
+    "duration": 4.4
+  },
+  {
+    "text": "this is not held legally responsible for",
+    "start": 17.48,
+    "duration": 3.879
+  },
+  {
+    "text": "this vulnerability in this video we're",
+    "start": 19.88,
+    "duration": 2.68
+  },
+  {
+    "text": "talking about the bug we're going to",
+    "start": 21.359,
+    "duration": 2.92
+  },
+  {
+    "text": "break it down in gjo we're going to find",
+    "start": 22.56,
+    "duration": 3.719
+  },
+  {
+    "text": "the vulnerability now if you're new here",
+    "start": 24.279,
+    "duration": 4.24
+  },
+  {
+    "text": "hi my name is Ed this is lowle TV a",
+    "start": 26.279,
+    "duration": 3.281
+  },
+  {
+    "text": "channel where I talk about cyber",
+    "start": 28.519,
+    "duration": 2.361
+  },
+  {
+    "text": "security software security a bunch of",
+    "start": 29.56,
+    "duration": 2.48
+  },
+  {
+    "text": "other cool stuff so if you like this",
+    "start": 30.88,
+    "duration": 2.72
+  },
+  {
+    "text": "stuff or just want to hang out with me",
+    "start": 32.04,
+    "duration": 2.679
+  },
+  {
+    "text": "hit that sub button I really appreciate",
+    "start": 33.6,
+    "duration": 3.32
+  },
+  {
+    "text": "it today attackers now Target a critical",
+    "start": 34.719,
+    "duration": 4.081
+  },
+  {
+    "text": "severity vulnerability with publicly",
+    "start": 36.92,
+    "duration": 3.28
+  },
+  {
+    "text": "available exploit code that affects",
+    "start": 38.8,
+    "duration": 3.68
+  },
+  {
+    "text": "multiple models of endof Life dlink",
+    "start": 40.2,
+    "duration": 4.679
+  },
+  {
+    "text": "network attached storage devices tracked",
+    "start": 42.48,
+    "duration": 5.2
+  },
+  {
+    "text": "as cve 2024",
+    "start": 44.879,
+    "duration": 5.041
+  },
+  {
+    "text": "10914 the command injection",
+    "start": 47.68,
+    "duration": 4.519
+  },
+  {
+    "text": "vulnerability allows sending shell",
+    "start": 49.92,
+    "duration": 4.68
+  },
+  {
+    "text": "commands arbitrarily by sending a",
+    "start": 52.199,
+    "duration": 5.761
+  },
+  {
+    "text": "malicious HTTP get request to vulnerable",
+    "start": 54.6,
+    "duration": 6.479
+  },
+  {
+    "text": "devices exposed online and not only that",
+    "start": 57.96,
+    "duration": 5.439
+  },
+  {
+    "text": "it oh it gets better hold on the attack",
+    "start": 61.079,
+    "duration": 5.601
+  },
+  {
+    "text": "started after dink stated on Friday that",
+    "start": 63.399,
+    "duration": 5.841
+  },
+  {
+    "text": "it wouldn't be fixing the security flaw",
+    "start": 66.68,
+    "duration": 5.24
+  },
+  {
+    "text": "because it only impacts end of life Nas",
+    "start": 69.24,
+    "duration": 4.8
+  },
+  {
+    "text": "models warning customers to retire",
+    "start": 71.92,
+    "duration": 3.72
+  },
+  {
+    "text": "affected devices or upgrade them to",
+    "start": 74.04,
+    "duration": 3.36
+  },
+  {
+    "text": "newer product so what that means in",
+    "start": 75.64,
+    "duration": 5.08
+  },
+  {
+    "text": "layman's terms is hey our code is so bad",
+    "start": 77.4,
+    "duration": 6.079
+  },
+  {
+    "text": "and so old that now it's your problem if",
+    "start": 80.72,
+    "duration": 4.6
+  },
+  {
+    "text": "you get hacked because we don't want to",
+    "start": 83.479,
+    "duration": 4.041
+  },
+  {
+    "text": "deal with it cuz who determines the end",
+    "start": 85.32,
+    "duration": 4.64
+  },
+  {
+    "text": "of life timeline for a product oh yeah",
+    "start": 87.52,
+    "duration": 5.08
+  },
+  {
+    "text": "it's the manufacturer okay so what this",
+    "start": 89.96,
+    "duration": 4.64
+  },
+  {
+    "text": "means is that dink is putting it on the",
+    "start": 92.6,
+    "duration": 4.68
+  },
+  {
+    "text": "consumer to buy another Nas that",
+    "start": 94.6,
+    "duration": 4.08
+  },
+  {
+    "text": "definitely doesn't have other",
+    "start": 97.28,
+    "duration": 4.24
+  },
+  {
+    "text": "vulnerabilities in it because you",
+    "start": 98.68,
+    "duration": 4.719
+  },
+  {
+    "text": "um it's absolutely insane to me so I",
+    "start": 101.52,
+    "duration": 3.04
+  },
+  {
+    "text": "want to talk a little bit about this bug",
+    "start": 103.399,
+    "duration": 4.68
+  },
+  {
+    "text": "again 20241 914 found by this guy named",
+    "start": 104.56,
+    "duration": 5.839
+  },
+  {
+    "text": "net SE fish props to him now what you're",
+    "start": 108.079,
+    "duration": 4.281
+  },
+  {
+    "text": "probably thinking is like oh my God",
+    "start": 110.399,
+    "duration": 3.801
+  },
+  {
+    "text": "arbitrary command injection that has to",
+    "start": 112.36,
+    "duration": 4.2
+  },
+  {
+    "text": "be some kind of crazy vulnerability that",
+    "start": 114.2,
+    "duration": 4.879
+  },
+  {
+    "text": "exploits a buffer overflow and you use",
+    "start": 116.56,
+    "duration": 5.839
+  },
+  {
+    "text": "that to R round you call ECT and that d",
+    "start": 119.079,
+    "duration": 5.4
+  },
+  {
+    "text": "ects a page and you can use that to run",
+    "start": 122.399,
+    "duration": 8.64
+  },
+  {
+    "text": "Shell Code nope it's this it's this it's",
+    "start": 124.479,
+    "duration": 6.56
+  },
+  {
+    "text": "this a single curl command to the Target",
+    "start": 131.239,
+    "duration": 7.401
+  },
+  {
+    "text": "IP with the command CGI add username oh",
+    "start": 135.04,
+    "duration": 5.0
+  },
+  {
+    "text": "look at that and you just kind of you",
+    "start": 138.64,
+    "duration": 3.2
+  },
+  {
+    "text": "just kind of put your shell command in",
+    "start": 140.04,
+    "duration": 4.76
+  },
+  {
+    "text": "the command and it echoes it the",
+    "start": 141.84,
+    "duration": 5.64
+  },
+  {
+    "text": "commands here is them showing over TCP",
+    "start": 144.8,
+    "duration": 4.719
+  },
+  {
+    "text": "in wire shark uh if they inject the",
+    "start": 147.48,
+    "duration": 5.56
+  },
+  {
+    "text": "command and Echo some B Bas 64 string",
+    "start": 149.519,
+    "duration": 6.0
+  },
+  {
+    "text": "out comes the base 64 strings this means",
+    "start": 153.04,
+    "duration": 4.32
+  },
+  {
+    "text": "that it is running the command via a",
+    "start": 155.519,
+    "duration": 4.481
+  },
+  {
+    "text": "command injection and and that's it and",
+    "start": 157.36,
+    "duration": 4.36
+  },
+  {
+    "text": "so this guy found the bug you know he",
+    "start": 160.0,
+    "duration": 3.04
+  },
+  {
+    "text": "reported it to dink they told him the",
+    "start": 161.72,
+    "duration": 3.68
+  },
+  {
+    "text": " off and the recommendation is apply",
+    "start": 163.04,
+    "duration": 3.8
+  },
+  {
+    "text": "available patches and updates from the",
+    "start": 165.4,
+    "duration": 3.68
+  },
+  {
+    "text": "manufacturer oh wait there aren't any",
+    "start": 166.84,
+    "duration": 4.679
+  },
+  {
+    "text": "because dlink gave up and then uh to",
+    "start": 169.08,
+    "duration": 5.0
+  },
+  {
+    "text": "just I guess not use the IP addresses",
+    "start": 171.519,
+    "duration": 4.72
+  },
+  {
+    "text": "now obviously like you shouldn't have",
+    "start": 174.08,
+    "duration": 4.12
+  },
+  {
+    "text": "your Nas with like its butt and the",
+    "start": 176.239,
+    "duration": 3.92
+  },
+  {
+    "text": "ethernet port like facing out to the",
+    "start": 178.2,
+    "duration": 4.2
+  },
+  {
+    "text": "Internet so like if you're doing that",
+    "start": 180.159,
+    "duration": 5.121
+  },
+  {
+    "text": "already shame on you I guess but also um",
+    "start": 182.4,
+    "duration": 4.24
+  },
+  {
+    "text": "the fact that there isn't a simple patch",
+    "start": 185.28,
+    "duration": 3.44
+  },
+  {
+    "text": "for this is kind of crazy When I Was",
+    "start": 186.64,
+    "duration": 5.239
+  },
+  {
+    "text": "preparing to make this video um I did",
+    "start": 188.72,
+    "duration": 4.84
+  },
+  {
+    "text": "some initial reverse engineering on this",
+    "start": 191.879,
+    "duration": 3.64
+  },
+  {
+    "text": "I wanted to look at the bug and to just",
+    "start": 193.56,
+    "duration": 3.84
+  },
+  {
+    "text": "kind of able to show in the binary where",
+    "start": 195.519,
+    "duration": 5.321
+  },
+  {
+    "text": "the bug was happening and this bug is so",
+    "start": 197.4,
+    "duration": 6.0
+  },
+  {
+    "text": "silly I cannot even describe to you how",
+    "start": 200.84,
+    "duration": 4.84
+  },
+  {
+    "text": "silly it is I have to show it to you and",
+    "start": 203.4,
+    "duration": 4.72
+  },
+  {
+    "text": "you may pee your pants let's go I",
+    "start": 205.68,
+    "duration": 4.32
+  },
+  {
+    "text": "personally believe that in a world where",
+    "start": 208.12,
+    "duration": 3.88
+  },
+  {
+    "text": "JavaScript and typescript and python",
+    "start": 210.0,
+    "duration": 3.36
+  },
+  {
+    "text": "these higher level languages are",
+    "start": 212.0,
+    "duration": 3.04
+  },
+  {
+    "text": "becoming more and more popular it is",
+    "start": 213.36,
+    "duration": 3.56
+  },
+  {
+    "text": "becoming more and more important to",
+    "start": 215.04,
+    "duration": 4.04
+  },
+  {
+    "text": "understand the fundamentals of computers",
+    "start": 216.92,
+    "duration": 4.239
+  },
+  {
+    "text": "on my site level Academy I have courses",
+    "start": 219.08,
+    "duration": 4.359
+  },
+  {
+    "text": "that'll teach you just that in my course",
+    "start": 221.159,
+    "duration": 3.72
+  },
+  {
+    "text": "Zero to Hero C programming I'll teach",
+    "start": 223.439,
+    "duration": 2.961
+  },
+  {
+    "text": "you how to code in the C programming",
+    "start": 224.879,
+    "duration": 2.881
+  },
+  {
+    "text": "language we'll build a nice little",
+    "start": 226.4,
+    "duration": 2.72
+  },
+  {
+    "text": "project to get your hands dirty I'll",
+    "start": 227.76,
+    "duration": 3.039
+  },
+  {
+    "text": "Teach You How Network code works and",
+    "start": 229.12,
+    "duration": 3.119
+  },
+  {
+    "text": "we'll build on that and get into threads",
+    "start": 230.799,
+    "duration": 2.881
+  },
+  {
+    "text": "and even if you want to get even crazier",
+    "start": 232.239,
+    "duration": 3.36
+  },
+  {
+    "text": "I'll teach you how to code in assembly",
+    "start": 233.68,
+    "duration": 3.52
+  },
+  {
+    "text": "you can go right now and take my load",
+    "start": 235.599,
+    "duration": 3.121
+  },
+  {
+    "text": "operations lesson learn how the load",
+    "start": 237.2,
+    "duration": 3.759
+  },
+  {
+    "text": "instruction Works in AR assembly or even",
+    "start": 238.72,
+    "duration": 4.599
+  },
+  {
+    "text": "try a lesson on arrays for free right",
+    "start": 240.959,
+    "duration": 4.0
+  },
+  {
+    "text": "now the courses are on sale get them",
+    "start": 243.319,
+    "duration": 3.2
+  },
+  {
+    "text": "while the sale is still going on you",
+    "start": 244.959,
+    "duration": 3.081
+  },
+  {
+    "text": "can't be a good coder without knowing",
+    "start": 246.519,
+    "duration": 2.8
+  },
+  {
+    "text": "the fundamentals and where do you learn",
+    "start": 248.04,
+    "duration": 3.199
+  },
+  {
+    "text": "the fundamentals on lowlevel Academy",
+    "start": 249.319,
+    "duration": 3.681
+  },
+  {
+    "text": "back to the video okay so we're in my my",
+    "start": 251.239,
+    "duration": 2.961
+  },
+  {
+    "text": "hacking environment here for those of",
+    "start": 253.0,
+    "duration": 4.16
+  },
+  {
+    "text": "you that ask I use um a buntu 2204 uh",
+    "start": 254.2,
+    "duration": 4.8
+  },
+  {
+    "text": "long-term service and I'm using om my",
+    "start": 257.16,
+    "duration": 4.24
+  },
+  {
+    "text": "zsh with zsh shell power level 10K all",
+    "start": 259.0,
+    "duration": 4.199
+  },
+  {
+    "text": "those upgrades to make my shell look",
+    "start": 261.4,
+    "duration": 3.519
+  },
+  {
+    "text": "nice and pretty um so I was able to",
+    "start": 263.199,
+    "duration": 3.601
+  },
+  {
+    "text": "download the firmware for one of the",
+    "start": 264.919,
+    "duration": 5.0
+  },
+  {
+    "text": "affected models here this is the DNS 340",
+    "start": 266.8,
+    "duration": 5.2
+  },
+  {
+    "text": "L you'll see it has a compile date in",
+    "start": 269.919,
+    "duration": 4.161
+  },
+  {
+    "text": "2018 and there are no additional",
+    "start": 272.0,
+    "duration": 3.68
+  },
+  {
+    "text": "firmware downloads so that means that",
+    "start": 274.08,
+    "duration": 3.08
+  },
+  {
+    "text": "like this is the last firmware you can",
+    "start": 275.68,
+    "duration": 3.359
+  },
+  {
+    "text": "get and this one is vulnerable to the",
+    "start": 277.16,
+    "duration": 3.96
+  },
+  {
+    "text": "attack so to triage this we have to do a",
+    "start": 279.039,
+    "duration": 3.521
+  },
+  {
+    "text": "few things when you download the",
+    "start": 281.12,
+    "duration": 3.04
+  },
+  {
+    "text": "firmware you actually get it in this ZIP",
+    "start": 282.56,
+    "duration": 3.96
+  },
+  {
+    "text": "file unzip this ZIP file that will",
+    "start": 284.16,
+    "duration": 4.319
+  },
+  {
+    "text": "eventually yield this binary file and if",
+    "start": 286.52,
+    "duration": 3.679
+  },
+  {
+    "text": "we type file on this we'll see that it's",
+    "start": 288.479,
+    "duration": 3.201
+  },
+  {
+    "text": "just data okay so what do we do with",
+    "start": 290.199,
+    "duration": 3.041
+  },
+  {
+    "text": "data well a lot of the times if the",
+    "start": 291.68,
+    "duration": 3.2
+  },
+  {
+    "text": "firmware isn't encrypted which is what",
+    "start": 293.24,
+    "duration": 2.679
+  },
+  {
+    "text": "happens for a lot of these device",
+    "start": 294.88,
+    "duration": 2.72
+  },
+  {
+    "text": "manufacturers we can do this thing",
+    "start": 295.919,
+    "duration": 3.961
+  },
+  {
+    "text": "called uh binwalk what binwalk does is",
+    "start": 297.6,
+    "duration": 4.36
+  },
+  {
+    "text": "it recursively as the capital M does for",
+    "start": 299.88,
+    "duration": 4.68
+  },
+  {
+    "text": "mrika dolls it walks through the",
+    "start": 301.96,
+    "duration": 5.32
+  },
+  {
+    "text": "firmware image it finds a known file",
+    "start": 304.56,
+    "duration": 4.76
+  },
+  {
+    "text": "type that is uncompressible and then it",
+    "start": 307.28,
+    "duration": 3.919
+  },
+  {
+    "text": "goes into that and runs the same Pro",
+    "start": 309.32,
+    "duration": 3.96
+  },
+  {
+    "text": "program recursively uh and by doing that",
+    "start": 311.199,
+    "duration": 4.121
+  },
+  {
+    "text": "we're able to find this thing called a",
+    "start": 313.28,
+    "duration": 4.919
+  },
+  {
+    "text": "squashfs file system the squash FS file",
+    "start": 315.32,
+    "duration": 4.92
+  },
+  {
+    "text": "system is going to be where all of the",
+    "start": 318.199,
+    "duration": 3.921
+  },
+  {
+    "text": "code on the device lives right you'll",
+    "start": 320.24,
+    "duration": 3.84
+  },
+  {
+    "text": "see this is literally just the root file",
+    "start": 322.12,
+    "duration": 4.4
+  },
+  {
+    "text": "system that would be on the dlink Nas If",
+    "start": 324.08,
+    "duration": 3.76
+  },
+  {
+    "text": "you're a bug Bounty Hunter for example",
+    "start": 326.52,
+    "duration": 3.239
+  },
+  {
+    "text": "if you want to find vulnerabilities and",
+    "start": 327.84,
+    "duration": 4.44
+  },
+  {
+    "text": "fix things in software for embedded",
+    "start": 329.759,
+    "duration": 4.801
+  },
+  {
+    "text": "devices this is how you start 99% of the",
+    "start": 332.28,
+    "duration": 3.6
+  },
+  {
+    "text": "projects right you go and you get the",
+    "start": 334.56,
+    "duration": 3.6
+  },
+  {
+    "text": "firmware you run binw walk and out will",
+    "start": 335.88,
+    "duration": 4.48
+  },
+  {
+    "text": "pop out either a squashfs file system",
+    "start": 338.16,
+    "duration": 5.2
+  },
+  {
+    "text": "which is a uh runtime compressed and",
+    "start": 340.36,
+    "duration": 8.08
+  },
+  {
+    "text": "readon file system or a jf2 jffs2 file",
+    "start": 343.36,
+    "duration": 7.0
+  },
+  {
+    "text": "system which is a journaled flash file",
+    "start": 348.44,
+    "duration": 3.96
+  },
+  {
+    "text": "system version 2 uh and you can use",
+    "start": 350.36,
+    "duration": 3.8
+  },
+  {
+    "text": "those now on your disc to look at the",
+    "start": 352.4,
+    "duration": 4.12
+  },
+  {
+    "text": "binaries now as we saw in the article",
+    "start": 354.16,
+    "duration": 3.56
+  },
+  {
+    "text": "before we know the vulnerability is",
+    "start": 356.52,
+    "duration": 4.0
+  },
+  {
+    "text": "hiding out in this accountmanager cgis",
+    "start": 357.72,
+    "duration": 4.88
+  },
+  {
+    "text": "script so let's let's find out if we can",
+    "start": 360.52,
+    "duration": 3.32
+  },
+  {
+    "text": "let's see if we can find where this",
+    "start": 362.6,
+    "duration": 3.439
+  },
+  {
+    "text": "account manager CGI script runs now",
+    "start": 363.84,
+    "duration": 5.479
+  },
+  {
+    "text": "luckily we can go to uh CD CGI and LS",
+    "start": 366.039,
+    "duration": 5.361
+  },
+  {
+    "text": "and wow look literally the first thing",
+    "start": 369.319,
+    "duration": 4.961
+  },
+  {
+    "text": "that is there is that file what I think",
+    "start": 371.4,
+    "duration": 4.32
+  },
+  {
+    "text": "literally happened when this guy was",
+    "start": 374.28,
+    "duration": 3.68
+  },
+  {
+    "text": "doing this research is he wanted to find",
+    "start": 375.72,
+    "duration": 4.12
+  },
+  {
+    "text": "bugs in this thing and I think what he",
+    "start": 377.96,
+    "duration": 5.079
+  },
+  {
+    "text": "probably did is he opened the first CGI",
+    "start": 379.84,
+    "duration": 5.32
+  },
+  {
+    "text": "file and like found a bug immediately",
+    "start": 383.039,
+    "duration": 4.761
+  },
+  {
+    "text": "because of how bad this code is let's go",
+    "start": 385.16,
+    "duration": 5.2
+  },
+  {
+    "text": "into it and show you how bad the code is",
+    "start": 387.8,
+    "duration": 4.72
+  },
+  {
+    "text": "if you know anything about CGI typically",
+    "start": 390.36,
+    "duration": 5.16
+  },
+  {
+    "text": "CGI takes two forms either it is a bash",
+    "start": 392.52,
+    "duration": 5.36
+  },
+  {
+    "text": "script that runs when you give it CGI",
+    "start": 395.52,
+    "duration": 5.36
+  },
+  {
+    "text": "perams or it is an elf that runs an",
+    "start": 397.88,
+    "duration": 4.8
+  },
+  {
+    "text": "executable linkable format file like in",
+    "start": 400.88,
+    "duration": 4.84
+  },
+  {
+    "text": "Linux that runs uh when you give it",
+    "start": 402.68,
+    "duration": 5.6
+  },
+  {
+    "text": "commands right so if I go to the SL CGI",
+    "start": 405.72,
+    "duration": 5.8
+  },
+  {
+    "text": "bin account manager. cgip path it'll run",
+    "start": 408.28,
+    "duration": 5.44
+  },
+  {
+    "text": "the associated program so that here is",
+    "start": 411.52,
+    "duration": 4.72
+  },
+  {
+    "text": "going to be account manager. CGI now",
+    "start": 413.72,
+    "duration": 4.4
+  },
+  {
+    "text": "I've loaded this up into gidra here",
+    "start": 416.24,
+    "duration": 3.6
+  },
+  {
+    "text": "gidra if you don't know is the reverse",
+    "start": 418.12,
+    "duration": 3.44
+  },
+  {
+    "text": "engineering framework that was produced",
+    "start": 419.84,
+    "duration": 3.6
+  },
+  {
+    "text": "by the NSA it's really really good I",
+    "start": 421.56,
+    "duration": 3.4
+  },
+  {
+    "text": "like it they also have dark mode which",
+    "start": 423.44,
+    "duration": 3.759
+  },
+  {
+    "text": "is super awesome uh but you'll see here",
+    "start": 424.96,
+    "duration": 4.0
+  },
+  {
+    "text": "we have this thing called the CGI main",
+    "start": 427.199,
+    "duration": 3.56
+  },
+  {
+    "text": "function the CGI main function as it",
+    "start": 428.96,
+    "duration": 4.639
+  },
+  {
+    "text": "kind of implies is the main function",
+    "start": 430.759,
+    "duration": 5.44
+  },
+  {
+    "text": "that gets ran whenever you call this CGI",
+    "start": 433.599,
+    "duration": 5.641
+  },
+  {
+    "text": "binary and what it does is it extracts",
+    "start": 436.199,
+    "duration": 5.321
+  },
+  {
+    "text": "the name of the the parameter that you",
+    "start": 439.24,
+    "duration": 3.959
+  },
+  {
+    "text": "want to run and puts it into the stir",
+    "start": 441.52,
+    "duration": 3.48
+  },
+  {
+    "text": "compare operation and so we know the",
+    "start": 443.199,
+    "duration": 4.68
+  },
+  {
+    "text": "vulnerability from before comes from the",
+    "start": 445.0,
+    "duration": 4.72
+  },
+  {
+    "text": "what is it the CGI user app add",
+    "start": 447.879,
+    "duration": 3.201
+  },
+  {
+    "text": "functions we're just going to go into",
+    "start": 449.72,
+    "duration": 3.08
+  },
+  {
+    "text": "the function that gets called if the",
+    "start": 451.08,
+    "duration": 4.2
+  },
+  {
+    "text": "stir compare returns zero which is going",
+    "start": 452.8,
+    "duration": 3.72
+  },
+  {
+    "text": "to be this function here the one that",
+    "start": 455.28,
+    "duration": 3.88
+  },
+  {
+    "text": "handles adding the user so when I Was",
+    "start": 456.52,
+    "duration": 6.04
+  },
+  {
+    "text": "preparing this video I I opened this and",
+    "start": 459.16,
+    "duration": 5.759
+  },
+  {
+    "text": "immediately I saw this safe system",
+    "start": 462.56,
+    "duration": 5.12
+  },
+  {
+    "text": "function and so if you've ever done uh",
+    "start": 464.919,
+    "duration": 4.921
+  },
+  {
+    "text": "programming or you've you've you've used",
+    "start": 467.68,
+    "duration": 4.76
+  },
+  {
+    "text": "C before you know that the system",
+    "start": 469.84,
+    "duration": 5.28
+  },
+  {
+    "text": "function on its own is very very easy to",
+    "start": 472.44,
+    "duration": 3.92
+  },
+  {
+    "text": "get wrong if you don't know how to",
+    "start": 475.12,
+    "duration": 3.28
+  },
+  {
+    "text": "program I can talk about it real quick",
+    "start": 476.36,
+    "duration": 4.72
+  },
+  {
+    "text": "the the system function is literally how",
+    "start": 478.4,
+    "duration": 6.4
+  },
+  {
+    "text": "can you in C run a shell command so if I",
+    "start": 481.08,
+    "duration": 6.079
+  },
+  {
+    "text": "for example wanted to have my program",
+    "start": 484.8,
+    "duration": 5.76
+  },
+  {
+    "text": "Echo uh hello right hello would print",
+    "start": 487.159,
+    "duration": 6.44
+  },
+  {
+    "text": "nothing but if I say hello equals 1 and",
+    "start": 490.56,
+    "duration": 6.52
+  },
+  {
+    "text": "I say Echo hello it it echoes one I can",
+    "start": 493.599,
+    "duration": 6.28
+  },
+  {
+    "text": "run all these commands in C by simply",
+    "start": 497.08,
+    "duration": 5.04
+  },
+  {
+    "text": "doing the system command now the reason",
+    "start": 499.879,
+    "duration": 3.6
+  },
+  {
+    "text": "there are vulnerabilities in this",
+    "start": 502.12,
+    "duration": 3.479
+  },
+  {
+    "text": "command is if I were able to say for",
+    "start": 503.479,
+    "duration": 5.72
+  },
+  {
+    "text": "example that hello is equal to bin LS",
+    "start": 505.599,
+    "duration": 6.92
+  },
+  {
+    "text": "and then I say Echo and then Echo the",
+    "start": 509.199,
+    "duration": 5.481
+  },
+  {
+    "text": "contents of hello this will actually run",
+    "start": 512.519,
+    "duration": 3.64
+  },
+  {
+    "text": "the command inside of it this this whole",
+    "start": 514.68,
+    "duration": 3.239
+  },
+  {
+    "text": "thing is known as a command injection",
+    "start": 516.159,
+    "duration": 2.88
+  },
+  {
+    "text": "where basically if you're able to",
+    "start": 517.919,
+    "duration": 3.441
+  },
+  {
+    "text": "control the contents of a system command",
+    "start": 519.039,
+    "duration": 4.601
+  },
+  {
+    "text": "you can put malicious stuff in there",
+    "start": 521.36,
+    "duration": 4.159
+  },
+  {
+    "text": "okay so how do we get around this well",
+    "start": 523.64,
+    "duration": 4.48
+  },
+  {
+    "text": "dlink actually initially and this is",
+    "start": 525.519,
+    "duration": 4.281
+  },
+  {
+    "text": "where it starts to get really funny they",
+    "start": 528.12,
+    "duration": 3.6
+  },
+  {
+    "text": "they wrote this rapper called safe",
+    "start": 529.8,
+    "duration": 4.88
+  },
+  {
+    "text": "system and so I I dove deep into safe",
+    "start": 531.72,
+    "duration": 5.16
+  },
+  {
+    "text": "system I'm like okay so they call",
+    "start": 534.68,
+    "duration": 4.279
+  },
+  {
+    "text": "account which is probably a program that",
+    "start": 536.88,
+    "duration": 4.199
+  },
+  {
+    "text": "adds an account okay and so they get",
+    "start": 538.959,
+    "duration": 4.801
+  },
+  {
+    "text": "this U from oh the name variable that's",
+    "start": 541.079,
+    "duration": 5.0
+  },
+  {
+    "text": "probably the username oh they get this P",
+    "start": 543.76,
+    "duration": 4.519
+  },
+  {
+    "text": "flag from the password variable oh",
+    "start": 546.079,
+    "duration": 3.801
+  },
+  {
+    "text": "probably the password for the account",
+    "start": 548.279,
+    "duration": 2.721
+  },
+  {
+    "text": "and then I okay so maybe there's a",
+    "start": 549.88,
+    "duration": 4.16
+  },
+  {
+    "text": "vulnerability in safe system so you'll",
+    "start": 551.0,
+    "duration": 4.68
+  },
+  {
+    "text": "actually see that safe system is",
+    "start": 554.04,
+    "duration": 4.6
+  },
+  {
+    "text": "imported from this lib safe system.so",
+    "start": 555.68,
+    "duration": 5.08
+  },
+  {
+    "text": "binary okay okay okay so let's see what",
+    "start": 558.64,
+    "duration": 5.52
+  },
+  {
+    "text": "safe system does um let's see it parses",
+    "start": 560.76,
+    "duration": 5.8
+  },
+  {
+    "text": "some string it's iterating over some set",
+    "start": 564.16,
+    "duration": 4.76
+  },
+  {
+    "text": "of strings and then it passes that into",
+    "start": 566.56,
+    "duration": 5.08
+  },
+  {
+    "text": "safe exec oh interesting okay so how",
+    "start": 568.92,
+    "duration": 4.84
+  },
+  {
+    "text": "does exec work well safe exec what it",
+    "start": 571.64,
+    "duration": 3.84
+  },
+  {
+    "text": "does is it sets up a bunch of these Sig",
+    "start": 573.76,
+    "duration": 4.16
+  },
+  {
+    "text": "actions that handle different signals in",
+    "start": 575.48,
+    "duration": 3.68
+  },
+  {
+    "text": "the program right don't worry about that",
+    "start": 577.92,
+    "duration": 2.56
+  },
+  {
+    "text": "what that means but at the end of the",
+    "start": 579.16,
+    "duration": 2.72
+  },
+  {
+    "text": "day what it does is it Forks which means",
+    "start": 580.48,
+    "duration": 3.96
+  },
+  {
+    "text": "it makes a new process and eventually it",
+    "start": 581.88,
+    "duration": 6.48
+  },
+  {
+    "text": "calls this function exec CVP or",
+    "start": 584.44,
+    "duration": 7.72
+  },
+  {
+    "text": "execvp now execvp is actually much much",
+    "start": 588.36,
+    "duration": 6.8
+  },
+  {
+    "text": "safer than system the reason being when",
+    "start": 592.16,
+    "duration": 5.52
+  },
+  {
+    "text": "you run the system command a system",
+    "start": 595.16,
+    "duration": 5.96
+  },
+  {
+    "text": "command is just saying EX ex the command",
+    "start": 597.68,
+    "duration": 5.92
+  },
+  {
+    "text": "in a shell which means that all of the",
+    "start": 601.12,
+    "duration": 4.399
+  },
+  {
+    "text": "command substitution things like this",
+    "start": 603.6,
+    "duration": 3.76
+  },
+  {
+    "text": "for example will actually get",
+    "start": 605.519,
+    "duration": 6.121
+  },
+  {
+    "text": "interpreted if I were to instead do",
+    "start": 607.36,
+    "duration": 7.0
+  },
+  {
+    "text": "execvp I don't have the command",
+    "start": 611.64,
+    "duration": 4.759
+  },
+  {
+    "text": "substitutions I'm not running it in a",
+    "start": 614.36,
+    "duration": 4.8
+  },
+  {
+    "text": "shell I'm just doing a direct CIS call",
+    "start": 616.399,
+    "duration": 4.761
+  },
+  {
+    "text": "to the operating system so when I was",
+    "start": 619.16,
+    "duration": 4.0
+  },
+  {
+    "text": "reading this code I was like man what",
+    "start": 621.16,
+    "duration": 4.239
+  },
+  {
+    "text": "what could they possibly be doing wrong",
+    "start": 623.16,
+    "duration": 3.88
+  },
+  {
+    "text": "that enables a command injection this is",
+    "start": 625.399,
+    "duration": 3.921
+  },
+  {
+    "text": "actually the canonically correct way to",
+    "start": 627.04,
+    "duration": 4.72
+  },
+  {
+    "text": "to write code that doesn't have a",
+    "start": 629.32,
+    "duration": 4.639
+  },
+  {
+    "text": "command injection what is happening here",
+    "start": 631.76,
+    "duration": 3.96
+  },
+  {
+    "text": "so I go back I go look at the path and",
+    "start": 633.959,
+    "duration": 3.32
+  },
+  {
+    "text": "I'm like okay so what they're they're",
+    "start": 635.72,
+    "duration": 4.359
+  },
+  {
+    "text": "calling safe system that calls exec what",
+    "start": 637.279,
+    "duration": 5.961
+  },
+  {
+    "text": "are they calling safe system on account",
+    "start": 640.079,
+    "duration": 5.601
+  },
+  {
+    "text": "oh okay so they they wrote another",
+    "start": 643.24,
+    "duration": 5.039
+  },
+  {
+    "text": "program to create accounts okay okay",
+    "start": 645.68,
+    "duration": 3.88
+  },
+  {
+    "text": "let's go into account and see what's",
+    "start": 648.279,
+    "duration": 3.721
+  },
+  {
+    "text": "going on in",
+    "start": 649.56,
+    "duration": 2.44
+  },
+  {
+    "text": "account and so",
+    "start": 652.44,
+    "duration": 6.0
+  },
+  {
+    "text": "it do you see do you see this do you see",
+    "start": 655.399,
+    "duration": 4.56
+  },
+  {
+    "text": "what's happening",
+    "start": 658.44,
+    "duration": 5.72
+  },
+  {
+    "text": "in the account program that they",
+    "start": 659.959,
+    "duration": 7.921
+  },
+  {
+    "text": "wrote that they call with safe system",
+    "start": 664.16,
+    "duration": 6.96
+  },
+  {
+    "text": "they not only use S printf which is a",
+    "start": 667.88,
+    "duration": 5.0
+  },
+  {
+    "text": "vulnerable function that enables stack",
+    "start": 671.12,
+    "duration": 4.8
+  },
+  {
+    "text": "overflows onto the stack but then they",
+    "start": 672.88,
+    "duration": 8.199
+  },
+  {
+    "text": "call not safe system they call system so",
+    "start": 675.92,
+    "duration": 8.2
+  },
+  {
+    "text": "what does that mean you can arbitrarily",
+    "start": 681.079,
+    "duration": 6.841
+  },
+  {
+    "text": "include commands in your username and it",
+    "start": 684.12,
+    "duration": 5.76
+  },
+  {
+    "text": "will get ran as system",
+    "start": 687.92,
+    "duration": 5.64
+  },
+  {
+    "text": "despite the fact that they put it into",
+    "start": 689.88,
+    "duration": 7.0
+  },
+  {
+    "text": "safe system I I like you can't make this",
+    "start": 693.56,
+    "duration": 5.36
+  },
+  {
+    "text": "stuff up dude they wrote an entire",
+    "start": 696.88,
+    "duration": 4.759
+  },
+  {
+    "text": "function to prevent this from happening",
+    "start": 698.92,
+    "duration": 5.2
+  },
+  {
+    "text": "and then the program that they call with",
+    "start": 701.639,
+    "duration": 3.76
+  },
+  {
+    "text": "this other",
+    "start": 704.12,
+    "duration": 3.399
+  },
+  {
+    "text": "program has the vulnerability they were",
+    "start": 705.399,
+    "duration": 4.721
+  },
+  {
+    "text": "trying to avoid it it is truly a",
+    "start": 707.519,
+    "duration": 5.481
+  },
+  {
+    "text": "vulnerability of the times I just it's I",
+    "start": 710.12,
+    "duration": 4.64
+  },
+  {
+    "text": "I I don't know what to make out of this",
+    "start": 713.0,
+    "duration": 2.959
+  },
+  {
+    "text": "the the whole point of this video is",
+    "start": 714.76,
+    "duration": 4.6
+  },
+  {
+    "text": "that some bugs are acceptable some d",
+    "start": 715.959,
+    "duration": 6.201
+  },
+  {
+    "text": "bugs are understandable a time of check",
+    "start": 719.36,
+    "duration": 4.56
+  },
+  {
+    "text": "time of use vulnerability that enables a",
+    "start": 722.16,
+    "duration": 4.88
+  },
+  {
+    "text": "use after free or a race condition um a",
+    "start": 723.92,
+    "duration": 5.24
+  },
+  {
+    "text": "buffer overflow where like you do a",
+    "start": 727.04,
+    "duration": 4.239
+  },
+  {
+    "text": "minus one and you wrap around the length",
+    "start": 729.16,
+    "duration": 4.64
+  },
+  {
+    "text": "value and you get this Max in copy okay",
+    "start": 731.279,
+    "duration": 5.8
+  },
+  {
+    "text": "okay you missed that but bro like look",
+    "start": 733.8,
+    "duration": 6.68
+  },
+  {
+    "text": "at this it's a percent s into a",
+    "start": 737.079,
+    "duration": 8.281
+  },
+  {
+    "text": "Sprint F into a system man how how is",
+    "start": 740.48,
+    "duration": 8.479
+  },
+  {
+    "text": "nobody held accountable I don't get it",
+    "start": 745.36,
+    "duration": 6.2
+  },
+  {
+    "text": "it's it's crazy to me anyway if you want",
+    "start": 748.959,
+    "duration": 3.88
+  },
+  {
+    "text": "to go poke around at this I'm going to",
+    "start": 751.56,
+    "duration": 2.8
+  },
+  {
+    "text": "leave a link to the firmware in the",
+    "start": 752.839,
+    "duration": 2.761
+  },
+  {
+    "text": "description below if you think these",
+    "start": 754.36,
+    "duration": 3.599
+  },
+  {
+    "text": "videos are good if you enjoyed this if",
+    "start": 755.6,
+    "duration": 4.039
+  },
+  {
+    "text": "you think I'm stupid any one of them hit",
+    "start": 757.959,
+    "duration": 3.44
+  },
+  {
+    "text": "subscribe I appreciate it and then go",
+    "start": 759.639,
+    "duration": 3.241
+  },
+  {
+    "text": "check out this video where I did",
+    "start": 761.399,
+    "duration": 2.921
+  },
+  {
+    "text": "something actually very similar for a",
+    "start": 762.88,
+    "duration": 3.88
+  },
+  {
+    "text": "different iot device um we'll see you",
+    "start": 764.32,
+    "duration": 3.6
+  },
+  {
+    "text": "there thanks for watching guys I",
+    "start": 766.76,
+    "duration": 4.36
+  },
+  {
+    "text": "appreciate it",
+    "start": 767.92,
+    "duration": 3.2
+  }
+]

@@ -1,0 +1,6407 @@
+[
+  {
+    "text": "[Music]",
+    "start": 0.0,
+    "duration": 9.76
+  },
+  {
+    "text": "hey I'm Dave welcome to shop talk I'm",
+    "start": 7.759,
+    "duration": 3.76
+  },
+  {
+    "text": "joined as always by my co-host Glenn how",
+    "start": 9.76,
+    "duration": 3.919
+  },
+  {
+    "text": "you doing tonight Glenn I am still doing",
+    "start": 11.519,
+    "duration": 4.76
+  },
+  {
+    "text": "well David good to hear same as last",
+    "start": 13.679,
+    "duration": 5.001
+  },
+  {
+    "text": "week yeah and the week before yeah I got",
+    "start": 16.279,
+    "duration": 3.601
+  },
+  {
+    "text": "to come up with something better for",
+    "start": 18.68,
+    "duration": 3.4
+  },
+  {
+    "text": "that that uh I'm only 10 episodes in",
+    "start": 19.88,
+    "duration": 5.36
+  },
+  {
+    "text": "I'll work on it at least you're",
+    "start": 22.08,
+    "duration": 5.24
+  },
+  {
+    "text": "consistent so what was I working on this",
+    "start": 25.24,
+    "duration": 3.56
+  },
+  {
+    "text": "week in the shop I got all my sticky",
+    "start": 27.32,
+    "duration": 3.52
+  },
+  {
+    "text": "notes here let's see I built two new",
+    "start": 28.8,
+    "duration": 3.84
+  },
+  {
+    "text": "machines that are kind of interesting to",
+    "start": 30.84,
+    "duration": 6.0
+  },
+  {
+    "text": "me I got a uh case a PDP 1123 case back",
+    "start": 32.64,
+    "duration": 5.96
+  },
+  {
+    "text": "plane and power supply otherwise totally",
+    "start": 36.84,
+    "duration": 4.239
+  },
+  {
+    "text": "stripped and empty bought that from a",
+    "start": 38.6,
+    "duration": 3.92
+  },
+  {
+    "text": "guy got it shipped here and then I",
+    "start": 41.079,
+    "duration": 2.921
+  },
+  {
+    "text": "started installing all the parts that I",
+    "start": 42.52,
+    "duration": 3.6
+  },
+  {
+    "text": "used to build the Franken PDP couple",
+    "start": 44.0,
+    "duration": 4.84
+  },
+  {
+    "text": "episodes ago from the tickle trunk yeah",
+    "start": 46.12,
+    "duration": 4.4
+  },
+  {
+    "text": "so I went through my box of parts and I",
+    "start": 48.84,
+    "duration": 4.039
+  },
+  {
+    "text": "took a go a good CPU good Ram Board I",
+    "start": 50.52,
+    "duration": 3.76
+  },
+  {
+    "text": "also ordered a new Ram Board that un",
+    "start": 52.879,
+    "duration": 2.961
+  },
+  {
+    "text": "unfortunately tested bad it was like a",
+    "start": 54.28,
+    "duration": 3.64
+  },
+  {
+    "text": "one Meg Ram Board so it would have been",
+    "start": 55.84,
+    "duration": 5.719
+  },
+  {
+    "text": "nice if it worked but uh it did not and",
+    "start": 57.92,
+    "duration": 5.44
+  },
+  {
+    "text": "put in an old Ram Board of",
+    "start": 61.559,
+    "duration": 5.081
+  },
+  {
+    "text": "512k and an Ethernet controller and a",
+    "start": 63.36,
+    "duration": 5.28
+  },
+  {
+    "text": "Cubone one of my SP not a spare Cubone",
+    "start": 66.64,
+    "duration": 3.92
+  },
+  {
+    "text": "when I Cubone from the other machines",
+    "start": 68.64,
+    "duration": 5.28
+  },
+  {
+    "text": "got it up booting BSD Unix running uh",
+    "start": 70.56,
+    "duration": 4.52
+  },
+  {
+    "text": "still got to get it connected to the",
+    "start": 73.92,
+    "duration": 3.04
+  },
+  {
+    "text": "network that's my next challenge on that",
+    "start": 75.08,
+    "duration": 3.76
+  },
+  {
+    "text": "one but that's otherwise up and running",
+    "start": 76.96,
+    "duration": 3.159
+  },
+  {
+    "text": "I don't think I'm going to do an episode",
+    "start": 78.84,
+    "duration": 2.36
+  },
+  {
+    "text": "on it so there's a lot of stuff that",
+    "start": 80.119,
+    "duration": 3.161
+  },
+  {
+    "text": "goes on here that you don't see because",
+    "start": 81.2,
+    "duration": 3.72
+  },
+  {
+    "text": "I've already kind of done an episode on",
+    "start": 83.28,
+    "duration": 4.159
+  },
+  {
+    "text": "building a pdp1 from parts so even",
+    "start": 84.92,
+    "duration": 3.879
+  },
+  {
+    "text": "though I recorded it I'm not one of",
+    "start": 87.439,
+    "duration": 3.201
+  },
+  {
+    "text": "those guys like Adrian digital basement",
+    "start": 88.799,
+    "duration": 3.121
+  },
+  {
+    "text": "that can",
+    "start": 90.64,
+    "duration": 4.159
+  },
+  {
+    "text": "narrate in an entertaining fashion",
+    "start": 91.92,
+    "duration": 5.28
+  },
+  {
+    "text": "without a lot of pauses and SS and a ton",
+    "start": 94.799,
+    "duration": 5.68
+  },
+  {
+    "text": "of editing so now this H case that you",
+    "start": 97.2,
+    "duration": 4.68
+  },
+  {
+    "text": "got also required you to pull out some",
+    "start": 100.479,
+    "duration": 3.0
+  },
+  {
+    "text": "of the heavy duty tools and actually do",
+    "start": 101.88,
+    "duration": 5.76
+  },
+  {
+    "text": "some physical smashing and banging yeah",
+    "start": 103.479,
+    "duration": 5.361
+  },
+  {
+    "text": "uh when we got it it looked like the",
+    "start": 107.64,
+    "duration": 3.479
+  },
+  {
+    "text": "front had been smashed in so the ears on",
+    "start": 108.84,
+    "duration": 4.12
+  },
+  {
+    "text": "the case were bent",
+    "start": 111.119,
+    "duration": 4.401
+  },
+  {
+    "text": "backwards so uh Glenn was down here",
+    "start": 112.96,
+    "duration": 4.839
+  },
+  {
+    "text": "visiting from the Canadian home office",
+    "start": 115.52,
+    "duration": 5.199
+  },
+  {
+    "text": "and we uh took what what do you call it",
+    "start": 117.799,
+    "duration": 4.28
+  },
+  {
+    "text": "a body set I guess where he comes with",
+    "start": 120.719,
+    "duration": 3.521
+  },
+  {
+    "text": "the anvils and the Hammers we pounded it",
+    "start": 122.079,
+    "duration": 4.801
+  },
+  {
+    "text": "out used the Anvil on the bench and body",
+    "start": 124.24,
+    "duration": 3.92
+  },
+  {
+    "text": "Hammers and pounded the thing out",
+    "start": 126.88,
+    "duration": 2.76
+  },
+  {
+    "text": "straight it came out pretty good I think",
+    "start": 128.16,
+    "duration": 3.0
+  },
+  {
+    "text": "so",
+    "start": 129.64,
+    "duration": 3.64
+  },
+  {
+    "text": "yeah yeah nothing like a little bodyw",
+    "start": 131.16,
+    "duration": 4.359
+  },
+  {
+    "text": "work on your uh on your case before you",
+    "start": 133.28,
+    "duration": 5.56
+  },
+  {
+    "text": "load your franking computer into it yeah",
+    "start": 135.519,
+    "duration": 5.8
+  },
+  {
+    "text": "something else that was",
+    "start": 138.84,
+    "duration": 4.8
+  },
+  {
+    "text": "uh well I didn't have to hammer on it",
+    "start": 141.319,
+    "duration": 4.92
+  },
+  {
+    "text": "was the Super pad I picked up",
+    "start": 143.64,
+    "duration": 5.08
+  },
+  {
+    "text": "right so I found a super pad and they",
+    "start": 146.239,
+    "duration": 4.401
+  },
+  {
+    "text": "rarely ever come up one said it was",
+    "start": 148.72,
+    "duration": 3.96
+  },
+  {
+    "text": "booting and so I kind of jumped at it",
+    "start": 150.64,
+    "duration": 4.92
+  },
+  {
+    "text": "bought it got it and uh sure enough it",
+    "start": 152.68,
+    "duration": 5.4
+  },
+  {
+    "text": "boots up and runs both on 689 waterl",
+    "start": 155.56,
+    "duration": 5.8
+  },
+  {
+    "text": "side and on the 8032 Commodore side so I",
+    "start": 158.08,
+    "duration": 4.879
+  },
+  {
+    "text": "thought I was golden I was just going to",
+    "start": 161.36,
+    "duration": 4.12
+  },
+  {
+    "text": "have to clean the thing and I stuck a",
+    "start": 162.959,
+    "duration": 6.081
+  },
+  {
+    "text": "spare i e adapter with an SD card reader",
+    "start": 165.48,
+    "duration": 5.2
+  },
+  {
+    "text": "into the back and I realized that I",
+    "start": 169.04,
+    "duration": 3.72
+  },
+  {
+    "text": "can't read from the port at all it just",
+    "start": 170.68,
+    "duration": 3.72
+  },
+  {
+    "text": "says there's no device present at any",
+    "start": 172.76,
+    "duration": 3.32
+  },
+  {
+    "text": "time something like crap so it's",
+    "start": 174.4,
+    "duration": 4.119
+  },
+  {
+    "text": "probably the 6520 chip which is one of",
+    "start": 176.08,
+    "duration": 4.799
+  },
+  {
+    "text": "the main IO chips it's right by the port",
+    "start": 178.519,
+    "duration": 5.0
+  },
+  {
+    "text": "so I went to remove that and I really",
+    "start": 180.879,
+    "duration": 5.481
+  },
+  {
+    "text": "took my time on this one I uh resolder",
+    "start": 183.519,
+    "duration": 4.36
+  },
+  {
+    "text": "every pin on the Chip And then I",
+    "start": 186.36,
+    "duration": 4.799
+  },
+  {
+    "text": "carefully vacuumed it and I moved each",
+    "start": 187.879,
+    "duration": 5.841
+  },
+  {
+    "text": "pin so it was free the problem I ran",
+    "start": 191.159,
+    "duration": 5.041
+  },
+  {
+    "text": "into is when I finally lifted the chip",
+    "start": 193.72,
+    "duration": 5.04
+  },
+  {
+    "text": "on the inside of the legs traces had",
+    "start": 196.2,
+    "duration": 4.48
+  },
+  {
+    "text": "bonded with solder to the insides of the",
+    "start": 198.76,
+    "duration": 4.039
+  },
+  {
+    "text": "legs and so three traces got lifted so I",
+    "start": 200.68,
+    "duration": 3.559
+  },
+  {
+    "text": "want up having to rebuild three traces",
+    "start": 202.799,
+    "duration": 3.16
+  },
+  {
+    "text": "on the board which I wasn't stoked about",
+    "start": 204.239,
+    "duration": 4.321
+  },
+  {
+    "text": "but did that put in what I thought was a",
+    "start": 205.959,
+    "duration": 4.721
+  },
+  {
+    "text": "compatible chip with a 6 520 that I had",
+    "start": 208.56,
+    "duration": 5.039
+  },
+  {
+    "text": "on hand and it did not work so I then",
+    "start": 210.68,
+    "duration": 6.16
+  },
+  {
+    "text": "popped the 6520 out of a spare pet 2001",
+    "start": 213.599,
+    "duration": 4.92
+  },
+  {
+    "text": "board that I had put that in still",
+    "start": 216.84,
+    "duration": 4.599
+  },
+  {
+    "text": "didn't work then I noticed that there",
+    "start": 218.519,
+    "duration": 4.681
+  },
+  {
+    "text": "was a pin missing on the header cable",
+    "start": 221.439,
+    "duration": 3.961
+  },
+  {
+    "text": "that goes from the 6502 socket up to the",
+    "start": 223.2,
+    "duration": 5.039
+  },
+  {
+    "text": "daughter board that runs the 6809 stuff",
+    "start": 225.4,
+    "duration": 4.8
+  },
+  {
+    "text": "I checked with my resident super pet",
+    "start": 228.239,
+    "duration": 3.56
+  },
+  {
+    "text": "expert who said no it's not normal to be",
+    "start": 230.2,
+    "duration": 3.28
+  },
+  {
+    "text": "missing a pin so that's not good and",
+    "start": 231.799,
+    "duration": 3.921
+  },
+  {
+    "text": "could be the problem so instead we took",
+    "start": 233.48,
+    "duration": 4.119
+  },
+  {
+    "text": "the daughterboard out put the CPU",
+    "start": 235.72,
+    "duration": 4.599
+  },
+  {
+    "text": "directly into the socket so just boots",
+    "start": 237.599,
+    "duration": 4.72
+  },
+  {
+    "text": "up as an 832 pet but it still couldn't",
+    "start": 240.319,
+    "duration": 3.681
+  },
+  {
+    "text": "read the port so it's unrelated to that",
+    "start": 242.319,
+    "duration": 4.401
+  },
+  {
+    "text": "cable that's a separate issue so at this",
+    "start": 244.0,
+    "duration": 3.959
+  },
+  {
+    "text": "point I'm waiting on there are two",
+    "start": 246.72,
+    "duration": 3.56
+  },
+  {
+    "text": "buffer chips that help drive that Port",
+    "start": 247.959,
+    "duration": 4.12
+  },
+  {
+    "text": "that are in between the 6520 and the",
+    "start": 250.28,
+    "duration": 3.12
+  },
+  {
+    "text": "port itself and I'm going to try",
+    "start": 252.079,
+    "duration": 3.921
+  },
+  {
+    "text": "replacing those two and if that doesn't",
+    "start": 253.4,
+    "duration": 4.399
+  },
+  {
+    "text": "work I'm gonna have to find somebody to",
+    "start": 256.0,
+    "duration": 3.519
+  },
+  {
+    "text": "send it to probably my super pet guy but",
+    "start": 257.799,
+    "duration": 3.72
+  },
+  {
+    "text": "he's pretty busy so yeah and he might",
+    "start": 259.519,
+    "duration": 4.841
+  },
+  {
+    "text": "have to send it to his guy or is he the",
+    "start": 261.519,
+    "duration": 4.921
+  },
+  {
+    "text": "guy that he is the guy's guy oh oh he's",
+    "start": 264.36,
+    "duration": 5.399
+  },
+  {
+    "text": "the guy's guy okay um how how",
+    "start": 266.44,
+    "duration": 4.88
+  },
+  {
+    "text": "challenging go to distract down those",
+    "start": 269.759,
+    "duration": 4.241
+  },
+  {
+    "text": "other two sort of buffer chips then they",
+    "start": 271.32,
+    "duration": 4.76
+  },
+  {
+    "text": "weren't bad um I found them on eBay and",
+    "start": 274.0,
+    "duration": 3.8
+  },
+  {
+    "text": "I had two sources I could get them cheap",
+    "start": 276.08,
+    "duration": 3.679
+  },
+  {
+    "text": "like for a buck 50 a piece from Poland",
+    "start": 277.8,
+    "duration": 3.56
+  },
+  {
+    "text": "or something but if you wanted them in",
+    "start": 279.759,
+    "duration": 3.681
+  },
+  {
+    "text": "the US in any kind of near time frame",
+    "start": 281.36,
+    "duration": 3.52
+  },
+  {
+    "text": "they were like 10 bucks coming out I",
+    "start": 283.44,
+    "duration": 4.16
+  },
+  {
+    "text": "think Boston so I went that way that's",
+    "start": 284.88,
+    "duration": 4.08
+  },
+  {
+    "text": "kind of like that sign in my mechanic",
+    "start": 287.6,
+    "duration": 4.039
+  },
+  {
+    "text": "shop we can do it fast cheap and good",
+    "start": 288.96,
+    "duration": 5.679
+  },
+  {
+    "text": "your choice of which two yeah exactly",
+    "start": 291.639,
+    "duration": 8.441
+  },
+  {
+    "text": "right now uh that super pet um also um",
+    "start": 294.639,
+    "duration": 10.161
+  },
+  {
+    "text": "um displayed a uh let's say uh exhibited",
+    "start": 300.08,
+    "duration": 6.72
+  },
+  {
+    "text": "a behavior that's not uncommon or you've",
+    "start": 304.8,
+    "duration": 3.679
+  },
+  {
+    "text": "experienced before but in a slightly",
+    "start": 306.8,
+    "duration": 3.56
+  },
+  {
+    "text": "different manner oh when we first",
+    "start": 308.479,
+    "duration": 4.44
+  },
+  {
+    "text": "plugged it in yeah yeah we plugged it in",
+    "start": 310.36,
+    "duration": 5.08
+  },
+  {
+    "text": "booted it up tested it it all worked was",
+    "start": 312.919,
+    "duration": 5.641
+  },
+  {
+    "text": "great everybody was happy Applause all",
+    "start": 315.44,
+    "duration": 6.319
+  },
+  {
+    "text": "around yeah and we were sitting around",
+    "start": 318.56,
+    "duration": 4.8
+  },
+  {
+    "text": "and then about 5 minutes later we just",
+    "start": 321.759,
+    "duration": 4.361
+  },
+  {
+    "text": "hear sizzling bacon it's like I guess is",
+    "start": 323.36,
+    "duration": 5.279
+  },
+  {
+    "text": "the best way to describe it and then a",
+    "start": 326.12,
+    "duration": 4.44
+  },
+  {
+    "text": "horrible smell and tons of smoke came",
+    "start": 328.639,
+    "duration": 4.641
+  },
+  {
+    "text": "out of the pet and so I've seen this",
+    "start": 330.56,
+    "duration": 4.6
+  },
+  {
+    "text": "before on my other Super Pets there is a",
+    "start": 333.28,
+    "duration": 4.919
+  },
+  {
+    "text": "Rea cap inside the power supply and it's",
+    "start": 335.16,
+    "duration": 4.68
+  },
+  {
+    "text": "actually in a metal cage back where the",
+    "start": 338.199,
+    "duration": 2.44
+  },
+  {
+    "text": "power",
+    "start": 339.84,
+    "duration": 3.479
+  },
+  {
+    "text": "switches and it's fully encapsulated in",
+    "start": 340.639,
+    "duration": 4.601
+  },
+  {
+    "text": "a steel box so even if it burned it",
+    "start": 343.319,
+    "duration": 4.081
+  },
+  {
+    "text": "really can't do much but all it is there",
+    "start": 345.24,
+    "duration": 4.12
+  },
+  {
+    "text": "for as far as I understand it is to help",
+    "start": 347.4,
+    "duration": 4.239
+  },
+  {
+    "text": "with RF radio interference over",
+    "start": 349.36,
+    "duration": 5.08
+  },
+  {
+    "text": "broadcast television signals and since I",
+    "start": 351.639,
+    "duration": 4.761
+  },
+  {
+    "text": "don't really care about that anymore if",
+    "start": 354.44,
+    "duration": 4.68
+  },
+  {
+    "text": "it burns that cap out and just loses the",
+    "start": 356.4,
+    "duration": 3.76
+  },
+  {
+    "text": "RF",
+    "start": 359.12,
+    "duration": 5.68
+  },
+  {
+    "text": "frequency filtering I I'm fine so and",
+    "start": 360.16,
+    "duration": 6.159
+  },
+  {
+    "text": "and that happened on your previous one",
+    "start": 364.8,
+    "duration": 3.6
+  },
+  {
+    "text": "but that time it just went",
+    "start": 366.319,
+    "duration": 4.681
+  },
+  {
+    "text": "Bang Yeah the first time I ever heard it",
+    "start": 368.4,
+    "duration": 4.32
+  },
+  {
+    "text": "was sitting there plugged in but not",
+    "start": 371.0,
+    "duration": 4.919
+  },
+  {
+    "text": "turned on and it just kapow and it all",
+    "start": 372.72,
+    "duration": 4.28
+  },
+  {
+    "text": "that go at",
+    "start": 375.919,
+    "duration": 3.601
+  },
+  {
+    "text": "once just one was more sizzly that",
+    "start": 377.0,
+    "duration": 5.08
+  },
+  {
+    "text": "sizzling sound and the",
+    "start": 379.52,
+    "duration": 5.0
+  },
+  {
+    "text": "smell three guys get out of their chairs",
+    "start": 382.08,
+    "duration": 3.959
+  },
+  {
+    "text": "pretty",
+    "start": 384.52,
+    "duration": 3.92
+  },
+  {
+    "text": "quickly open ran over to it and I",
+    "start": 386.039,
+    "duration": 3.841
+  },
+  {
+    "text": "grabbed the flashlight and I to figure",
+    "start": 388.44,
+    "duration": 2.759
+  },
+  {
+    "text": "out where the smoke was coming from",
+    "start": 389.88,
+    "duration": 2.759
+  },
+  {
+    "text": "because I should have recognized it for",
+    "start": 391.199,
+    "duration": 3.081
+  },
+  {
+    "text": "what it was but because of the sizzling",
+    "start": 392.639,
+    "duration": 3.12
+  },
+  {
+    "text": "rather than the bang I guess it was new",
+    "start": 394.28,
+    "duration": 4.319
+  },
+  {
+    "text": "to me and I thought smoke was coming out",
+    "start": 395.759,
+    "duration": 4.481
+  },
+  {
+    "text": "of everything at some point but uh",
+    "start": 398.599,
+    "duration": 3.521
+  },
+  {
+    "text": "turned out to still work after the fact",
+    "start": 400.24,
+    "duration": 5.359
+  },
+  {
+    "text": "so and it it sent out a well a fair",
+    "start": 402.12,
+    "duration": 5.44
+  },
+  {
+    "text": "himount to smoke and uh yeah we had to",
+    "start": 405.599,
+    "duration": 4.44
+  },
+  {
+    "text": "open up the big doors on the nasty Aroma",
+    "start": 407.56,
+    "duration": 4.28
+  },
+  {
+    "text": "it was uh yeah it was intense there for",
+    "start": 410.039,
+    "duration": 3.321
+  },
+  {
+    "text": "a",
+    "start": 411.84,
+    "duration": 4.039
+  },
+  {
+    "text": "bit uh anything else going on I guess",
+    "start": 413.36,
+    "duration": 4.88
+  },
+  {
+    "text": "you you popped out another uh popped out",
+    "start": 415.879,
+    "duration": 4.241
+  },
+  {
+    "text": "that sounds sorry yeah",
+    "start": 418.24,
+    "duration": 4.56
+  },
+  {
+    "text": "put out another video just the other day",
+    "start": 420.12,
+    "duration": 5.519
+  },
+  {
+    "text": "uh on your main Channel and I think you",
+    "start": 422.8,
+    "duration": 4.32
+  },
+  {
+    "text": "you polished off another one today",
+    "start": 425.639,
+    "duration": 3.721
+  },
+  {
+    "text": "that'll probably be showing up tomorrow",
+    "start": 427.12,
+    "duration": 4.28
+  },
+  {
+    "text": "yeah I did the uh a deep dive on printf",
+    "start": 429.36,
+    "duration": 3.8
+  },
+  {
+    "text": "and what happens on there so that should",
+    "start": 431.4,
+    "duration": 4.04
+  },
+  {
+    "text": "generate some interesting questions and",
+    "start": 433.16,
+    "duration": 5.08
+  },
+  {
+    "text": "uh I did one today on a deep dive on",
+    "start": 435.44,
+    "duration": 4.4
+  },
+  {
+    "text": "what happens when you do a web request",
+    "start": 438.24,
+    "duration": 3.359
+  },
+  {
+    "text": "so that will come up and I've said web",
+    "start": 439.84,
+    "duration": 3.56
+  },
+  {
+    "text": "request so many times now that I every",
+    "start": 441.599,
+    "duration": 3.961
+  },
+  {
+    "text": "time I say it I think I sound like Elmer",
+    "start": 443.4,
+    "duration": 3.96
+  },
+  {
+    "text": "fud I think I'm saying web West or",
+    "start": 445.56,
+    "duration": 5.0
+  },
+  {
+    "text": "something and I watch the video you know",
+    "start": 447.36,
+    "duration": 5.559
+  },
+  {
+    "text": "nine times during editing and every time",
+    "start": 450.56,
+    "duration": 3.88
+  },
+  {
+    "text": "I hear it now I'm like what do I",
+    "start": 452.919,
+    "duration": 3.641
+  },
+  {
+    "text": "actually say do I say the hard r i mean",
+    "start": 454.44,
+    "duration": 5.319
+  },
+  {
+    "text": "hard R and request to be clear",
+    "start": 456.56,
+    "duration": 6.4
+  },
+  {
+    "text": "University of Virgina",
+    "start": 459.759,
+    "duration": 6.241
+  },
+  {
+    "text": "yeah uh okay well if that's what you got",
+    "start": 462.96,
+    "duration": 5.199
+  },
+  {
+    "text": "then let's uh jump into some questions",
+    "start": 466.0,
+    "duration": 4.319
+  },
+  {
+    "text": "here and I got a I got a I think a good",
+    "start": 468.159,
+    "duration": 5.72
+  },
+  {
+    "text": "one to start with here and then uh and",
+    "start": 470.319,
+    "duration": 4.72
+  },
+  {
+    "text": "then I'll give another little",
+    "start": 473.879,
+    "duration": 3.401
+  },
+  {
+    "text": "explanation so uh this one comes from",
+    "start": 475.039,
+    "duration": 4.081
+  },
+  {
+    "text": "the shop last shop talk episode we did",
+    "start": 477.28,
+    "duration": 4.8
+  },
+  {
+    "text": "from CH Brown says can you explain how",
+    "start": 479.12,
+    "duration": 4.799
+  },
+  {
+    "text": "Microsoft was able to force all of the",
+    "start": 482.08,
+    "duration": 4.0
+  },
+  {
+    "text": "big PC manufacturers to sell their",
+    "start": 483.919,
+    "duration": 4.4
+  },
+  {
+    "text": "products with Windows",
+    "start": 486.08,
+    "duration": 5.239
+  },
+  {
+    "text": "pre-installed force them force is an",
+    "start": 488.319,
+    "duration": 6.241
+  },
+  {
+    "text": "interesting choice of words um I guess",
+    "start": 491.319,
+    "duration": 5.041
+  },
+  {
+    "text": "one could argue that once the Monopoly",
+    "start": 494.56,
+    "duration": 4.079
+  },
+  {
+    "text": "position was established maybe that was",
+    "start": 496.36,
+    "duration": 3.679
+  },
+  {
+    "text": "forcing people but how did they get",
+    "start": 498.639,
+    "duration": 3.481
+  },
+  {
+    "text": "there and they didn't force anybody to",
+    "start": 500.039,
+    "duration": 4.401
+  },
+  {
+    "text": "ship windows on every computer what they",
+    "start": 502.12,
+    "duration": 4.68
+  },
+  {
+    "text": "did was entice people and this is what",
+    "start": 504.44,
+    "duration": 5.039
+  },
+  {
+    "text": "got them in trouble so what they did was",
+    "start": 506.8,
+    "duration": 4.079
+  },
+  {
+    "text": "instead of saying you know windows cost",
+    "start": 509.479,
+    "duration": 3.36
+  },
+  {
+    "text": "50 bucks per machine when the vendor",
+    "start": 510.879,
+    "duration": 3.441
+  },
+  {
+    "text": "came they'd say well what's Windows 50",
+    "start": 512.839,
+    "duration": 2.88
+  },
+  {
+    "text": "bucks they're like well how many",
+    "start": 514.32,
+    "duration": 2.639
+  },
+  {
+    "text": "machines are you going to make this year",
+    "start": 515.719,
+    "duration": 2.161
+  },
+  {
+    "text": "and they say well we're going to make a",
+    "start": 516.959,
+    "duration": 3.921
+  },
+  {
+    "text": "million machines well for you it's $15",
+    "start": 517.88,
+    "duration": 4.36
+  },
+  {
+    "text": "and I'm making up the numbers because I",
+    "start": 520.88,
+    "duration": 3.32
+  },
+  {
+    "text": "wasn't on that side of the business",
+    "start": 522.24,
+    "duration": 4.84
+  },
+  {
+    "text": "but um if you uh and better yet we'll do",
+    "start": 524.2,
+    "duration": 4.88
+  },
+  {
+    "text": "it for 12250 if you just say we're going",
+    "start": 527.08,
+    "duration": 4.28
+  },
+  {
+    "text": "to buy a per processor license for every",
+    "start": 529.08,
+    "duration": 4.24
+  },
+  {
+    "text": "machine we make so that every machine we",
+    "start": 531.36,
+    "duration": 4.28
+  },
+  {
+    "text": "make has MS DOS available to it or Ms",
+    "start": 533.32,
+    "duration": 4.079
+  },
+  {
+    "text": "Doss and windows or whatever the package",
+    "start": 535.64,
+    "duration": 4.4
+  },
+  {
+    "text": "was at the time and and I think a lot of",
+    "start": 537.399,
+    "duration": 5.161
+  },
+  {
+    "text": "vendors took that now in a way that's",
+    "start": 540.04,
+    "duration": 4.359
+  },
+  {
+    "text": "obstructive I guess because you're",
+    "start": 542.56,
+    "duration": 4.04
+  },
+  {
+    "text": "paying a Microsoft tax even if you want",
+    "start": 544.399,
+    "duration": 6.401
+  },
+  {
+    "text": "CPM on your IBM at at that point because",
+    "start": 546.6,
+    "duration": 6.2
+  },
+  {
+    "text": "every machine has it baked into the full",
+    "start": 550.8,
+    "duration": 3.36
+  },
+  {
+    "text": "cost and then you're adding an operating",
+    "start": 552.8,
+    "duration": 3.68
+  },
+  {
+    "text": "system on top of that is that wrong I",
+    "start": 554.16,
+    "duration": 4.48
+  },
+  {
+    "text": "don't know doesn't feel wrong to me but",
+    "start": 556.48,
+    "duration": 3.96
+  },
+  {
+    "text": "it felt wrong to I guess the attorney",
+    "start": 558.64,
+    "duration": 3.84
+  },
+  {
+    "text": "general or the justice department that",
+    "start": 560.44,
+    "duration": 3.8
+  },
+  {
+    "text": "you know went after Microsoft for that",
+    "start": 562.48,
+    "duration": 4.44
+  },
+  {
+    "text": "kind of behavior so initially once it",
+    "start": 564.24,
+    "duration": 4.4
+  },
+  {
+    "text": "was a case of everybody had it then",
+    "start": 566.92,
+    "duration": 3.28
+  },
+  {
+    "text": "everybody had to have it then there's a",
+    "start": 568.64,
+    "duration": 3.4
+  },
+  {
+    "text": "certain self-fulfilling prophecy in",
+    "start": 570.2,
+    "duration": 3.8
+  },
+  {
+    "text": "being a ubiquitous product like that and",
+    "start": 572.04,
+    "duration": 3.4
+  },
+  {
+    "text": "that everybody has to have it in order",
+    "start": 574.0,
+    "duration": 4.56
+  },
+  {
+    "text": "to be compatible with you so but yeah",
+    "start": 575.44,
+    "duration": 5.68
+  },
+  {
+    "text": "they didn't force people or there was no",
+    "start": 578.56,
+    "duration": 4.32
+  },
+  {
+    "text": "strong arm tactics and stuff initially",
+    "start": 581.12,
+    "duration": 3.8
+  },
+  {
+    "text": "it was enticing people and then once",
+    "start": 582.88,
+    "duration": 3.199
+  },
+  {
+    "text": "they were in that position that",
+    "start": 584.92,
+    "duration": 2.68
+  },
+  {
+    "text": "everybody had it maybe things were",
+    "start": 586.079,
+    "duration": 2.921
+  },
+  {
+    "text": "different but again I wasn't on the",
+    "start": 587.6,
+    "duration": 3.96
+  },
+  {
+    "text": "business side so and and a decision is",
+    "start": 589.0,
+    "duration": 5.279
+  },
+  {
+    "text": "also made on the the PC supplier side as",
+    "start": 591.56,
+    "duration": 5.2
+  },
+  {
+    "text": "well that oh okay if we you know if we",
+    "start": 594.279,
+    "duration": 4.161
+  },
+  {
+    "text": "say we're going to do a million machines",
+    "start": 596.76,
+    "duration": 4.28
+  },
+  {
+    "text": "and get it a $15 or whatever but if we",
+    "start": 598.44,
+    "duration": 4.959
+  },
+  {
+    "text": "agree to to uh to do it for every",
+    "start": 601.04,
+    "duration": 4.039
+  },
+  {
+    "text": "processor we ship out and the price goes",
+    "start": 603.399,
+    "duration": 3.481
+  },
+  {
+    "text": "lower that's a business decision that",
+    "start": 605.079,
+    "duration": 4.241
+  },
+  {
+    "text": "they make too so they could have said no",
+    "start": 606.88,
+    "duration": 5.16
+  },
+  {
+    "text": "and sliced it a bit more but so it it",
+    "start": 609.32,
+    "duration": 4.68
+  },
+  {
+    "text": "worked it it must have worked out well",
+    "start": 612.04,
+    "duration": 5.88
+  },
+  {
+    "text": "for both both Microsoft and the PC",
+    "start": 614.0,
+    "duration": 5.68
+  },
+  {
+    "text": "manufacturers yeah I imagine it was",
+    "start": 617.92,
+    "duration": 3.28
+  },
+  {
+    "text": "mutually beneficial whether it was the",
+    "start": 619.68,
+    "duration": 3.08
+  },
+  {
+    "text": "best thing for consumers is what",
+    "start": 621.2,
+    "duration": 4.28
+  },
+  {
+    "text": "probably the doj cared about but yeah I",
+    "start": 622.76,
+    "duration": 4.84
+  },
+  {
+    "text": "can see that so I think it worked out",
+    "start": 625.48,
+    "duration": 3.44
+  },
+  {
+    "text": "well in the sense that you walked into a",
+    "start": 627.6,
+    "duration": 2.52
+  },
+  {
+    "text": "computer store at least you knew how to",
+    "start": 628.92,
+    "duration": 2.72
+  },
+  {
+    "text": "use the computer because it was just",
+    "start": 630.12,
+    "duration": 4.12
+  },
+  {
+    "text": "running Windows it wasn't running Best",
+    "start": 631.64,
+    "duration": 6.36
+  },
+  {
+    "text": "Buy OS yeah yeah now there was a similar",
+    "start": 634.24,
+    "duration": 6.52
+  },
+  {
+    "text": "thing similar I think when with Windows",
+    "start": 638.0,
+    "duration": 3.959
+  },
+  {
+    "text": "Explorer when we were back in the",
+    "start": 640.76,
+    "duration": 3.8
+  },
+  {
+    "text": "Netscape days and that sort of stuff too",
+    "start": 641.959,
+    "duration": 5.161
+  },
+  {
+    "text": "um not exactly the same but similar",
+    "start": 644.56,
+    "duration": 4.92
+  },
+  {
+    "text": "again where they started to package",
+    "start": 647.12,
+    "duration": 5.76
+  },
+  {
+    "text": "windows or uh uh Internet Explorer with",
+    "start": 649.48,
+    "duration": 5.24
+  },
+  {
+    "text": "Windows and that got them into a similar",
+    "start": 652.88,
+    "duration": 4.72
+  },
+  {
+    "text": "set of problems as well didn't it it did",
+    "start": 654.72,
+    "duration": 4.72
+  },
+  {
+    "text": "and that was kind of treated as if they",
+    "start": 657.6,
+    "duration": 4.239
+  },
+  {
+    "text": "were bundling an application when really",
+    "start": 659.44,
+    "duration": 4.6
+  },
+  {
+    "text": "the browser is part of the operating",
+    "start": 661.839,
+    "duration": 3.921
+  },
+  {
+    "text": "system and should be included and today",
+    "start": 664.04,
+    "duration": 3.799
+  },
+  {
+    "text": "is included in every operating system",
+    "start": 665.76,
+    "duration": 3.68
+  },
+  {
+    "text": "but that was when that transition was",
+    "start": 667.839,
+    "duration": 2.761
+  },
+  {
+    "text": "happening though because you had all",
+    "start": 669.44,
+    "duration": 2.6
+  },
+  {
+    "text": "these people that were or not all these",
+    "start": 670.6,
+    "duration": 3.2
+  },
+  {
+    "text": "people but a few Netscape and what were",
+    "start": 672.04,
+    "duration": 2.799
+  },
+  {
+    "text": "a couple of the other ones I can't",
+    "start": 673.8,
+    "duration": 4.479
+  },
+  {
+    "text": "remember that were just in the browser",
+    "start": 674.839,
+    "duration": 5.641
+  },
+  {
+    "text": "app and so they yeah but there shouldn't",
+    "start": 678.279,
+    "duration": 4.201
+  },
+  {
+    "text": "be an inhib shouldn't inhibit you that",
+    "start": 680.48,
+    "duration": 4.599
+  },
+  {
+    "text": "Microsoft makes a default version of the",
+    "start": 682.48,
+    "duration": 4.479
+  },
+  {
+    "text": "whatever that feature is in the product",
+    "start": 685.079,
+    "duration": 3.921
+  },
+  {
+    "text": "you know if they make it so good that",
+    "start": 686.959,
+    "duration": 3.88
+  },
+  {
+    "text": "there's no point in competing with it",
+    "start": 689.0,
+    "duration": 3.88
+  },
+  {
+    "text": "but Microsoft Paint does not impact",
+    "start": 690.839,
+    "duration": 4.521
+  },
+  {
+    "text": "Photoshop in the slightest so you can",
+    "start": 692.88,
+    "duration": 4.24
+  },
+  {
+    "text": "always build a better M trap that's a",
+    "start": 695.36,
+    "duration": 3.599
+  },
+  {
+    "text": "direct",
+    "start": 697.12,
+    "duration": 5.0
+  },
+  {
+    "text": "competitor yeah I G to draw my stick",
+    "start": 698.959,
+    "duration": 4.761
+  },
+  {
+    "text": "house with the smok chimney and all that",
+    "start": 702.12,
+    "duration": 3.159
+  },
+  {
+    "text": "coming out I gota use Photoshop for that",
+    "start": 703.72,
+    "duration": 3.679
+  },
+  {
+    "text": "now I think I've got some YouTube fees",
+    "start": 705.279,
+    "duration": 3.401
+  },
+  {
+    "text": "of some folks doing some pretty nice",
+    "start": 707.399,
+    "duration": 3.401
+  },
+  {
+    "text": "work with paint though but oh yeah it",
+    "start": 708.68,
+    "duration": 4.2
+  },
+  {
+    "text": "can be done it takes some kids",
+    "start": 710.8,
+    "duration": 5.479
+  },
+  {
+    "text": "considerably more effort okay um that uh",
+    "start": 712.88,
+    "duration": 4.88
+  },
+  {
+    "text": "episode you did to optimize your hard",
+    "start": 716.279,
+    "duration": 4.601
+  },
+  {
+    "text": "drive and extend your data life um got",
+    "start": 717.76,
+    "duration": 7.48
+  },
+  {
+    "text": "um a lot of feedback um and some folks",
+    "start": 720.88,
+    "duration": 5.72
+  },
+  {
+    "text": "uh who were",
+    "start": 725.24,
+    "duration": 4.64
+  },
+  {
+    "text": "um they uh they they gave it to you",
+    "start": 726.6,
+    "duration": 5.72
+  },
+  {
+    "text": "pretty hard here so uh yeah I know some",
+    "start": 729.88,
+    "duration": 4.0
+  },
+  {
+    "text": "recurring themes in the comments that I",
+    "start": 732.32,
+    "duration": 3.12
+  },
+  {
+    "text": "was responding to we'll see if it comes",
+    "start": 733.88,
+    "duration": 4.36
+  },
+  {
+    "text": "up here yeah so not not to shy away from",
+    "start": 735.44,
+    "duration": 4.959
+  },
+  {
+    "text": "that stuff I think some of that stuff um",
+    "start": 738.24,
+    "duration": 5.36
+  },
+  {
+    "text": "is uh you know worth uh you discussing",
+    "start": 740.399,
+    "duration": 6.361
+  },
+  {
+    "text": "in this form as well so um I'm going to",
+    "start": 743.6,
+    "duration": 5.32
+  },
+  {
+    "text": "jump in here and uh and we'll go hard at",
+    "start": 746.76,
+    "duration": 3.48
+  },
+  {
+    "text": "you for the first few questions then",
+    "start": 748.92,
+    "duration": 3.52
+  },
+  {
+    "text": "we'll see if we can recover a bit here",
+    "start": 750.24,
+    "duration": 6.12
+  },
+  {
+    "text": "um no Prague says defrag and SSD that's",
+    "start": 752.44,
+    "duration": 5.88
+  },
+  {
+    "text": "bad advice you should not do it unless",
+    "start": 756.36,
+    "duration": 4.0
+  },
+  {
+    "text": "you want to degrade it unnecessarily by",
+    "start": 758.32,
+    "duration": 4.4
+  },
+  {
+    "text": "doing unneeded rights to it there's no",
+    "start": 760.36,
+    "duration": 5.039
+  },
+  {
+    "text": "mechanical operation in SSD so defrag is",
+    "start": 762.72,
+    "duration": 6.6
+  },
+  {
+    "text": "pointless an SSD is nonv volatile memory",
+    "start": 765.399,
+    "duration": 5.761
+  },
+  {
+    "text": "it's closer to a ram stick than a hard",
+    "start": 769.32,
+    "duration": 4.68
+  },
+  {
+    "text": "drive you don't defrag Ram do",
+    "start": 771.16,
+    "duration": 5.56
+  },
+  {
+    "text": "you well you could if you wanted cash",
+    "start": 774.0,
+    "duration": 6.399
+  },
+  {
+    "text": "locality I suppose um",
+    "start": 776.72,
+    "duration": 5.119
+  },
+  {
+    "text": "so here's I think the fundamental",
+    "start": 780.399,
+    "duration": 3.44
+  },
+  {
+    "text": "misunderstanding people think and the",
+    "start": 781.839,
+    "duration": 4.161
+  },
+  {
+    "text": "title was can you should you or can you",
+    "start": 783.839,
+    "duration": 5.24
+  },
+  {
+    "text": "slash should you defrag an SSD yeah or",
+    "start": 786.0,
+    "duration": 4.399
+  },
+  {
+    "text": "that was one of the thumbnails that I",
+    "start": 789.079,
+    "duration": 3.44
+  },
+  {
+    "text": "ran so it depends which version you got",
+    "start": 790.399,
+    "duration": 3.281
+  },
+  {
+    "text": "but",
+    "start": 792.519,
+    "duration": 4.841
+  },
+  {
+    "text": "uh the answer is at a file system level",
+    "start": 793.68,
+    "duration": 5.44
+  },
+  {
+    "text": "no you absolutely should not defrag an",
+    "start": 797.36,
+    "duration": 3.719
+  },
+  {
+    "text": "SSD there's no point it doesn't do any",
+    "start": 799.12,
+    "duration": 3.48
+  },
+  {
+    "text": "good it doesn't solve any problems and",
+    "start": 801.079,
+    "duration": 2.921
+  },
+  {
+    "text": "it just wears the drive and makes things",
+    "start": 802.6,
+    "duration": 4.16
+  },
+  {
+    "text": "worse but if you watch the episode",
+    "start": 804.0,
+    "duration": 4.16
+  },
+  {
+    "text": "that's not what I'm talking about what",
+    "start": 806.76,
+    "duration": 3.04
+  },
+  {
+    "text": "I'm talking about is the disparity",
+    "start": 808.16,
+    "duration": 3.76
+  },
+  {
+    "text": "between the size of the allocation when",
+    "start": 809.8,
+    "duration": 4.44
+  },
+  {
+    "text": "it claims new space on an SSD so you",
+    "start": 811.92,
+    "duration": 4.68
+  },
+  {
+    "text": "create a file of one megabyte it's going",
+    "start": 814.24,
+    "duration": 4.08
+  },
+  {
+    "text": "to go and it's going to get four",
+    "start": 816.6,
+    "duration": 3.359
+  },
+  {
+    "text": "256k",
+    "start": 818.32,
+    "duration": 6.36
+  },
+  {
+    "text": "blocks and uh assign that as used space",
+    "start": 819.959,
+    "duration": 6.521
+  },
+  {
+    "text": "on the drive and give it back for the",
+    "start": 824.68,
+    "duration": 4.719
+  },
+  {
+    "text": "file system to use as blocks now the",
+    "start": 826.48,
+    "duration": 5.2
+  },
+  {
+    "text": "problem is if you go in a checkerboard",
+    "start": 829.399,
+    "duration": 3.8
+  },
+  {
+    "text": "pattern and you say I don't need every",
+    "start": 831.68,
+    "duration": 3.32
+  },
+  {
+    "text": "second one every anymore now you've got",
+    "start": 833.199,
+    "duration": 3.76
+  },
+  {
+    "text": "the scattershot pattern because you can",
+    "start": 835.0,
+    "duration": 4.16
+  },
+  {
+    "text": "free at a higher granularity than you",
+    "start": 836.959,
+    "duration": 4.481
+  },
+  {
+    "text": "can allocate and that's what causes",
+    "start": 839.16,
+    "duration": 4.52
+  },
+  {
+    "text": "fragmentation you can free up smaller",
+    "start": 841.44,
+    "duration": 5.399
+  },
+  {
+    "text": "pieces that create holes in the pattern",
+    "start": 843.68,
+    "duration": 5.599
+  },
+  {
+    "text": "now there's no seeking on a drive on an",
+    "start": 846.839,
+    "duration": 4.161
+  },
+  {
+    "text": "SSD so it's not like the old days where",
+    "start": 849.279,
+    "duration": 3.36
+  },
+  {
+    "text": "if data was scattered around the head",
+    "start": 851.0,
+    "duration": 3.36
+  },
+  {
+    "text": "had to physically step around and do a",
+    "start": 852.639,
+    "duration": 3.481
+  },
+  {
+    "text": "physical action to move so you're not",
+    "start": 854.36,
+    "duration": 4.24
+  },
+  {
+    "text": "solving anything there all you're doing",
+    "start": 856.12,
+    "duration": 4.159
+  },
+  {
+    "text": "is you're getting the data to be more",
+    "start": 858.6,
+    "duration": 3.919
+  },
+  {
+    "text": "contiguous on the SSD by forcing it to",
+    "start": 860.279,
+    "duration": 4.56
+  },
+  {
+    "text": "do its internal garbage collection by",
+    "start": 862.519,
+    "duration": 4.961
+  },
+  {
+    "text": "rewriting those sectors my understanding",
+    "start": 864.839,
+    "duration": 4.961
+  },
+  {
+    "text": "and I'm not an expert on SSD or spin",
+    "start": 867.48,
+    "duration": 4.88
+  },
+  {
+    "text": "rate on ssds but my understanding from",
+    "start": 869.8,
+    "duration": 4.36
+  },
+  {
+    "text": "looking at the product and you know",
+    "start": 872.36,
+    "duration": 4.32
+  },
+  {
+    "text": "having used it over the years is that",
+    "start": 874.16,
+    "duration": 4.32
+  },
+  {
+    "text": "it's similar to a trim command so if",
+    "start": 876.68,
+    "duration": 3.68
+  },
+  {
+    "text": "your operating system properly supports",
+    "start": 878.48,
+    "duration": 4.32
+  },
+  {
+    "text": "and does trim I don't know that there's",
+    "start": 880.36,
+    "duration": 4.76
+  },
+  {
+    "text": "any additional benefit beyond that now",
+    "start": 882.8,
+    "duration": 5.64
+  },
+  {
+    "text": "for drives like an SSD on older Mac OS",
+    "start": 885.12,
+    "duration": 4.48
+  },
+  {
+    "text": "things like that that didn't support",
+    "start": 888.44,
+    "duration": 3.759
+  },
+  {
+    "text": "trim it might make perfect sense I don't",
+    "start": 889.6,
+    "duration": 5.0
+  },
+  {
+    "text": "know so I'm not making any strong claims",
+    "start": 892.199,
+    "duration": 5.961
+  },
+  {
+    "text": "as to the value of defragmenting the an",
+    "start": 894.6,
+    "duration": 7.359
+  },
+  {
+    "text": "area of an asset SDS physical media and",
+    "start": 898.16,
+    "duration": 5.119
+  },
+  {
+    "text": "again I'm not talking about defragging",
+    "start": 901.959,
+    "duration": 3.201
+  },
+  {
+    "text": "the file system just the block",
+    "start": 903.279,
+    "duration": 5.041
+  },
+  {
+    "text": "allocation on the internal drive so",
+    "start": 905.16,
+    "duration": 6.96
+  },
+  {
+    "text": "right and I guess there's also and this",
+    "start": 908.32,
+    "duration": 6.16
+  },
+  {
+    "text": "isn't something that people should be",
+    "start": 912.12,
+    "duration": 4.2
+  },
+  {
+    "text": "doing if they're doing this is something",
+    "start": 914.48,
+    "duration": 3.799
+  },
+  {
+    "text": "you do weekly or",
+    "start": 916.32,
+    "duration": 5.0
+  },
+  {
+    "text": "monthly no I would think if you're gonna",
+    "start": 918.279,
+    "duration": 6.161
+  },
+  {
+    "text": "I have I have felt no pressure to run it",
+    "start": 921.32,
+    "duration": 5.92
+  },
+  {
+    "text": "on an SSD myself if I had a drive that",
+    "start": 924.44,
+    "duration": 5.04
+  },
+  {
+    "text": "was slowing down I would defin try it",
+    "start": 927.24,
+    "duration": 3.76
+  },
+  {
+    "text": "and that's the people in the episode are",
+    "start": 929.48,
+    "duration": 2.52
+  },
+  {
+    "text": "probably wondering well why didn't you",
+    "start": 931.0,
+    "duration": 2.8
+  },
+  {
+    "text": "just try it well I don't have any ssds",
+    "start": 932.0,
+    "duration": 3.36
+  },
+  {
+    "text": "that are slow at the beginning and fast",
+    "start": 933.8,
+    "duration": 3.519
+  },
+  {
+    "text": "in the middle and medium at the end",
+    "start": 935.36,
+    "duration": 3.279
+  },
+  {
+    "text": "which is kind of the scenario that they",
+    "start": 937.319,
+    "duration": 3.681
+  },
+  {
+    "text": "were showing uh so since I can't",
+    "start": 938.639,
+    "duration": 4.081
+  },
+  {
+    "text": "replicate that behavior and fix it or",
+    "start": 941.0,
+    "duration": 4.319
+  },
+  {
+    "text": "try to fix it uh I didn't have a way to",
+    "start": 942.72,
+    "duration": 6.919
+  },
+  {
+    "text": "test that okay uh oh excuse",
+    "start": 945.319,
+    "duration": 6.801
+  },
+  {
+    "text": "me",
+    "start": 949.639,
+    "duration": 5.961
+  },
+  {
+    "text": "uh one more time here uh so Carrie",
+    "start": 952.12,
+    "duration": 6.159
+  },
+  {
+    "text": "Holzman um this is the first piece of",
+    "start": 955.6,
+    "duration": 5.2
+  },
+  {
+    "text": "content from garage that I don't respect",
+    "start": 958.279,
+    "duration": 5.281
+  },
+  {
+    "text": "no one has ever yeah no one has ever",
+    "start": 960.8,
+    "duration": 5.039
+  },
+  {
+    "text": "proven they have lost data as a result",
+    "start": 963.56,
+    "duration": 4.12
+  },
+  {
+    "text": "of a drive not having power over a",
+    "start": 965.839,
+    "duration": 5.12
+  },
+  {
+    "text": "period of time they only suspect it you",
+    "start": 967.68,
+    "duration": 6.399
+  },
+  {
+    "text": "simply cannot prove this Theory and he's",
+    "start": 970.959,
+    "duration": 4.601
+  },
+  {
+    "text": "got a whole bunch of stuff in there and",
+    "start": 974.079,
+    "duration": 5.041
+  },
+  {
+    "text": "examples and and other sorts of things",
+    "start": 975.56,
+    "duration": 5.8
+  },
+  {
+    "text": "but well all I would have to do is to be",
+    "start": 979.12,
+    "duration": 3.519
+  },
+  {
+    "text": "able to show that there is some",
+    "start": 981.36,
+    "duration": 3.36
+  },
+  {
+    "text": "degradation of data over time on a drive",
+    "start": 982.639,
+    "duration": 3.44
+  },
+  {
+    "text": "that's not plugged in because that's his",
+    "start": 984.72,
+    "duration": 3.64
+  },
+  {
+    "text": "basic objection yeah and my",
+    "start": 986.079,
+    "duration": 3.161
+  },
+  {
+    "text": "understanding is there there are at",
+    "start": 988.36,
+    "duration": 2.52
+  },
+  {
+    "text": "least three things that contribute to",
+    "start": 989.24,
+    "duration": 3.279
+  },
+  {
+    "text": "data degradation over time of an",
+    "start": 990.88,
+    "duration": 4.16
+  },
+  {
+    "text": "inactive non-powered drive one is",
+    "start": 992.519,
+    "duration": 6.0
+  },
+  {
+    "text": "something called Data remnants which is",
+    "start": 995.04,
+    "duration": 5.32
+  },
+  {
+    "text": "basically",
+    "start": 998.519,
+    "duration": 5.68
+  },
+  {
+    "text": "um magnetic fading of the flux signal",
+    "start": 1000.36,
+    "duration": 5.56
+  },
+  {
+    "text": "and making it harder to distinguish when",
+    "start": 1004.199,
+    "duration": 4.2
+  },
+  {
+    "text": "the transitions are you also have",
+    "start": 1005.92,
+    "duration": 4.839
+  },
+  {
+    "text": "magnetic signal Decay which is probably",
+    "start": 1008.399,
+    "duration": 4.081
+  },
+  {
+    "text": "just a loss in amplitude of all the",
+    "start": 1010.759,
+    "duration": 3.56
+  },
+  {
+    "text": "signals that are in the magnetic flux so",
+    "start": 1012.48,
+    "duration": 3.68
+  },
+  {
+    "text": "that happens over time and that's",
+    "start": 1014.319,
+    "duration": 4.0
+  },
+  {
+    "text": "aggravated a lot by thermal conditions",
+    "start": 1016.16,
+    "duration": 5.0
+  },
+  {
+    "text": "so if you're is not in a scenario where",
+    "start": 1018.319,
+    "duration": 5.2
+  },
+  {
+    "text": "you know it's within one degree all day",
+    "start": 1021.16,
+    "duration": 4.96
+  },
+  {
+    "text": "every day night and day and humidity to",
+    "start": 1023.519,
+    "duration": 4.04
+  },
+  {
+    "text": "the same then the drive is going to",
+    "start": 1026.12,
+    "duration": 3.52
+  },
+  {
+    "text": "cycle thermally and that's going to",
+    "start": 1027.559,
+    "duration": 3.841
+  },
+  {
+    "text": "accelerate the data loss or not data",
+    "start": 1029.64,
+    "duration": 4.559
+  },
+  {
+    "text": "loss but the data degradation right",
+    "start": 1031.4,
+    "duration": 7.08
+  },
+  {
+    "text": "there's also uh magnetic relaxation and",
+    "start": 1034.199,
+    "duration": 6.961
+  },
+  {
+    "text": "these all kind of sound similar to me so",
+    "start": 1038.48,
+    "duration": 4.959
+  },
+  {
+    "text": "when I looked it up uh it wasn't clear",
+    "start": 1041.16,
+    "duration": 4.12
+  },
+  {
+    "text": "to me what the difference is there",
+    "start": 1043.439,
+    "duration": 3.88
+  },
+  {
+    "text": "there's also a magnetic domain shift",
+    "start": 1045.28,
+    "duration": 3.759
+  },
+  {
+    "text": "which I think is a complete inversion of",
+    "start": 1047.319,
+    "duration": 5.041
+  },
+  {
+    "text": "a flux not sure there so anyway",
+    "start": 1049.039,
+    "duration": 6.241
+  },
+  {
+    "text": "according to reputable sources that I",
+    "start": 1052.36,
+    "duration": 4.92
+  },
+  {
+    "text": "looked at there was like five or six",
+    "start": 1055.28,
+    "duration": 4.24
+  },
+  {
+    "text": "factors that can cause data degradation",
+    "start": 1057.28,
+    "duration": 3.88
+  },
+  {
+    "text": "over time in a drive that's not plugged",
+    "start": 1059.52,
+    "duration": 3.8
+  },
+  {
+    "text": "in so to say you absolutely cannot prove",
+    "start": 1061.16,
+    "duration": 5.8
+  },
+  {
+    "text": "that it happens well it seems to be",
+    "start": 1063.32,
+    "duration": 4.96
+  },
+  {
+    "text": "widely accepted that those are the",
+    "start": 1066.96,
+    "duration": 3.16
+  },
+  {
+    "text": "factors that influence disprove that it",
+    "start": 1068.28,
+    "duration": 4.24
+  },
+  {
+    "text": "never happens yeah yeah it can't",
+    "start": 1070.12,
+    "duration": 4.36
+  },
+  {
+    "text": "disprove a negative sometimes but uh",
+    "start": 1072.52,
+    "duration": 3.72
+  },
+  {
+    "text": "hopefully those examples will be enough",
+    "start": 1074.48,
+    "duration": 4.16
+  },
+  {
+    "text": "to and and again I think with that it's",
+    "start": 1076.24,
+    "duration": 3.319
+  },
+  {
+    "text": "it's",
+    "start": 1078.64,
+    "duration": 3.36
+  },
+  {
+    "text": "there are all sorts of drives SSD",
+    "start": 1079.559,
+    "duration": 5.041
+  },
+  {
+    "text": "specifically well on other drives in all",
+    "start": 1082.0,
+    "duration": 4.159
+  },
+  {
+    "text": "kinds of states and",
+    "start": 1084.6,
+    "duration": 3.439
+  },
+  {
+    "text": "conditions yeah in this case we're only",
+    "start": 1086.159,
+    "duration": 3.121
+  },
+  {
+    "text": "talking about magnetic drives to be",
+    "start": 1088.039,
+    "duration": 2.76
+  },
+  {
+    "text": "clear yeah no but and types of use",
+    "start": 1089.28,
+    "duration": 2.639
+  },
+  {
+    "text": "people that use them regularly",
+    "start": 1090.799,
+    "duration": 2.76
+  },
+  {
+    "text": "frequently one that sits for a while one",
+    "start": 1091.919,
+    "duration": 3.401
+  },
+  {
+    "text": "that moves from your car to your house",
+    "start": 1093.559,
+    "duration": 3.48
+  },
+  {
+    "text": "and you know you're in Saskatchewan or",
+    "start": 1095.32,
+    "duration": 3.2
+  },
+  {
+    "text": "whatever and weather and temperatures",
+    "start": 1097.039,
+    "duration": 3.52
+  },
+  {
+    "text": "and all sorts of conditions uh so when",
+    "start": 1098.52,
+    "duration": 4.44
+  },
+  {
+    "text": "you start experiencing some difficulties",
+    "start": 1100.559,
+    "duration": 5.321
+  },
+  {
+    "text": "with it that may be an option to try and",
+    "start": 1102.96,
+    "duration": 4.92
+  },
+  {
+    "text": "address that when you're getting down to",
+    "start": 1105.88,
+    "duration": 4.279
+  },
+  {
+    "text": "sort of hm this is isn't performing like",
+    "start": 1107.88,
+    "duration": 4.679
+  },
+  {
+    "text": "it used to or should you know one thing",
+    "start": 1110.159,
+    "duration": 3.76
+  },
+  {
+    "text": "I've wondered too and thinking about",
+    "start": 1112.559,
+    "duration": 4.081
+  },
+  {
+    "text": "this is I had installed an st 251 Drive",
+    "start": 1113.919,
+    "duration": 4.88
+  },
+  {
+    "text": "in my pdp11 and I formatted it while it",
+    "start": 1116.64,
+    "duration": 5.0
+  },
+  {
+    "text": "was laying down and then when I stood it",
+    "start": 1118.799,
+    "duration": 5.081
+  },
+  {
+    "text": "up and mounted it sideways I was getting",
+    "start": 1121.64,
+    "duration": 4.8
+  },
+  {
+    "text": "all these SE AES and stuff right and so",
+    "start": 1123.88,
+    "duration": 5.0
+  },
+  {
+    "text": "it was having some kind of issue because",
+    "start": 1126.44,
+    "duration": 4.28
+  },
+  {
+    "text": "maybe there was just enough shift in the",
+    "start": 1128.88,
+    "duration": 3.56
+  },
+  {
+    "text": "seek mechanism that when gravity was",
+    "start": 1130.72,
+    "duration": 3.199
+  },
+  {
+    "text": "going the other way it wasn't properly",
+    "start": 1132.44,
+    "duration": 4.0
+  },
+  {
+    "text": "aligning tracks but it was mostly able",
+    "start": 1133.919,
+    "duration": 4.12
+  },
+  {
+    "text": "to read the disc I wonder if I could run",
+    "start": 1136.44,
+    "duration": 4.2
+  },
+  {
+    "text": "a spin right test or pass at that point",
+    "start": 1138.039,
+    "duration": 4.601
+  },
+  {
+    "text": "and get it to read and rewrite the data",
+    "start": 1140.64,
+    "duration": 4.0
+  },
+  {
+    "text": "and if it could read everything and",
+    "start": 1142.64,
+    "duration": 4.2
+  },
+  {
+    "text": "rewrite it then it should be fresh and",
+    "start": 1144.64,
+    "duration": 4.0
+  },
+  {
+    "text": "now set to the new weird alignment of",
+    "start": 1146.84,
+    "duration": 4.12
+  },
+  {
+    "text": "the drive being mounted the other way i'",
+    "start": 1148.64,
+    "duration": 3.44
+  },
+  {
+    "text": "I'd be curious if you could actually",
+    "start": 1150.96,
+    "duration": 2.88
+  },
+  {
+    "text": "recreate that",
+    "start": 1152.08,
+    "duration": 3.64
+  },
+  {
+    "text": "condition well there's also a belt",
+    "start": 1153.84,
+    "duration": 4.56
+  },
+  {
+    "text": "sander in there that I didn't mention",
+    "start": 1155.72,
+    "duration": 5.64
+  },
+  {
+    "text": "but put the drive horizontal again",
+    "start": 1158.4,
+    "duration": 5.759
+  },
+  {
+    "text": "reformat it put it in its vertical",
+    "start": 1161.36,
+    "duration": 4.08
+  },
+  {
+    "text": "condition and see if you get the same",
+    "start": 1164.159,
+    "duration": 2.601
+  },
+  {
+    "text": "experience as last time where it's",
+    "start": 1165.44,
+    "duration": 3.4
+  },
+  {
+    "text": "having a problem with parts of it yeah",
+    "start": 1166.76,
+    "duration": 3.0
+  },
+  {
+    "text": "yeah that would be an interesting",
+    "start": 1168.84,
+    "duration": 2.76
+  },
+  {
+    "text": "experiment probably specific to that",
+    "start": 1169.76,
+    "duration": 3.36
+  },
+  {
+    "text": "drive and the amount of wear on it but I",
+    "start": 1171.6,
+    "duration": 3.24
+  },
+  {
+    "text": "could try it with that drive I mean it",
+    "start": 1173.12,
+    "duration": 3.64
+  },
+  {
+    "text": "might be neat cuz you've you've uh the",
+    "start": 1174.84,
+    "duration": 3.68
+  },
+  {
+    "text": "problem's been addressed now right",
+    "start": 1176.76,
+    "duration": 3.919
+  },
+  {
+    "text": "you've reformatted yeah I reformatt did",
+    "start": 1178.52,
+    "duration": 4.08
+  },
+  {
+    "text": "a new lowle format yeah so if you could",
+    "start": 1180.679,
+    "duration": 3.561
+  },
+  {
+    "text": "Rec recreate that condition then you",
+    "start": 1182.6,
+    "duration": 3.04
+  },
+  {
+    "text": "could do the spin right thing and try it",
+    "start": 1184.24,
+    "duration": 2.84
+  },
+  {
+    "text": "but yeah someday when you're bored like",
+    "start": 1185.64,
+    "duration": 5.12
+  },
+  {
+    "text": "tomorrow um MC picoli how about some",
+    "start": 1187.08,
+    "duration": 6.88
+  },
+  {
+    "text": "objective non- anecdotal",
+    "start": 1190.76,
+    "duration": 5.44
+  },
+  {
+    "text": "data well I think I mentioned why I",
+    "start": 1193.96,
+    "duration": 4.959
+  },
+  {
+    "text": "could not do that for the SSD case and I",
+    "start": 1196.2,
+    "duration": 4.719
+  },
+  {
+    "text": "did do it for the MFM case I did run it",
+    "start": 1198.919,
+    "duration": 4.201
+  },
+  {
+    "text": "on my drive and it seemed to work well",
+    "start": 1200.919,
+    "duration": 6.081
+  },
+  {
+    "text": "still works um so it's hard I mean I",
+    "start": 1203.12,
+    "duration": 5.559
+  },
+  {
+    "text": "didn't have a drive that was failing on",
+    "start": 1207.0,
+    "duration": 3.76
+  },
+  {
+    "text": "hand with some marginal readable sectors",
+    "start": 1208.679,
+    "duration": 3.721
+  },
+  {
+    "text": "to go and prove that the software was",
+    "start": 1210.76,
+    "duration": 4.039
+  },
+  {
+    "text": "able to recover that specific scenario",
+    "start": 1212.4,
+    "duration": 4.8
+  },
+  {
+    "text": "yeah so yeah I guess more data would be",
+    "start": 1214.799,
+    "duration": 4.561
+  },
+  {
+    "text": "nice but I ran every scenario that I had",
+    "start": 1217.2,
+    "duration": 5.16
+  },
+  {
+    "text": "access to here so yeah as comprehensive",
+    "start": 1219.36,
+    "duration": 6.64
+  },
+  {
+    "text": "as you can get yeah uh huj do drives",
+    "start": 1222.36,
+    "duration": 5.08
+  },
+  {
+    "text": "actually provide a mechanism for",
+    "start": 1226.0,
+    "duration": 3.28
+  },
+  {
+    "text": "reporting the strength of magnetic",
+    "start": 1227.44,
+    "duration": 4.119
+  },
+  {
+    "text": "charge to a third-party",
+    "start": 1229.28,
+    "duration": 4.279
+  },
+  {
+    "text": "application it depends on the type of",
+    "start": 1231.559,
+    "duration": 6.12
+  },
+  {
+    "text": "drive so yes to MFM drives yes to rll",
+    "start": 1233.559,
+    "duration": 7.921
+  },
+  {
+    "text": "drives no to what is it edsi or esdi",
+    "start": 1237.679,
+    "duration": 6.721
+  },
+  {
+    "text": "enhanced system device interface esdi y",
+    "start": 1241.48,
+    "duration": 4.439
+  },
+  {
+    "text": "EST I was the first one where I don't",
+    "start": 1244.4,
+    "duration": 3.08
+  },
+  {
+    "text": "think you could get the flux information",
+    "start": 1245.919,
+    "duration": 4.88
+  },
+  {
+    "text": "anymore you can on FM formatted floppy",
+    "start": 1247.48,
+    "duration": 8.0
+  },
+  {
+    "text": "drives you can on s506 drives s412",
+    "start": 1250.799,
+    "duration": 9.161
+  },
+  {
+    "text": "drives all those interfaces what else",
+    "start": 1255.48,
+    "duration": 8.439
+  },
+  {
+    "text": "um oh Commodore Apple floppies sa400",
+    "start": 1259.96,
+    "duration": 5.599
+  },
+  {
+    "text": "workstation so there's lots of machines",
+    "start": 1263.919,
+    "duration": 4.681
+  },
+  {
+    "text": "where you can if you go get a 20",
+    "start": 1265.559,
+    "duration": 7.161
+  },
+  {
+    "text": "terabyte vacuum or vacuum and helium",
+    "start": 1268.6,
+    "duration": 6.64
+  },
+  {
+    "text": "filled you know Barracuda driver whoever",
+    "start": 1272.72,
+    "duration": 4.72
+  },
+  {
+    "text": "makes drives that big now I'm going to",
+    "start": 1275.24,
+    "duration": 4.0
+  },
+  {
+    "text": "guess that there's no direct interface",
+    "start": 1277.44,
+    "duration": 3.44
+  },
+  {
+    "text": "unless there's a sideband interface like",
+    "start": 1279.24,
+    "duration": 4.12
+  },
+  {
+    "text": "a diagnostic or a smart interface that",
+    "start": 1280.88,
+    "duration": 5.159
+  },
+  {
+    "text": "you can request it in the original old",
+    "start": 1283.36,
+    "duration": 3.919
+  },
+  {
+    "text": "drives the reason you could do it is",
+    "start": 1286.039,
+    "duration": 2.681
+  },
+  {
+    "text": "because the buffer you got back was kind",
+    "start": 1287.279,
+    "duration": 3.041
+  },
+  {
+    "text": "of like a signal buffer as opposed to a",
+    "start": 1288.72,
+    "duration": 4.24
+  },
+  {
+    "text": "data buffer okay and so these days it's",
+    "start": 1290.32,
+    "duration": 4.239
+  },
+  {
+    "text": "a data buffer and you have no",
+    "start": 1292.96,
+    "duration": 3.88
+  },
+  {
+    "text": "participation as far as I know in what",
+    "start": 1294.559,
+    "duration": 5.201
+  },
+  {
+    "text": "the flux looks like so any claims about",
+    "start": 1296.84,
+    "duration": 6.36
+  },
+  {
+    "text": "being able to read and diagnose the flux",
+    "start": 1299.76,
+    "duration": 5.799
+  },
+  {
+    "text": "are on drives where that is possible",
+    "start": 1303.2,
+    "duration": 4.16
+  },
+  {
+    "text": "okay uh it's interesting you mentioned",
+    "start": 1305.559,
+    "duration": 4.801
+  },
+  {
+    "text": "the helium drive so console 2006 says",
+    "start": 1307.36,
+    "duration": 4.84
+  },
+  {
+    "text": "would helium field drivve still work if",
+    "start": 1310.36,
+    "duration": 4.96
+  },
+  {
+    "text": "all the gas Escape",
+    "start": 1312.2,
+    "duration": 5.599
+  },
+  {
+    "text": "escapes uh I don't think they'd explode",
+    "start": 1315.32,
+    "duration": 3.88
+  },
+  {
+    "text": "or anything they might get noisy you're",
+    "start": 1317.799,
+    "duration": 2.681
+  },
+  {
+    "text": "going to have a lot of turbulence they",
+    "start": 1319.2,
+    "duration": 3.64
+  },
+  {
+    "text": "might run harder they might run slower",
+    "start": 1320.48,
+    "duration": 3.72
+  },
+  {
+    "text": "because the helium is there because it's",
+    "start": 1322.84,
+    "duration": 5.28
+  },
+  {
+    "text": "way less dense and uh the drive and I",
+    "start": 1324.2,
+    "duration": 5.599
+  },
+  {
+    "text": "think it also changes the speed of sound",
+    "start": 1328.12,
+    "duration": 3.6
+  },
+  {
+    "text": "I'm not sure to what extent that's",
+    "start": 1329.799,
+    "duration": 4.681
+  },
+  {
+    "text": "important I remember when I was at uh",
+    "start": 1331.72,
+    "duration": 4.079
+  },
+  {
+    "text": "when we were in grade nine we all went",
+    "start": 1334.48,
+    "duration": 3.04
+  },
+  {
+    "text": "and did like intern days somewhere I",
+    "start": 1335.799,
+    "duration": 3.281
+  },
+  {
+    "text": "went and worked in an IBM data center",
+    "start": 1337.52,
+    "duration": 3.96
+  },
+  {
+    "text": "for a day and the guy was telling me",
+    "start": 1339.08,
+    "duration": 4.36
+  },
+  {
+    "text": "that in the big IBM disc packs they were",
+    "start": 1341.48,
+    "duration": 5.24
+  },
+  {
+    "text": "vacuumed down to increase the speed of",
+    "start": 1343.44,
+    "duration": 4.56
+  },
+  {
+    "text": "sound so that the heads didn't make",
+    "start": 1346.72,
+    "duration": 3.319
+  },
+  {
+    "text": "little Sonic booms as I moved around",
+    "start": 1348.0,
+    "duration": 3.279
+  },
+  {
+    "text": "which impressed the hell out of me and I",
+    "start": 1350.039,
+    "duration": 2.64
+  },
+  {
+    "text": "still don't know to this day if that's",
+    "start": 1351.279,
+    "duration": 3.441
+  },
+  {
+    "text": "actually true have to find we're stating",
+    "start": 1352.679,
+    "duration": 4.281
+  },
+  {
+    "text": "it is true right now I'm spreading the",
+    "start": 1354.72,
+    "duration": 5.24
+  },
+  {
+    "text": "rumor yeah it's data no",
+    "start": 1356.96,
+    "duration": 7.839
+  },
+  {
+    "text": "anecdote uh Harry Lumsden what no inter",
+    "start": 1359.96,
+    "duration": 7.319
+  },
+  {
+    "text": "leavea yeah the last Drive I format was",
+    "start": 1364.799,
+    "duration": 5.041
+  },
+  {
+    "text": "three to one which is really slow I",
+    "start": 1367.279,
+    "duration": 3.76
+  },
+  {
+    "text": "think we talked about inter leave in the",
+    "start": 1369.84,
+    "duration": 2.68
+  },
+  {
+    "text": "previous episode so I won't go back and",
+    "start": 1371.039,
+    "duration": 4.321
+  },
+  {
+    "text": "explain it but uh yeah everything else",
+    "start": 1372.52,
+    "duration": 4.88
+  },
+  {
+    "text": "everything modern is one to one yeah",
+    "start": 1375.36,
+    "duration": 6.12
+  },
+  {
+    "text": "there you go um herzog's Buick car guy",
+    "start": 1377.4,
+    "duration": 6.56
+  },
+  {
+    "text": "apparently uh in my 30 years of computer",
+    "start": 1381.48,
+    "duration": 5.079
+  },
+  {
+    "text": "experience he's counting since he was 8",
+    "start": 1383.96,
+    "duration": 4.76
+  },
+  {
+    "text": "years old thank you very much he's never",
+    "start": 1386.559,
+    "duration": 3.641
+  },
+  {
+    "text": "heard of hard drives failing due to",
+    "start": 1388.72,
+    "duration": 3.36
+  },
+  {
+    "text": "Magnetic losses never experienced it",
+    "start": 1390.2,
+    "duration": 4.16
+  },
+  {
+    "text": "that I know of either get hard drives",
+    "start": 1392.08,
+    "duration": 3.8
+  },
+  {
+    "text": "another computer parts from the trash",
+    "start": 1394.36,
+    "duration": 3.0
+  },
+  {
+    "text": "used to live in Australia so he' take",
+    "start": 1395.88,
+    "duration": 3.12
+  },
+  {
+    "text": "them on planes back and forth to the US",
+    "start": 1397.36,
+    "duration": 3.36
+  },
+  {
+    "text": "driven thousands and thousands and",
+    "start": 1399.0,
+    "duration": 4.48
+  },
+  {
+    "text": "thousands that's like 3 thousands um of",
+    "start": 1400.72,
+    "duration": 5.04
+  },
+  {
+    "text": "miles with them cross country Coast to",
+    "start": 1403.48,
+    "duration": 4.28
+  },
+  {
+    "text": "Coast Alaska back how often did this",
+    "start": 1405.76,
+    "duration": 4.0
+  },
+  {
+    "text": "happen I've had plenty of sectors go bad",
+    "start": 1407.76,
+    "duration": 3.76
+  },
+  {
+    "text": "but never once that I can think of did",
+    "start": 1409.76,
+    "duration": 4.96
+  },
+  {
+    "text": "they have bad data and then we're fine",
+    "start": 1411.52,
+    "duration": 4.6
+  },
+  {
+    "text": "really now I had a different experience",
+    "start": 1414.72,
+    "duration": 3.16
+  },
+  {
+    "text": "probably because I was a PCT Tech and so",
+    "start": 1416.12,
+    "duration": 3.24
+  },
+  {
+    "text": "I was working with a lot of people's",
+    "start": 1417.88,
+    "duration": 3.64
+  },
+  {
+    "text": "data problems and so the machines would",
+    "start": 1419.36,
+    "duration": 3.4
+  },
+  {
+    "text": "come to me and they'd be like oh we got",
+    "start": 1421.52,
+    "duration": 4.0
+  },
+  {
+    "text": "a read a and abort retry fail ignore",
+    "start": 1422.76,
+    "duration": 4.84
+  },
+  {
+    "text": "what do I do so the first thing I would",
+    "start": 1425.52,
+    "duration": 4.36
+  },
+  {
+    "text": "do is to run Richard Jernigan's scan dis",
+    "start": 1427.6,
+    "duration": 4.0
+  },
+  {
+    "text": "which is the guy that was an intern with",
+    "start": 1429.88,
+    "duration": 5.36
+  },
+  {
+    "text": "me in my office in '93 wrote ScanDisk as",
+    "start": 1431.6,
+    "duration": 6.84
+  },
+  {
+    "text": "his project and uh it's great program",
+    "start": 1435.24,
+    "duration": 4.96
+  },
+  {
+    "text": "doesn't do any repair other than at the",
+    "start": 1438.44,
+    "duration": 3.44
+  },
+  {
+    "text": "file system level but it's very good at",
+    "start": 1440.2,
+    "duration": 5.0
+  },
+  {
+    "text": "that so if the if the drive can be read",
+    "start": 1441.88,
+    "duration": 4.76
+  },
+  {
+    "text": "it will go and it will recover and",
+    "start": 1445.2,
+    "duration": 3.04
+  },
+  {
+    "text": "reconstruct the file system as best as",
+    "start": 1446.64,
+    "duration": 4.32
+  },
+  {
+    "text": "can be done but if that didn't fix it",
+    "start": 1448.24,
+    "duration": 4.48
+  },
+  {
+    "text": "then I would run a spin right pass and",
+    "start": 1450.96,
+    "duration": 5.88
+  },
+  {
+    "text": "this is back in the s506 s412 Daves and",
+    "start": 1452.72,
+    "duration": 7.199
+  },
+  {
+    "text": "uh I don't know 25% of the time maybe it",
+    "start": 1456.84,
+    "duration": 5.959
+  },
+  {
+    "text": "fixes the problem and I don't even know",
+    "start": 1459.919,
+    "duration": 4.12
+  },
+  {
+    "text": "in those days if we said oh now you",
+    "start": 1462.799,
+    "duration": 2.88
+  },
+  {
+    "text": "should back up your data and get a new",
+    "start": 1464.039,
+    "duration": 3.52
+  },
+  {
+    "text": "hard drive CU that would be the first",
+    "start": 1465.679,
+    "duration": 4.081
+  },
+  {
+    "text": "thing I would do today right like the",
+    "start": 1467.559,
+    "duration": 3.801
+  },
+  {
+    "text": "moment the sector was readable I'd be",
+    "start": 1469.76,
+    "duration": 3.96
+  },
+  {
+    "text": "saving it somewhere but I don't remember",
+    "start": 1471.36,
+    "duration": 4.679
+  },
+  {
+    "text": "what we said in those days it's funny I",
+    "start": 1473.72,
+    "duration": 4.0
+  },
+  {
+    "text": "haven't thought a scan disc I'm like oh",
+    "start": 1476.039,
+    "duration": 3.401
+  },
+  {
+    "text": "yeah I'm flashing back now I'm sure I",
+    "start": 1477.72,
+    "duration": 3.439
+  },
+  {
+    "text": "was running that at work",
+    "start": 1479.44,
+    "duration": 5.599
+  },
+  {
+    "text": "too yeah the backup was not the yeah",
+    "start": 1481.159,
+    "duration": 7.361
+  },
+  {
+    "text": "that was never the first go-to was it",
+    "start": 1485.039,
+    "duration": 6.721
+  },
+  {
+    "text": "no so herzog's Buick then he's he's been",
+    "start": 1488.52,
+    "duration": 4.759
+  },
+  {
+    "text": "pretty fortunate with his adventures",
+    "start": 1491.76,
+    "duration": 3.48
+  },
+  {
+    "text": "then so I would think so you're a lucky",
+    "start": 1493.279,
+    "duration": 2.88
+  },
+  {
+    "text": "dude",
+    "start": 1495.24,
+    "duration": 4.6
+  },
+  {
+    "text": "there uh maybe it's the Buick maybe it's",
+    "start": 1496.159,
+    "duration": 5.24
+  },
+  {
+    "text": "maybe he's transporting him in his Buick",
+    "start": 1499.84,
+    "duration": 3.319
+  },
+  {
+    "text": "and that's why they're doing all fight",
+    "start": 1501.399,
+    "duration": 4.561
+  },
+  {
+    "text": "uh RC Dennis is there data loss if",
+    "start": 1503.159,
+    "duration": 5.24
+  },
+  {
+    "text": "there's a power outage yeah I think",
+    "start": 1505.96,
+    "duration": 4.719
+  },
+  {
+    "text": "anytime you're R to the drive and you",
+    "start": 1508.399,
+    "duration": 6.321
+  },
+  {
+    "text": "pull the power on an old drive like that",
+    "start": 1510.679,
+    "duration": 7.641
+  },
+  {
+    "text": "um yeah you're at the risk of data loss",
+    "start": 1514.72,
+    "duration": 6.679
+  },
+  {
+    "text": "expect data loss there are some cool new",
+    "start": 1518.32,
+    "duration": 4.68
+  },
+  {
+    "text": "features that I don't know a great deal",
+    "start": 1521.399,
+    "duration": 2.921
+  },
+  {
+    "text": "about but they actually use the",
+    "start": 1523.0,
+    "duration": 3.88
+  },
+  {
+    "text": "mechanical energy of the rotating drive",
+    "start": 1524.32,
+    "duration": 4.359
+  },
+  {
+    "text": "so that when the power dies they say",
+    "start": 1526.88,
+    "duration": 4.679
+  },
+  {
+    "text": "Okay run the drive motor backwards as a",
+    "start": 1528.679,
+    "duration": 4.72
+  },
+  {
+    "text": "generator and use that power to finish",
+    "start": 1531.559,
+    "duration": 3.881
+  },
+  {
+    "text": "and commit the right which I think is",
+    "start": 1533.399,
+    "duration": 3.88
+  },
+  {
+    "text": "really cool and I'd like to see and try",
+    "start": 1535.44,
+    "duration": 3.32
+  },
+  {
+    "text": "it but I don't have any drives that do",
+    "start": 1537.279,
+    "duration": 3.961
+  },
+  {
+    "text": "that so or any way to test it but on",
+    "start": 1538.76,
+    "duration": 3.84
+  },
+  {
+    "text": "paper it sounds",
+    "start": 1541.24,
+    "duration": 4.799
+  },
+  {
+    "text": "amazing Peter Richards and you're not",
+    "start": 1542.6,
+    "duration": 5.199
+  },
+  {
+    "text": "and he spelled your correctly so that's",
+    "start": 1546.039,
+    "duration": 4.401
+  },
+  {
+    "text": "excellent um how does this program",
+    "start": 1547.799,
+    "duration": 4.281
+  },
+  {
+    "text": "justify its immensely intensive",
+    "start": 1550.44,
+    "duration": 3.4
+  },
+  {
+    "text": "operation on the drive against the",
+    "start": 1552.08,
+    "duration": 3.839
+  },
+  {
+    "text": "intrinsic limitations of a physical hard",
+    "start": 1553.84,
+    "duration": 5.439
+  },
+  {
+    "text": "drive um then he goes on he says I'm m",
+    "start": 1555.919,
+    "duration": 5.961
+  },
+  {
+    "text": "on magnetic drives with mechanical Parts",
+    "start": 1559.279,
+    "duration": 4.161
+  },
+  {
+    "text": "this might sound like a good idea until",
+    "start": 1561.88,
+    "duration": 3.72
+  },
+  {
+    "text": "you wait against the meantime between",
+    "start": 1563.44,
+    "duration": 4.0
+  },
+  {
+    "text": "failure that every one of these drives",
+    "start": 1565.6,
+    "duration": 4.36
+  },
+  {
+    "text": "has yeah but the ntbf even on an old",
+    "start": 1567.44,
+    "duration": 4.839
+  },
+  {
+    "text": "crappy Drive is probably 150,000 hours",
+    "start": 1569.96,
+    "duration": 3.64
+  },
+  {
+    "text": "and if it's spin right past it's going",
+    "start": 1572.279,
+    "duration": 4.561
+  },
+  {
+    "text": "to take 15 hours that's one 10,000th of",
+    "start": 1573.6,
+    "duration": 5.36
+  },
+  {
+    "text": "the life of the drive so not something",
+    "start": 1576.84,
+    "duration": 4.6
+  },
+  {
+    "text": "you should be in your boot script but uh",
+    "start": 1578.96,
+    "duration": 5.599
+  },
+  {
+    "text": "I think 11,000 of the life of the drive",
+    "start": 1581.44,
+    "duration": 5.2
+  },
+  {
+    "text": "if my math is right if I'm if I'm right",
+    "start": 1584.559,
+    "duration": 4.48
+  },
+  {
+    "text": "about that sounds right what you say",
+    "start": 1586.64,
+    "duration": 5.0
+  },
+  {
+    "text": "we'll go with it 15 150,000 hours",
+    "start": 1589.039,
+    "duration": 4.721
+  },
+  {
+    "text": "between failures and you're going to run",
+    "start": 1591.64,
+    "duration": 4.84
+  },
+  {
+    "text": "it for 15 hours yeah that's like 110,000",
+    "start": 1593.76,
+    "duration": 6.24
+  },
+  {
+    "text": "of its life there you go and again like",
+    "start": 1596.48,
+    "duration": 4.6
+  },
+  {
+    "text": "you said this isn't something you're",
+    "start": 1600.0,
+    "duration": 4.799
+  },
+  {
+    "text": "doing daily right yeah so yeah same with",
+    "start": 1601.08,
+    "duration": 5.599
+  },
+  {
+    "text": "ssds I mean it gives me the willies to",
+    "start": 1604.799,
+    "duration": 3.48
+  },
+  {
+    "text": "run something that right intensive on an",
+    "start": 1606.679,
+    "duration": 4.041
+  },
+  {
+    "text": "SSD right but at the same time if your",
+    "start": 1608.279,
+    "duration": 5.201
+  },
+  {
+    "text": "SSD can't handle one days constant",
+    "start": 1610.72,
+    "duration": 7.16
+  },
+  {
+    "text": "writing that's pretty weak yeah yeah uh",
+    "start": 1613.48,
+    "duration": 6.0
+  },
+  {
+    "text": "need Dragon",
+    "start": 1617.88,
+    "duration": 5.039
+  },
+  {
+    "text": "1962 should you defrag a spinning rust",
+    "start": 1619.48,
+    "duration": 7.6
+  },
+  {
+    "text": "hard drive yes can you defrag an SSD yes",
+    "start": 1622.919,
+    "duration": 5.64
+  },
+  {
+    "text": "oh this is a question where he answers",
+    "start": 1627.08,
+    "duration": 4.68
+  },
+  {
+    "text": "them too okay good that doesn't mean you",
+    "start": 1628.559,
+    "duration": 5.681
+  },
+  {
+    "text": "should yeah so he says should you defrag",
+    "start": 1631.76,
+    "duration": 4.2
+  },
+  {
+    "text": "a spinning rust TI Drive yes can you",
+    "start": 1634.24,
+    "duration": 3.76
+  },
+  {
+    "text": "defrag an SSD yes that doesn't mean you",
+    "start": 1635.96,
+    "duration": 4.16
+  },
+  {
+    "text": "should as long as Windows knows it's a",
+    "start": 1638.0,
+    "duration": 3.799
+  },
+  {
+    "text": "solid state drive it will run a command",
+    "start": 1640.12,
+    "duration": 4.039
+  },
+  {
+    "text": "called trim at boot or shutdown and that",
+    "start": 1641.799,
+    "duration": 4.0
+  },
+  {
+    "text": "achieves a defrag by the hard drive's",
+    "start": 1644.159,
+    "duration": 3.481
+  },
+  {
+    "text": "own logic and control not the operating",
+    "start": 1645.799,
+    "duration": 4.0
+  },
+  {
+    "text": "system said that results in a much less",
+    "start": 1647.64,
+    "duration": 3.519
+  },
+  {
+    "text": "wear and tear in the hard drive and",
+    "start": 1649.799,
+    "duration": 3.841
+  },
+  {
+    "text": "longer life um as long as window knows",
+    "start": 1651.159,
+    "duration": 4.281
+  },
+  {
+    "text": "it's dealing with an SSD which it should",
+    "start": 1653.64,
+    "duration": 4.039
+  },
+  {
+    "text": "know then it'll deal with it just fine",
+    "start": 1655.44,
+    "duration": 3.76
+  },
+  {
+    "text": "uh he says he'd still run the disc",
+    "start": 1657.679,
+    "duration": 3.24
+  },
+  {
+    "text": "cleanup every now and then like every",
+    "start": 1659.2,
+    "duration": 4.839
+  },
+  {
+    "text": "time there's a major Windows",
+    "start": 1660.919,
+    "duration": 3.12
+  },
+  {
+    "text": "update any ideas on that one yeah I'd",
+    "start": 1664.24,
+    "duration": 4.6
+  },
+  {
+    "text": "say as long as you're getting some trim",
+    "start": 1667.519,
+    "duration": 2.481
+  },
+  {
+    "text": "you're doing",
+    "start": 1668.84,
+    "duration": 3.4
+  },
+  {
+    "text": "okay somebody's got to be issuing the",
+    "start": 1670.0,
+    "duration": 3.96
+  },
+  {
+    "text": "trim command to the drive though and so",
+    "start": 1672.24,
+    "duration": 3.559
+  },
+  {
+    "text": "if your operating system is doing it",
+    "start": 1673.96,
+    "duration": 3.68
+  },
+  {
+    "text": "yeah oh yeah what did you think I meant",
+    "start": 1675.799,
+    "duration": 3.641
+  },
+  {
+    "text": "nothing",
+    "start": 1677.64,
+    "duration": 5.12
+  },
+  {
+    "text": "nothing so yes and I think we covered",
+    "start": 1679.44,
+    "duration": 4.959
+  },
+  {
+    "text": "this pretty much already in an earlier",
+    "start": 1682.76,
+    "duration": 3.159
+  },
+  {
+    "text": "question or in two different questions",
+    "start": 1684.399,
+    "duration": 3.481
+  },
+  {
+    "text": "about we're not saying defrag the file",
+    "start": 1685.919,
+    "duration": 5.721
+  },
+  {
+    "text": "system yeah and uh yes trim is probably",
+    "start": 1687.88,
+    "duration": 6.08
+  },
+  {
+    "text": "to my understanding going to do much the",
+    "start": 1691.64,
+    "duration": 3.68
+  },
+  {
+    "text": "same thing yeah I don't think you",
+    "start": 1693.96,
+    "duration": 4.4
+  },
+  {
+    "text": "mentioned uh Paul in Francis uh does",
+    "start": 1695.32,
+    "duration": 4.479
+  },
+  {
+    "text": "this have any Merit if you're using a",
+    "start": 1698.36,
+    "duration": 6.12
+  },
+  {
+    "text": "ZFS sorry ZFS and run a scrub",
+    "start": 1699.799,
+    "duration": 8.641
+  },
+  {
+    "text": "periodically um yes so ZFS scrub scrub",
+    "start": 1704.48,
+    "duration": 6.679
+  },
+  {
+    "text": "and a btrfs scrub these are the two I",
+    "start": 1708.44,
+    "duration": 4.2
+  },
+  {
+    "text": "checked into they will both go through",
+    "start": 1711.159,
+    "duration": 4.52
+  },
+  {
+    "text": "and read all the data which makes helps",
+    "start": 1712.64,
+    "duration": 7.2
+  },
+  {
+    "text": "with bit rot and but they don't rewrite",
+    "start": 1715.679,
+    "duration": 6.36
+  },
+  {
+    "text": "the data oh okay so if there is any",
+    "start": 1719.84,
+    "duration": 5.6
+  },
+  {
+    "text": "value in inverting writing re inverting",
+    "start": 1722.039,
+    "duration": 7.441
+  },
+  {
+    "text": "rewriting to redo the bits on a modern",
+    "start": 1725.44,
+    "duration": 7.56
+  },
+  {
+    "text": "Drive yeah then btfr",
+    "start": 1729.48,
+    "duration": 8.64
+  },
+  {
+    "text": "btrfs and ZFS don't ZFS okay okay uh",
+    "start": 1733.0,
+    "duration": 7.72
+  },
+  {
+    "text": "Royal 395 probably a dumb question no",
+    "start": 1738.12,
+    "duration": 4.159
+  },
+  {
+    "text": "dumb questions but what happens if you",
+    "start": 1740.72,
+    "duration": 3.199
+  },
+  {
+    "text": "have a RAID",
+    "start": 1742.279,
+    "duration": 3.801
+  },
+  {
+    "text": "controller if you have a RAID controller",
+    "start": 1743.919,
+    "duration": 3.521
+  },
+  {
+    "text": "then you probably don't have the access",
+    "start": 1746.08,
+    "duration": 3.36
+  },
+  {
+    "text": "to the drive to do anything with it",
+    "start": 1747.44,
+    "duration": 4.28
+  },
+  {
+    "text": "that's interesting so if it's a hardware",
+    "start": 1749.44,
+    "duration": 4.719
+  },
+  {
+    "text": "RAID controller right uh if it's just an",
+    "start": 1751.72,
+    "duration": 4.28
+  },
+  {
+    "text": "HBA then you're probably okay because",
+    "start": 1754.159,
+    "duration": 3.201
+  },
+  {
+    "text": "the SATA interface will pass things",
+    "start": 1756.0,
+    "duration": 4.96
+  },
+  {
+    "text": "along HBA on a dedicated rid controller",
+    "start": 1757.36,
+    "duration": 6.36
+  },
+  {
+    "text": "host bus adapter allows you to plug like",
+    "start": 1760.96,
+    "duration": 5.8
+  },
+  {
+    "text": "eight SATA drives into your PCI bus PCI",
+    "start": 1763.72,
+    "duration": 7.92
+  },
+  {
+    "text": "E bus yeah yeah um Stein BOS so how can",
+    "start": 1766.76,
+    "duration": 7.799
+  },
+  {
+    "text": "you tell if say a 4 tbte USB drive with",
+    "start": 1771.64,
+    "duration": 5.879
+  },
+  {
+    "text": "valuable data is getting close to fail",
+    "start": 1774.559,
+    "duration": 4.561
+  },
+  {
+    "text": "the USB",
+    "start": 1777.519,
+    "duration": 4.121
+  },
+  {
+    "text": "drive I would say the moment you got any",
+    "start": 1779.12,
+    "duration": 4.439
+  },
+  {
+    "text": "indication of any kind of error with the",
+    "start": 1781.64,
+    "duration": 4.68
+  },
+  {
+    "text": "drive assume it's about to go but I",
+    "start": 1783.559,
+    "duration": 3.921
+  },
+  {
+    "text": "don't think you usually get much",
+    "start": 1786.32,
+    "duration": 2.92
+  },
+  {
+    "text": "indication I think it either just fails",
+    "start": 1787.48,
+    "duration": 5.72
+  },
+  {
+    "text": "or works for the most part so back it",
+    "start": 1789.24,
+    "duration": 7.24
+  },
+  {
+    "text": "up yeah before it fails Fly Boy hello",
+    "start": 1793.2,
+    "duration": 5.719
+  },
+  {
+    "text": "Sim the real question is how long does",
+    "start": 1796.48,
+    "duration": 4.76
+  },
+  {
+    "text": "this process take it looks like as",
+    "start": 1798.919,
+    "duration": 4.161
+  },
+  {
+    "text": "excruciating as waiting for a hard drive",
+    "start": 1801.24,
+    "duration": 4.439
+  },
+  {
+    "text": "to defrag back in the Windows 95",
+    "start": 1803.08,
+    "duration": 5.319
+  },
+  {
+    "text": "days yeah back in those days if you were",
+    "start": 1805.679,
+    "duration": 4.281
+  },
+  {
+    "text": "going to do a spin right pass it was",
+    "start": 1808.399,
+    "duration": 3.201
+  },
+  {
+    "text": "going to run till the end of the shift",
+    "start": 1809.96,
+    "duration": 3.48
+  },
+  {
+    "text": "and into the night and it was usually",
+    "start": 1811.6,
+    "duration": 4.319
+  },
+  {
+    "text": "done by the next morning so and these",
+    "start": 1813.44,
+    "duration": 4.52
+  },
+  {
+    "text": "were 40 Meg 20 meg drives they weren't",
+    "start": 1815.919,
+    "duration": 4.961
+  },
+  {
+    "text": "big drives either so okay um so how",
+    "start": 1817.96,
+    "duration": 4.8
+  },
+  {
+    "text": "long's the spin right process take right",
+    "start": 1820.88,
+    "duration": 4.48
+  },
+  {
+    "text": "now then on these modern",
+    "start": 1822.76,
+    "duration": 4.919
+  },
+  {
+    "text": "drives I've never rot it on a massive",
+    "start": 1825.36,
+    "duration": 3.88
+  },
+  {
+    "text": "Drive",
+    "start": 1827.679,
+    "duration": 3.961
+  },
+  {
+    "text": "okay so I don't know the answer to a big",
+    "start": 1829.24,
+    "duration": 6.679
+  },
+  {
+    "text": "big Drive yeah or yeah well what oh oh",
+    "start": 1831.64,
+    "duration": 5.36
+  },
+  {
+    "text": "the other guy was talking about the 4",
+    "start": 1835.919,
+    "duration": 3.721
+  },
+  {
+    "text": "terabyte um Hardley Wan does spin right",
+    "start": 1837.0,
+    "duration": 5.44
+  },
+  {
+    "text": "trigger anti- malware protection no not",
+    "start": 1839.64,
+    "duration": 5.039
+  },
+  {
+    "text": "that I'm aware of shouldn't okay okay",
+    "start": 1842.44,
+    "duration": 3.719
+  },
+  {
+    "text": "plus you're booting it from like a USB",
+    "start": 1844.679,
+    "duration": 3.6
+  },
+  {
+    "text": "stick or a floppy Drive yeah with a",
+    "start": 1846.159,
+    "duration": 3.88
+  },
+  {
+    "text": "dedicated version of you know something",
+    "start": 1848.279,
+    "duration": 2.4
+  },
+  {
+    "text": "like",
+    "start": 1850.039,
+    "duration": 3.441
+  },
+  {
+    "text": "Freds so your malware shouldn't see it",
+    "start": 1850.679,
+    "duration": 5.36
+  },
+  {
+    "text": "at all anti- Weare shouldn't even see it",
+    "start": 1853.48,
+    "duration": 8.439
+  },
+  {
+    "text": "uh Oz 2 or o Z2 or oz2 let's go with oz2",
+    "start": 1856.039,
+    "duration": 7.52
+  },
+  {
+    "text": "uh okay stupid question that's two",
+    "start": 1861.919,
+    "duration": 4.041
+  },
+  {
+    "text": "stupid questions but can we use spin",
+    "start": 1863.559,
+    "duration": 3.881
+  },
+  {
+    "text": "right on current systems it seems",
+    "start": 1865.96,
+    "duration": 3.64
+  },
+  {
+    "text": "unclear as he did use a very very old",
+    "start": 1867.44,
+    "duration": 5.04
+  },
+  {
+    "text": "IBM PC to show off the application uh so",
+    "start": 1869.6,
+    "duration": 5.4
+  },
+  {
+    "text": "from that he's guessing no and if so can",
+    "start": 1872.48,
+    "duration": 4.0
+  },
+  {
+    "text": "you please release a video on what the",
+    "start": 1875.0,
+    "duration": 4.399
+  },
+  {
+    "text": "current OS uh operating systems do to",
+    "start": 1876.48,
+    "duration": 4.199
+  },
+  {
+    "text": "fix this",
+    "start": 1879.399,
+    "duration": 4.481
+  },
+  {
+    "text": "issue I would go directly to Gibson for",
+    "start": 1880.679,
+    "duration": 6.561
+  },
+  {
+    "text": "to Gibson research GRC okay for answers",
+    "start": 1883.88,
+    "duration": 5.08
+  },
+  {
+    "text": "on the",
+    "start": 1887.24,
+    "duration": 4.84
+  },
+  {
+    "text": "impact and U utilization on super modern",
+    "start": 1888.96,
+    "duration": 4.839
+  },
+  {
+    "text": "drives the reason I did it on Old drives",
+    "start": 1892.08,
+    "duration": 3.28
+  },
+  {
+    "text": "is because that's where I understand how",
+    "start": 1893.799,
+    "duration": 4.801
+  },
+  {
+    "text": "it works right right and that goes back",
+    "start": 1895.36,
+    "duration": 5.4
+  },
+  {
+    "text": "to well you were doing that you said",
+    "start": 1898.6,
+    "duration": 3.679
+  },
+  {
+    "text": "that was that little grade nine that one",
+    "start": 1900.76,
+    "duration": 3.12
+  },
+  {
+    "text": "day and another thing and it was this",
+    "start": 1902.279,
+    "duration": 2.801
+  },
+  {
+    "text": "some of the work that was going on at",
+    "start": 1903.88,
+    "duration": 4.399
+  },
+  {
+    "text": "zyon as well no this was more when I was",
+    "start": 1905.08,
+    "duration": 5.839
+  },
+  {
+    "text": "at uh what later got bought by IBM it",
+    "start": 1908.279,
+    "duration": 4.961
+  },
+  {
+    "text": "was called Westbridge oh okay or it was",
+    "start": 1910.919,
+    "duration": 6.0
+  },
+  {
+    "text": "SAS at one point oh right okay yeah okay",
+    "start": 1913.24,
+    "duration": 5.159
+  },
+  {
+    "text": "uh AJ CTO",
+    "start": 1916.919,
+    "duration": 3.081
+  },
+  {
+    "text": "hi Dave does Windows have a feature",
+    "start": 1918.399,
+    "duration": 3.52
+  },
+  {
+    "text": "built in to perform tasks such as what",
+    "start": 1920.0,
+    "duration": 4.159
+  },
+  {
+    "text": "you're describing with spin right um on",
+    "start": 1921.919,
+    "duration": 4.081
+  },
+  {
+    "text": "these newer",
+    "start": 1924.159,
+    "duration": 4.48
+  },
+  {
+    "text": "ssds I believe the trim command is again",
+    "start": 1926.0,
+    "duration": 4.559
+  },
+  {
+    "text": "being referenced here and so as far as I",
+    "start": 1928.639,
+    "duration": 4.321
+  },
+  {
+    "text": "know yes Windows properly handles trim",
+    "start": 1930.559,
+    "duration": 5.0
+  },
+  {
+    "text": "and that's done automatically then is it",
+    "start": 1932.96,
+    "duration": 3.88
+  },
+  {
+    "text": "this trim Comm I'm trying to remember",
+    "start": 1935.559,
+    "duration": 2.401
+  },
+  {
+    "text": "there used to be a check box that you",
+    "start": 1936.84,
+    "duration": 2.679
+  },
+  {
+    "text": "can turn it off and on but I think it's",
+    "start": 1937.96,
+    "duration": 4.599
+  },
+  {
+    "text": "on at the right times okay okay okay um",
+    "start": 1939.519,
+    "duration": 7.801
+  },
+  {
+    "text": "Sean Android um what constitutes modern",
+    "start": 1942.559,
+    "duration": 7.84
+  },
+  {
+    "text": "newer and older he's saying you should",
+    "start": 1947.32,
+    "duration": 4.959
+  },
+  {
+    "text": "be specific CU then maybe you know",
+    "start": 1950.399,
+    "duration": 3.721
+  },
+  {
+    "text": "drives meet after",
+    "start": 1952.279,
+    "duration": 4.28
+  },
+  {
+    "text": "200x have improved handling of we",
+    "start": 1954.12,
+    "duration": 4.24
+  },
+  {
+    "text": "leveling especially since we' be leaving",
+    "start": 1956.559,
+    "duration": 4.641
+  },
+  {
+    "text": "this video up for years so do you have a",
+    "start": 1958.36,
+    "duration": 5.799
+  },
+  {
+    "text": "a more precise guideline on Modern or",
+    "start": 1961.2,
+    "duration": 4.52
+  },
+  {
+    "text": "newer and older drives where yeah",
+    "start": 1964.159,
+    "duration": 3.12
+  },
+  {
+    "text": "instead of going with the newer or older",
+    "start": 1965.72,
+    "duration": 3.12
+  },
+  {
+    "text": "bif foration I would probably look at",
+    "start": 1967.279,
+    "duration": 3.12
+  },
+  {
+    "text": "that list of interfaces I went through",
+    "start": 1968.84,
+    "duration": 4.559
+  },
+  {
+    "text": "earlier the MFM R SD 506 those ones and",
+    "start": 1970.399,
+    "duration": 5.12
+  },
+  {
+    "text": "call those the older ones where you can",
+    "start": 1973.399,
+    "duration": 4.481
+  },
+  {
+    "text": "get access to the actual signals and",
+    "start": 1975.519,
+    "duration": 4.561
+  },
+  {
+    "text": "then newer ones that are like SATA and",
+    "start": 1977.88,
+    "duration": 3.88
+  },
+  {
+    "text": "Beyond where you're not going to get",
+    "start": 1980.08,
+    "duration": 4.64
+  },
+  {
+    "text": "access as far as I know to it okay uh",
+    "start": 1981.76,
+    "duration": 4.84
+  },
+  {
+    "text": "Matthew alur how would I run spin right",
+    "start": 1984.72,
+    "duration": 4.72
+  },
+  {
+    "text": "on my MacBook Pro that's seven years",
+    "start": 1986.6,
+    "duration": 6.64
+  },
+  {
+    "text": "old it's that old yeah Basin Basin notra",
+    "start": 1989.44,
+    "duration": 6.8
+  },
+  {
+    "text": "blinsky Studio says can I run this new",
+    "start": 1993.24,
+    "duration": 4.76
+  },
+  {
+    "text": "version of spin right on Mac OS so",
+    "start": 1996.24,
+    "duration": 3.399
+  },
+  {
+    "text": "there's a couple guys looking for some",
+    "start": 1998.0,
+    "duration": 4.0
+  },
+  {
+    "text": "mac I've never tried it but in theory if",
+    "start": 1999.639,
+    "duration": 5.321
+  },
+  {
+    "text": "you booted it off a USB stick and booted",
+    "start": 2002.0,
+    "duration": 5.0
+  },
+  {
+    "text": "it as an Intel which it should support",
+    "start": 2004.96,
+    "duration": 4.52
+  },
+  {
+    "text": "if it's 7even years old old then you",
+    "start": 2007.0,
+    "duration": 4.08
+  },
+  {
+    "text": "should be able to do you need you don't",
+    "start": 2009.48,
+    "duration": 3.36
+  },
+  {
+    "text": "need a driver it's going to be",
+    "start": 2011.08,
+    "duration": 3.92
+  },
+  {
+    "text": "ahci so yeah you should be able to run",
+    "start": 2012.84,
+    "duration": 4.64
+  },
+  {
+    "text": "it on a MacBook as long as it's not a",
+    "start": 2015.0,
+    "duration": 5.6
+  },
+  {
+    "text": "SATA try it let me know",
+    "start": 2017.48,
+    "duration": 7.159
+  },
+  {
+    "text": "yeah let us know in the comments uh eeky",
+    "start": 2020.6,
+    "duration": 6.919
+  },
+  {
+    "text": "eek e uh sounds like I want spin right",
+    "start": 2024.639,
+    "duration": 5.52
+  },
+  {
+    "text": "for my old machines does it work on non",
+    "start": 2027.519,
+    "duration": 5.681
+  },
+  {
+    "text": "dos partitions U guessing that it does",
+    "start": 2030.159,
+    "duration": 5.281
+  },
+  {
+    "text": "care doesn't care yeah guessing that it",
+    "start": 2033.2,
+    "duration": 3.76
+  },
+  {
+    "text": "probably only needs to work on the raw",
+    "start": 2035.44,
+    "duration": 3.28
+  },
+  {
+    "text": "data and thus could",
+    "start": 2036.96,
+    "duration": 4.16
+  },
+  {
+    "text": "um they also mentioned that they like",
+    "start": 2038.72,
+    "duration": 4.72
+  },
+  {
+    "text": "that video overlaid over the Dos screen",
+    "start": 2041.12,
+    "duration": 4.24
+  },
+  {
+    "text": "reminds you of stuff with BBC micros",
+    "start": 2043.44,
+    "duration": 3.359
+  },
+  {
+    "text": "when he was",
+    "start": 2045.36,
+    "duration": 6.36
+  },
+  {
+    "text": "little smiley face Nolan 412 don't we",
+    "start": 2046.799,
+    "duration": 6.961
+  },
+  {
+    "text": "have file systems that do all of this",
+    "start": 2051.72,
+    "duration": 3.919
+  },
+  {
+    "text": "for you and I think that's the new",
+    "start": 2053.76,
+    "duration": 4.839
+  },
+  {
+    "text": "modern stuff then is it yeah he either",
+    "start": 2055.639,
+    "duration": 5.681
+  },
+  {
+    "text": "means the defrag aspect by which modern",
+    "start": 2058.599,
+    "duration": 4.361
+  },
+  {
+    "text": "file systems take care of that at the",
+    "start": 2061.32,
+    "duration": 3.24
+  },
+  {
+    "text": "file system level but that's not what we",
+    "start": 2062.96,
+    "duration": 3.56
+  },
+  {
+    "text": "were talking about right or he means the",
+    "start": 2064.56,
+    "duration": 3.559
+  },
+  {
+    "text": "block",
+    "start": 2066.52,
+    "duration": 4.04
+  },
+  {
+    "text": "collection garbage collection on the SSD",
+    "start": 2068.119,
+    "duration": 5.121
+  },
+  {
+    "text": "which again trim right yeah trim",
+    "start": 2070.56,
+    "duration": 7.119
+  },
+  {
+    "text": "installs everything okay um modern aity",
+    "start": 2073.24,
+    "duration": 5.919
+  },
+  {
+    "text": "why should I use spin right over the",
+    "start": 2077.679,
+    "duration": 3.561
+  },
+  {
+    "text": "built-in Drive Optimizer and",
+    "start": 2079.159,
+    "duration": 4.361
+  },
+  {
+    "text": "defragmentation that Windows 10 already",
+    "start": 2081.24,
+    "duration": 4.439
+  },
+  {
+    "text": "has I think that's the same question",
+    "start": 2083.52,
+    "duration": 3.8
+  },
+  {
+    "text": "pretty much yeah that's the yeah that's",
+    "start": 2085.679,
+    "duration": 4.761
+  },
+  {
+    "text": "the new stuff again right uh stano",
+    "start": 2087.32,
+    "duration": 6.279
+  },
+  {
+    "text": "stepanov vne um just a cotton picking",
+    "start": 2090.44,
+    "duration": 5.56
+  },
+  {
+    "text": "second doesn't long self test do this",
+    "start": 2093.599,
+    "duration": 4.121
+  },
+  {
+    "text": "natively and faster than any modern",
+    "start": 2096.0,
+    "duration": 5.119
+  },
+  {
+    "text": "Drive doesn't btrfs scrub and btrfs",
+    "start": 2097.72,
+    "duration": 5.24
+  },
+  {
+    "text": "balance refresh all the",
+    "start": 2101.119,
+    "duration": 4.761
+  },
+  {
+    "text": "data don't ssds have native automatic",
+    "start": 2102.96,
+    "duration": 4.24
+  },
+  {
+    "text": "periodic data refresh with the",
+    "start": 2105.88,
+    "duration": 3.84
+  },
+  {
+    "text": "additional benefit of optimized wear",
+    "start": 2107.2,
+    "duration": 4.879
+  },
+  {
+    "text": "leveling I don't know on the SSD case",
+    "start": 2109.72,
+    "duration": 4.52
+  },
+  {
+    "text": "but in the other ones no they generally",
+    "start": 2112.079,
+    "duration": 4.28
+  },
+  {
+    "text": "only do the read pass and not a rewrite",
+    "start": 2114.24,
+    "duration": 5.2
+  },
+  {
+    "text": "so oh okay that's the diff uh Manu",
+    "start": 2116.359,
+    "duration": 5.921
+  },
+  {
+    "text": "Fortis so if the ssds are mismatched on",
+    "start": 2119.44,
+    "duration": 5.32
+  },
+  {
+    "text": "their read and write allocations should",
+    "start": 2122.28,
+    "duration": 4.72
+  },
+  {
+    "text": "it maybe be better or would it maybe be",
+    "start": 2124.76,
+    "duration": 5.0
+  },
+  {
+    "text": "better uh to match them instead to both",
+    "start": 2127.0,
+    "duration": 4.119
+  },
+  {
+    "text": "being",
+    "start": 2129.76,
+    "duration": 3.72
+  },
+  {
+    "text": "256k I suppose there's probably a reason",
+    "start": 2131.119,
+    "duration": 4.201
+  },
+  {
+    "text": "why not to do this like not all data",
+    "start": 2133.48,
+    "duration": 5.119
+  },
+  {
+    "text": "needing to be sitting in a 256k block",
+    "start": 2135.32,
+    "duration": 6.4
+  },
+  {
+    "text": "but it would fix at least then right",
+    "start": 2138.599,
+    "duration": 5.52
+  },
+  {
+    "text": "well imagine you allocate a 256k block",
+    "start": 2141.72,
+    "duration": 3.92
+  },
+  {
+    "text": "if he says he wants them to match one to",
+    "start": 2144.119,
+    "duration": 3.641
+  },
+  {
+    "text": "one now you've got to free it up but a 2",
+    "start": 2145.64,
+    "duration": 4.52
+  },
+  {
+    "text": "56k block which means you can't free it",
+    "start": 2147.76,
+    "duration": 5.359
+  },
+  {
+    "text": "until it's 100% free so if you go in",
+    "start": 2150.16,
+    "duration": 4.919
+  },
+  {
+    "text": "through and freed up 80% of the stuff",
+    "start": 2153.119,
+    "duration": 4.2
+  },
+  {
+    "text": "that was on that block no you can't have",
+    "start": 2155.079,
+    "duration": 4.161
+  },
+  {
+    "text": "it back yet if you break it up into",
+    "start": 2157.319,
+    "duration": 3.201
+  },
+  {
+    "text": "smaller chunks you can take those",
+    "start": 2159.24,
+    "duration": 3.2
+  },
+  {
+    "text": "smaller chunks and reuse them at a",
+    "start": 2160.52,
+    "duration": 4.36
+  },
+  {
+    "text": "higher granularity so I'm not an SSD",
+    "start": 2162.44,
+    "duration": 4.08
+  },
+  {
+    "text": "designer by any stretch but I'm guessing",
+    "start": 2164.88,
+    "duration": 4.28
+  },
+  {
+    "text": "that's the rationale by even a little",
+    "start": 2166.52,
+    "duration": 5.12
+  },
+  {
+    "text": "stretch no I did have a dream that I was",
+    "start": 2169.16,
+    "duration": 4.48
+  },
+  {
+    "text": "one once oh well but that's that almost",
+    "start": 2171.64,
+    "duration": 5.199
+  },
+  {
+    "text": "counts yeah anecdotally anyway um Rob",
+    "start": 2173.64,
+    "duration": 5.199
+  },
+  {
+    "text": "geeb maybe I need to watch it again but",
+    "start": 2176.839,
+    "duration": 4.561
+  },
+  {
+    "text": "what was the verdict for SSD type",
+    "start": 2178.839,
+    "duration": 5.041
+  },
+  {
+    "text": "drives so we've said that a couple times",
+    "start": 2181.4,
+    "duration": 4.8
+  },
+  {
+    "text": "I think the SSD ones were again unless",
+    "start": 2183.88,
+    "duration": 4.12
+  },
+  {
+    "text": "that very specific case he don't need to",
+    "start": 2186.2,
+    "duration": 4.0
+  },
+  {
+    "text": "do this stuff right yeah and if you're",
+    "start": 2188.0,
+    "duration": 3.64
+  },
+  {
+    "text": "really curious about that you should go",
+    "start": 2190.2,
+    "duration": 4.159
+  },
+  {
+    "text": "to Steve Gibson's YouTube channel",
+    "start": 2191.64,
+    "duration": 4.679
+  },
+  {
+    "text": "because he's got a video of him using it",
+    "start": 2194.359,
+    "duration": 4.841
+  },
+  {
+    "text": "on the ssds and explaining how it works",
+    "start": 2196.319,
+    "duration": 5.201
+  },
+  {
+    "text": "and why it works and so on and I didn't",
+    "start": 2199.2,
+    "duration": 4.399
+  },
+  {
+    "text": "cover a lot of that because he already",
+    "start": 2201.52,
+    "duration": 3.16
+  },
+  {
+    "text": "covered it so I wasn't just going to",
+    "start": 2203.599,
+    "duration": 2.961
+  },
+  {
+    "text": "repeat his video and I didn't want to",
+    "start": 2204.68,
+    "duration": 3.56
+  },
+  {
+    "text": "make claims based on having just seen",
+    "start": 2206.56,
+    "duration": 3.84
+  },
+  {
+    "text": "somebody's video so better you watch it",
+    "start": 2208.24,
+    "duration": 5.4
+  },
+  {
+    "text": "yourself yeah go to the guy um Stuart",
+    "start": 2210.4,
+    "duration": 5.16
+  },
+  {
+    "text": "Palmer what is your feeling about",
+    "start": 2213.64,
+    "duration": 4.4
+  },
+  {
+    "text": "continually using drives which have",
+    "start": 2215.56,
+    "duration": 4.64
+  },
+  {
+    "text": "known bad sectors or have failed and",
+    "start": 2218.04,
+    "duration": 5.6
+  },
+  {
+    "text": "been recovered I've always stopped using",
+    "start": 2220.2,
+    "duration": 5.879
+  },
+  {
+    "text": "them yeah generally I have to but if",
+    "start": 2223.64,
+    "duration": 4.4
+  },
+  {
+    "text": "you're a kid and you're like 21 years",
+    "start": 2226.079,
+    "duration": 3.721
+  },
+  {
+    "text": "old and you've just bought a 320 Meg",
+    "start": 2228.04,
+    "duration": 4.2
+  },
+  {
+    "text": "micropolis hard drive and 6 months later",
+    "start": 2229.8,
+    "duration": 4.64
+  },
+  {
+    "text": "out of warranty it gets a bad sector and",
+    "start": 2232.24,
+    "duration": 5.24
+  },
+  {
+    "text": "that drive cost 1500 bucks do you go and",
+    "start": 2234.44,
+    "duration": 4.56
+  },
+  {
+    "text": "buy a new one or do you just map that as",
+    "start": 2237.48,
+    "duration": 4.28
+  },
+  {
+    "text": "a bad sector I think until you maybe see",
+    "start": 2239.0,
+    "duration": 4.8
+  },
+  {
+    "text": "more failures people were a little",
+    "start": 2241.76,
+    "duration": 4.16
+  },
+  {
+    "text": "Bolder back then yeah I mean now if my",
+    "start": 2243.8,
+    "duration": 3.48
+  },
+  {
+    "text": "main Drive had an erir on it yeah I",
+    "start": 2245.92,
+    "duration": 2.76
+  },
+  {
+    "text": "would throw it far far away and get a",
+    "start": 2247.28,
+    "duration": 4.12
+  },
+  {
+    "text": "new one but drives are way way cheaper",
+    "start": 2248.68,
+    "duration": 5.76
+  },
+  {
+    "text": "now than they used to be yeah yeah yeah",
+    "start": 2251.4,
+    "duration": 6.8
+  },
+  {
+    "text": "time and money uh uh lesser of two evils",
+    "start": 2254.44,
+    "duration": 6.2
+  },
+  {
+    "text": "loser of two evils is there an analogous",
+    "start": 2258.2,
+    "duration": 5.24
+  },
+  {
+    "text": "tool for CDs and",
+    "start": 2260.64,
+    "duration": 5.32
+  },
+  {
+    "text": "DVDs not that I can think of it's kind",
+    "start": 2263.44,
+    "duration": 4.12
+  },
+  {
+    "text": "of an interesting question because there",
+    "start": 2265.96,
+    "duration": 4.359
+  },
+  {
+    "text": "are DVD and CD recording technologies",
+    "start": 2267.56,
+    "duration": 4.84
+  },
+  {
+    "text": "that use magnets and heat and all kinds",
+    "start": 2270.319,
+    "duration": 5.361
+  },
+  {
+    "text": "of stuff but a pure Optical CD no those",
+    "start": 2272.4,
+    "duration": 5.439
+  },
+  {
+    "text": "bits are baked in there good and solid",
+    "start": 2275.68,
+    "duration": 5.36
+  },
+  {
+    "text": "yeah Paul D Walker I nearly crapped",
+    "start": 2277.839,
+    "duration": 5.0
+  },
+  {
+    "text": "myself when I got the email that my free",
+    "start": 2281.04,
+    "duration": 4.44
+  },
+  {
+    "text": "update arrived what has it been 20 years",
+    "start": 2282.839,
+    "duration": 5.641
+  },
+  {
+    "text": "since version six spin right I think",
+    "start": 2285.48,
+    "duration": 5.2
+  },
+  {
+    "text": "so but yeah when I checked to see if I",
+    "start": 2288.48,
+    "duration": 3.72
+  },
+  {
+    "text": "could get the newer version to review I",
+    "start": 2290.68,
+    "duration": 3.12
+  },
+  {
+    "text": "was already A customer from haven't had",
+    "start": 2292.2,
+    "duration": 3.28
+  },
+  {
+    "text": "spin right 3 or whatever so I was able",
+    "start": 2293.8,
+    "duration": 3.92
+  },
+  {
+    "text": "to just get my updated license there you",
+    "start": 2295.48,
+    "duration": 6.28
+  },
+  {
+    "text": "go custom for Life the Shugo BR really",
+    "start": 2297.72,
+    "duration": 7.639
+  },
+  {
+    "text": "good video nice software but holy rrap",
+    "start": 2301.76,
+    "duration": 6.16
+  },
+  {
+    "text": "$89 that's too much for me lives in",
+    "start": 2305.359,
+    "duration": 5.041
+  },
+  {
+    "text": "Brazil so again some of these things are",
+    "start": 2307.92,
+    "duration": 5.199
+  },
+  {
+    "text": "relative too right like the hard drive",
+    "start": 2310.4,
+    "duration": 5.12
+  },
+  {
+    "text": "stuff you got bad sectors and if $89 is",
+    "start": 2313.119,
+    "duration": 3.681
+  },
+  {
+    "text": "too much for the that I mean you know",
+    "start": 2315.52,
+    "duration": 3.52
+  },
+  {
+    "text": "for some folks if you have bad sectors",
+    "start": 2316.8,
+    "duration": 4.4
+  },
+  {
+    "text": "you you mark them and you deal with",
+    "start": 2319.04,
+    "duration": 5.319
+  },
+  {
+    "text": "it yeah although 89 bucks for software I",
+    "start": 2321.2,
+    "duration": 4.76
+  },
+  {
+    "text": "don't think is a bad deal when I first",
+    "start": 2324.359,
+    "duration": 2.841
+  },
+  {
+    "text": "looked I thought it was way more than",
+    "start": 2325.96,
+    "duration": 2.28
+  },
+  {
+    "text": "that and then I realized oh it's still",
+    "start": 2327.2,
+    "duration": 2.76
+  },
+  {
+    "text": "only 89 bucks so I was kind of impressed",
+    "start": 2328.24,
+    "duration": 5.8
+  },
+  {
+    "text": "in the other direction um I could never",
+    "start": 2329.96,
+    "duration": 5.28
+  },
+  {
+    "text": "understand people who say we can't",
+    "start": 2334.04,
+    "duration": 3.039
+  },
+  {
+    "text": "afford software in our home country but",
+    "start": 2335.24,
+    "duration": 4.0
+  },
+  {
+    "text": "we can afford Hardware just",
+    "start": 2337.079,
+    "duration": 4.28
+  },
+  {
+    "text": "fine yeah I guess it depends where the",
+    "start": 2339.24,
+    "duration": 4.16
+  },
+  {
+    "text": "hard Hardware comes from how far down",
+    "start": 2341.359,
+    "duration": 4.081
+  },
+  {
+    "text": "the line you are right you might be at",
+    "start": 2343.4,
+    "duration": 3.959
+  },
+  {
+    "text": "the very bottom end of just barely got",
+    "start": 2345.44,
+    "duration": 4.84
+  },
+  {
+    "text": "this computer cuz 13 people above you",
+    "start": 2347.359,
+    "duration": 5.321
+  },
+  {
+    "text": "bumped theirs down yeah that's fair",
+    "start": 2350.28,
+    "duration": 4.0
+  },
+  {
+    "text": "you're probably not run probably are",
+    "start": 2352.68,
+    "duration": 3.72
+  },
+  {
+    "text": "some folks that are way on the very far",
+    "start": 2354.28,
+    "duration": 4.72
+  },
+  {
+    "text": "end of that might be a stretch but think",
+    "start": 2356.4,
+    "duration": 4.439
+  },
+  {
+    "text": "for the the vast majority of folks",
+    "start": 2359.0,
+    "duration": 4.28
+  },
+  {
+    "text": "they're probably it's certainly less of",
+    "start": 2360.839,
+    "duration": 3.721
+  },
+  {
+    "text": "an issue but there are a couple folks",
+    "start": 2363.28,
+    "duration": 4.24
+  },
+  {
+    "text": "out there uh CD Smith I got to dig out",
+    "start": 2364.56,
+    "duration": 5.36
+  },
+  {
+    "text": "copy of spin right and upgrade he said",
+    "start": 2367.52,
+    "duration": 5.0
+  },
+  {
+    "text": "that commodor drive Tandon sure sounds",
+    "start": 2369.92,
+    "duration": 3.32
+  },
+  {
+    "text": "like",
+    "start": 2372.52,
+    "duration": 3.48
+  },
+  {
+    "text": "one I think it is it's a Tandon",
+    "start": 2373.24,
+    "duration": 6.079
+  },
+  {
+    "text": "tm502 I believe is the T EG version good",
+    "start": 2376.0,
+    "duration": 8.079
+  },
+  {
+    "text": "ears there QD Smith um Larry Sanders",
+    "start": 2379.319,
+    "duration": 6.721
+  },
+  {
+    "text": "Dave I'm going to keep asking when can",
+    "start": 2384.079,
+    "duration": 3.76
+  },
+  {
+    "text": "we get an audio",
+    "start": 2386.04,
+    "duration": 4.24
+  },
+  {
+    "text": "book I'm negotiating the contract right",
+    "start": 2387.839,
+    "duration": 4.52
+  },
+  {
+    "text": "now went back and forth today so oh no",
+    "start": 2390.28,
+    "duration": 5.76
+  },
+  {
+    "text": "way excellent cool and not with an AI",
+    "start": 2392.359,
+    "duration": 7.521
+  },
+  {
+    "text": "person either no no AI legit Sean Wright",
+    "start": 2396.04,
+    "duration": 5.4
+  },
+  {
+    "text": "you may have already answered this but",
+    "start": 2399.88,
+    "duration": 3.4
+  },
+  {
+    "text": "what software do you use to do those",
+    "start": 2401.44,
+    "duration": 3.32
+  },
+  {
+    "text": "shop talk",
+    "start": 2403.28,
+    "duration": 3.76
+  },
+  {
+    "text": "recordings we've been using a product",
+    "start": 2404.76,
+    "duration": 4.4
+  },
+  {
+    "text": "called riverside. FM and that's their",
+    "start": 2407.04,
+    "duration": 4.88
+  },
+  {
+    "text": "website riverside. FM and so kind of the",
+    "start": 2409.16,
+    "duration": 4.56
+  },
+  {
+    "text": "cool thing about it it's like FaceTime",
+    "start": 2411.92,
+    "duration": 4.399
+  },
+  {
+    "text": "or Zoom or whatever so we get the kind",
+    "start": 2413.72,
+    "duration": 5.72
+  },
+  {
+    "text": "of crappy Vision real time but on each",
+    "start": 2416.319,
+    "duration": 5.321
+  },
+  {
+    "text": "person's end it records the original 4K",
+    "start": 2419.44,
+    "duration": 4.399
+  },
+  {
+    "text": "stream and then uploads it in parallel",
+    "start": 2421.64,
+    "duration": 3.64
+  },
+  {
+    "text": "which is also one of the reasons why",
+    "start": 2423.839,
+    "duration": 3.561
+  },
+  {
+    "text": "some of the live can be a little bad",
+    "start": 2425.28,
+    "duration": 3.36
+  },
+  {
+    "text": "yeah I think cuz it's using the",
+    "start": 2427.4,
+    "duration": 3.8
+  },
+  {
+    "text": "connection to upload and then you wait",
+    "start": 2428.64,
+    "duration": 4.64
+  },
+  {
+    "text": "minute or two after you're done and all",
+    "start": 2431.2,
+    "duration": 4.399
+  },
+  {
+    "text": "your footage is in original full quality",
+    "start": 2433.28,
+    "duration": 4.88
+  },
+  {
+    "text": "not streaming quality it available for",
+    "start": 2435.599,
+    "duration": 5.281
+  },
+  {
+    "text": "download so we then have an editor edit",
+    "start": 2438.16,
+    "duration": 5.12
+  },
+  {
+    "text": "it and then it works out pretty good",
+    "start": 2440.88,
+    "duration": 5.4
+  },
+  {
+    "text": "cool um and the next question Canary",
+    "start": 2443.28,
+    "duration": 6.16
+  },
+  {
+    "text": "gazer hey Dave lovely audio sounding who",
+    "start": 2446.28,
+    "duration": 5.28
+  },
+  {
+    "text": "edits your videos curious to know which",
+    "start": 2449.44,
+    "duration": 4.24
+  },
+  {
+    "text": "you're sort of getting into yeah so I do",
+    "start": 2451.56,
+    "duration": 4.519
+  },
+  {
+    "text": "all the editing on the main Channel",
+    "start": 2453.68,
+    "duration": 4.88
+  },
+  {
+    "text": "still uh for the shop talk stuff we've",
+    "start": 2456.079,
+    "duration": 5.401
+  },
+  {
+    "text": "got a guy named Joseph hi Joseph that",
+    "start": 2458.56,
+    "duration": 5.44
+  },
+  {
+    "text": "does the editing for this channel um",
+    "start": 2461.48,
+    "duration": 3.92
+  },
+  {
+    "text": "should have just kept saying his name",
+    "start": 2464.0,
+    "duration": 4.599
+  },
+  {
+    "text": "was Anton but uh oh that's right yeah",
+    "start": 2465.4,
+    "duration": 5.56
+  },
+  {
+    "text": "yeah Theon the editor Anton the editor",
+    "start": 2468.599,
+    "duration": 4.681
+  },
+  {
+    "text": "the guy that's nobody's ever asked why",
+    "start": 2470.96,
+    "duration": 4.6
+  },
+  {
+    "text": "he's in the original popup at the",
+    "start": 2473.28,
+    "duration": 4.2
+  },
+  {
+    "text": "beginning now I'm going to refuse to",
+    "start": 2475.56,
+    "duration": 3.32
+  },
+  {
+    "text": "answer because nobody ever that's right",
+    "start": 2477.48,
+    "duration": 3.359
+  },
+  {
+    "text": "that's right we'll get questions uh",
+    "start": 2478.88,
+    "duration": 3.719
+  },
+  {
+    "text": "unwalled Garden that name sounds",
+    "start": 2480.839,
+    "duration": 3.961
+  },
+  {
+    "text": "familiar are there canbus libraries for",
+    "start": 2482.599,
+    "duration": 4.801
+  },
+  {
+    "text": "the esp32",
+    "start": 2484.8,
+    "duration": 8.2
+  },
+  {
+    "text": "yeah look up y can esp32 as iny or just",
+    "start": 2487.4,
+    "duration": 9.8
+  },
+  {
+    "text": "no no Y is in Wi-Fi wireless can so do I",
+    "start": 2493.0,
+    "duration": 5.119
+  },
+  {
+    "text": "have one",
+    "start": 2497.2,
+    "duration": 6.08
+  },
+  {
+    "text": "handy I do not but somewhere I have a",
+    "start": 2498.119,
+    "duration": 8.921
+  },
+  {
+    "text": "esp32 with an aldl uh car adapter and it",
+    "start": 2503.28,
+    "duration": 6.039
+  },
+  {
+    "text": "plugs into the car port and then you can",
+    "start": 2507.04,
+    "duration": 4.319
+  },
+  {
+    "text": "connect to it over Bluetooth and you can",
+    "start": 2509.319,
+    "duration": 5.321
+  },
+  {
+    "text": "do data sniffing and scanning of the",
+    "start": 2511.359,
+    "duration": 6.441
+  },
+  {
+    "text": "canbus with the esp32 built in is that",
+    "start": 2514.64,
+    "duration": 5.84
+  },
+  {
+    "text": "from your LED license plate or is that",
+    "start": 2517.8,
+    "duration": 4.16
+  },
+  {
+    "text": "from the stuff you're doing back on that",
+    "start": 2520.48,
+    "duration": 2.839
+  },
+  {
+    "text": "Range Rover when you're trying to",
+    "start": 2521.96,
+    "duration": 3.8
+  },
+  {
+    "text": "connect into that no this is from the",
+    "start": 2523.319,
+    "duration": 4.361
+  },
+  {
+    "text": "license plate thing I so it's a new yeah",
+    "start": 2525.76,
+    "duration": 6.04
+  },
+  {
+    "text": "it's a new piece okay cool uh Spartan",
+    "start": 2527.68,
+    "duration": 7.32
+  },
+  {
+    "text": "boxing Dave according to you who built",
+    "start": 2531.8,
+    "duration": 4.76
+  },
+  {
+    "text": "the computer that Bill Gates used for",
+    "start": 2535.0,
+    "duration": 4.72
+  },
+  {
+    "text": "the IBM software contract in 1981 and I",
+    "start": 2536.56,
+    "duration": 4.4
+  },
+  {
+    "text": "think you did address this in the",
+    "start": 2539.72,
+    "duration": 2.48
+  },
+  {
+    "text": "comments",
+    "start": 2540.96,
+    "duration": 4.0
+  },
+  {
+    "text": "but I gave totally the wrong answer in",
+    "start": 2542.2,
+    "duration": 4.639
+  },
+  {
+    "text": "the comments by the way I haven't gone",
+    "start": 2544.96,
+    "duration": 3.599
+  },
+  {
+    "text": "back in fixed it I haven't deleted it I",
+    "start": 2546.839,
+    "duration": 4.0
+  },
+  {
+    "text": "just left it there like a big turd I",
+    "start": 2548.559,
+    "duration": 4.04
+  },
+  {
+    "text": "forget even the guy's name now but I",
+    "start": 2550.839,
+    "duration": 3.801
+  },
+  {
+    "text": "said I said the inventor of the IMI",
+    "start": 2552.599,
+    "duration": 6.121
+  },
+  {
+    "text": "whereas it's Dr Ed Roberts is as far as",
+    "start": 2554.64,
+    "duration": 6.719
+  },
+  {
+    "text": "I know the inventor of the alter which",
+    "start": 2558.72,
+    "duration": 4.639
+  },
+  {
+    "text": "is a computer that bill and Paul built",
+    "start": 2561.359,
+    "duration": 4.0
+  },
+  {
+    "text": "basic for so he built the",
+    "start": 2563.359,
+    "duration": 4.681
+  },
+  {
+    "text": "computer that build yeah he was a doctor",
+    "start": 2565.359,
+    "duration": 5.681
+  },
+  {
+    "text": "but he was a tinkerer and started",
+    "start": 2568.04,
+    "duration": 6.6
+  },
+  {
+    "text": "MIT and he tinkered yeah he did that's",
+    "start": 2571.04,
+    "duration": 6.2
+  },
+  {
+    "text": "what tinkerers tend to do I heard um",
+    "start": 2574.64,
+    "duration": 5.4
+  },
+  {
+    "text": "getting down to the last couple here uh",
+    "start": 2577.24,
+    "duration": 5.92
+  },
+  {
+    "text": "Vmax uh what are the most extreme code",
+    "start": 2580.04,
+    "duration": 5.64
+  },
+  {
+    "text": "review processes you used at Microsoft",
+    "start": 2583.16,
+    "duration": 4.24
+  },
+  {
+    "text": "and he's got an interesting his little",
+    "start": 2585.68,
+    "duration": 4.0
+  },
+  {
+    "text": "story here I thought was interesting so",
+    "start": 2587.4,
+    "duration": 3.88
+  },
+  {
+    "text": "he says when he was working at seens in",
+    "start": 2589.68,
+    "duration": 3.679
+  },
+  {
+    "text": "1990 he implemented a process where they",
+    "start": 2591.28,
+    "duration": 4.039
+  },
+  {
+    "text": "put deliberate bugs into the code that",
+    "start": 2593.359,
+    "duration": 4.361
+  },
+  {
+    "text": "went to others for reviewing so he said",
+    "start": 2595.319,
+    "duration": 4.361
+  },
+  {
+    "text": "it's the days where code reviews were",
+    "start": 2597.72,
+    "duration": 4.0
+  },
+  {
+    "text": "done on printouts so they then have the",
+    "start": 2599.68,
+    "duration": 3.6
+  },
+  {
+    "text": "code review and everyone would bring up",
+    "start": 2601.72,
+    "duration": 3.359
+  },
+  {
+    "text": "what they found at the end of the",
+    "start": 2603.28,
+    "duration": 3.319
+  },
+  {
+    "text": "process the code author would declare",
+    "start": 2605.079,
+    "duration": 3.881
+  },
+  {
+    "text": "the stat so it'd be something like I put",
+    "start": 2606.599,
+    "duration": 4.0
+  },
+  {
+    "text": "10 deliberate bugs into the code and",
+    "start": 2608.96,
+    "duration": 3.0
+  },
+  {
+    "text": "nine of them were discovered so we have",
+    "start": 2610.599,
+    "duration": 4.801
+  },
+  {
+    "text": "a 90% success rate and if that is Prat",
+    "start": 2611.96,
+    "duration": 4.8
+  },
+  {
+    "text": "applied to all the real bugs that the",
+    "start": 2615.4,
+    "duration": 2.84
+  },
+  {
+    "text": "reviewers also found then we can feel",
+    "start": 2616.76,
+    "duration": 3.599
+  },
+  {
+    "text": "relatively confident we found 90% of the",
+    "start": 2618.24,
+    "duration": 4.599
+  },
+  {
+    "text": "real bugs they didn't uh the reviewers",
+    "start": 2620.359,
+    "duration": 3.72
+  },
+  {
+    "text": "have then be giving their own personal",
+    "start": 2622.839,
+    "duration": 2.72
+  },
+  {
+    "text": "score of how many deliberate bugs they",
+    "start": 2624.079,
+    "duration": 3.76
+  },
+  {
+    "text": "found uh he said it was therefore a very",
+    "start": 2625.559,
+    "duration": 4.441
+  },
+  {
+    "text": "satis way of verifying that people",
+    "start": 2627.839,
+    "duration": 4.321
+  },
+  {
+    "text": "really did give the task 100% attention",
+    "start": 2630.0,
+    "duration": 4.119
+  },
+  {
+    "text": "anyone that found less than 50% would be",
+    "start": 2632.16,
+    "duration": 5.04
+  },
+  {
+    "text": "told to step their game up",
+    "start": 2634.119,
+    "duration": 5.361
+  },
+  {
+    "text": "you yeah we did not have any games like",
+    "start": 2637.2,
+    "duration": 4.159
+  },
+  {
+    "text": "that I think there was just everybody",
+    "start": 2639.48,
+    "duration": 4.72
+  },
+  {
+    "text": "was bought in most of the people were",
+    "start": 2641.359,
+    "duration": 4.48
+  },
+  {
+    "text": "you know very loyal and working hard",
+    "start": 2644.2,
+    "duration": 3.96
+  },
+  {
+    "text": "because the stock was rewarding them",
+    "start": 2645.839,
+    "duration": 4.801
+  },
+  {
+    "text": "very well at the time um they were all",
+    "start": 2648.16,
+    "duration": 5.159
+  },
+  {
+    "text": "professionals and we got a lot of code",
+    "start": 2650.64,
+    "duration": 4.199
+  },
+  {
+    "text": "reviews if a piece of code was really",
+    "start": 2653.319,
+    "duration": 3.24
+  },
+  {
+    "text": "important or in a sensitive area",
+    "start": 2654.839,
+    "duration": 3.321
+  },
+  {
+    "text": "sometimes you would get multiple code",
+    "start": 2656.559,
+    "duration": 4.0
+  },
+  {
+    "text": "reviews that's about as Extreme as we",
+    "start": 2658.16,
+    "duration": 4.84
+  },
+  {
+    "text": "got so I might get a code R viiew of my",
+    "start": 2660.559,
+    "duration": 4.081
+  },
+  {
+    "text": "local team and then go to The Domain",
+    "start": 2663.0,
+    "duration": 3.28
+  },
+  {
+    "text": "expert on the colonel team to get him to",
+    "start": 2664.64,
+    "duration": 3.24
+  },
+  {
+    "text": "look at my code before I actually check",
+    "start": 2666.28,
+    "duration": 3.48
+  },
+  {
+    "text": "it in that kind of thing but no we",
+    "start": 2667.88,
+    "duration": 3.28
+  },
+  {
+    "text": "didn't do anything like putting weird",
+    "start": 2669.76,
+    "duration": 2.839
+  },
+  {
+    "text": "fake bugs in the code to see if you",
+    "start": 2671.16,
+    "duration": 2.56
+  },
+  {
+    "text": "found them because that's really just",
+    "start": 2672.599,
+    "duration": 2.681
+  },
+  {
+    "text": "checking up on people it's not going to",
+    "start": 2673.72,
+    "duration": 3.28
+  },
+  {
+    "text": "increase the number of maybe it will",
+    "start": 2675.28,
+    "duration": 3.96
+  },
+  {
+    "text": "increase the number of real bugs found",
+    "start": 2677.0,
+    "duration": 3.599
+  },
+  {
+    "text": "but it seems to me just to make sure",
+    "start": 2679.24,
+    "duration": 2.68
+  },
+  {
+    "text": "people are paying attention and if they",
+    "start": 2680.599,
+    "duration": 3.401
+  },
+  {
+    "text": "not paying attention gameing the system",
+    "start": 2681.92,
+    "duration": 4.159
+  },
+  {
+    "text": "is not going to solve it yeah yeah how",
+    "start": 2684.0,
+    "duration": 3.24
+  },
+  {
+    "text": "how many people so if you're doing a",
+    "start": 2686.079,
+    "duration": 2.76
+  },
+  {
+    "text": "code review your stuff within your team",
+    "start": 2687.24,
+    "duration": 3.52
+  },
+  {
+    "text": "how many folks are doing that review",
+    "start": 2688.839,
+    "duration": 4.48
+  },
+  {
+    "text": "then normally just one a senior guy okay",
+    "start": 2690.76,
+    "duration": 4.079
+  },
+  {
+    "text": "somebody senior to me will review my",
+    "start": 2693.319,
+    "duration": 2.721
+  },
+  {
+    "text": "code or",
+    "start": 2694.839,
+    "duration": 3.24
+  },
+  {
+    "text": "somebody that",
+    "start": 2696.04,
+    "duration": 4.6
+  },
+  {
+    "text": "has similar to me knowledge about the",
+    "start": 2698.079,
+    "duration": 4.361
+  },
+  {
+    "text": "component you can't just say hey come",
+    "start": 2700.64,
+    "duration": 3.679
+  },
+  {
+    "text": "check out this code I changed in the",
+    "start": 2702.44,
+    "duration": 4.24
+  },
+  {
+    "text": "heat manager and you you'd then be",
+    "start": 2704.319,
+    "duration": 3.8
+  },
+  {
+    "text": "reviewing code of the people that in",
+    "start": 2706.68,
+    "duration": 3.2
+  },
+  {
+    "text": "your team are generating stuff then is",
+    "start": 2708.119,
+    "duration": 3.801
+  },
+  {
+    "text": "that yeah people that work for me I'd",
+    "start": 2709.88,
+    "duration": 5.0
+  },
+  {
+    "text": "review their code stuff like that or",
+    "start": 2711.92,
+    "duration": 6.439
+  },
+  {
+    "text": "yeah interesting okay this last one here",
+    "start": 2714.88,
+    "duration": 7.4
+  },
+  {
+    "text": "uh comes from uh at D",
+    "start": 2718.359,
+    "duration": 3.921
+  },
+  {
+    "text": "subesi which I know this guy that's what",
+    "start": 2722.4,
+    "duration": 6.52
+  },
+  {
+    "text": "I thought",
+    "start": 2726.44,
+    "duration": 5.48
+  },
+  {
+    "text": "I gave a reasonable answer to this uh in",
+    "start": 2728.92,
+    "duration": 4.88
+  },
+  {
+    "text": "the comments and then when we were",
+    "start": 2731.92,
+    "duration": 4.72
+  },
+  {
+    "text": "pulling it out I went oh Dave knows that",
+    "start": 2733.8,
+    "duration": 6.4
+  },
+  {
+    "text": "guy so he says uh wait there's a",
+    "start": 2736.64,
+    "duration": 5.36
+  },
+  {
+    "text": "University of Saskatchewan I think I had",
+    "start": 2740.2,
+    "duration": 4.56
+  },
+  {
+    "text": "the shirt on last time Lumber and Timber",
+    "start": 2742.0,
+    "duration": 5.559
+  },
+  {
+    "text": "must be the number one major",
+    "start": 2744.76,
+    "duration": 5.64
+  },
+  {
+    "text": "then well in saskat it's mostly Beaver",
+    "start": 2747.559,
+    "duration": 4.921
+  },
+  {
+    "text": "studies I would guess but oh that's at",
+    "start": 2750.4,
+    "duration": 4.0
+  },
+  {
+    "text": "the University of Regina where you oh",
+    "start": 2752.48,
+    "duration": 3.4
+  },
+  {
+    "text": "yeah that's right well we all came out",
+    "start": 2754.4,
+    "duration": 3.159
+  },
+  {
+    "text": "of there originally right yeah nice and",
+    "start": 2755.88,
+    "duration": 5.4
+  },
+  {
+    "text": "trim anyway um no I think I said that",
+    "start": 2757.559,
+    "duration": 6.28
+  },
+  {
+    "text": "the ufs or university of Scot probably",
+    "start": 2761.28,
+    "duration": 4.36
+  },
+  {
+    "text": "big for agriculture and I think we had",
+    "start": 2763.839,
+    "duration": 3.601
+  },
+  {
+    "text": "the Western College of veterinary",
+    "start": 2765.64,
+    "duration": 4.36
+  },
+  {
+    "text": "medicine so what if you were going to be",
+    "start": 2767.44,
+    "duration": 3.72
+  },
+  {
+    "text": "a doctor you would have to go to",
+    "start": 2770.0,
+    "duration": 3.44
+  },
+  {
+    "text": "Saskatoon there a Col College of",
+    "start": 2771.16,
+    "duration": 4.64
+  },
+  {
+    "text": "Medicine um and Dentistry at the U ofs",
+    "start": 2773.44,
+    "duration": 4.0
+  },
+  {
+    "text": "yeah so it had a few that think but yeah",
+    "start": 2775.8,
+    "duration": 3.039
+  },
+  {
+    "text": "definitely Agriculture and I think",
+    "start": 2777.44,
+    "duration": 2.76
+  },
+  {
+    "text": "veterinary medicine were probably the",
+    "start": 2778.839,
+    "duration": 4.24
+  },
+  {
+    "text": "two things were sort of exclusive in the",
+    "start": 2780.2,
+    "duration": 4.6
+  },
+  {
+    "text": "western half of the country so that",
+    "start": 2783.079,
+    "duration": 4.0
+  },
+  {
+    "text": "would be what it's most known for yep",
+    "start": 2784.8,
+    "duration": 4.039
+  },
+  {
+    "text": "and University of Regina is best known",
+    "start": 2787.079,
+    "duration": 4.161
+  },
+  {
+    "text": "for Dave plumber right now are",
+    "start": 2788.839,
+    "duration": 4.641
+  },
+  {
+    "text": "they of people that are watching this",
+    "start": 2791.24,
+    "duration": 5.0
+  },
+  {
+    "text": "episode right now perhaps yes and and",
+    "start": 2793.48,
+    "duration": 5.8
+  },
+  {
+    "text": "that Japanese architect who designed a",
+    "start": 2796.24,
+    "duration": 4.599
+  },
+  {
+    "text": "bunch of the buildings at the University",
+    "start": 2799.28,
+    "duration": 2.64
+  },
+  {
+    "text": "oh yeah he designed the World Trade",
+    "start": 2800.839,
+    "duration": 3.161
+  },
+  {
+    "text": "Center and my University and the center",
+    "start": 2801.92,
+    "duration": 4.6
+  },
+  {
+    "text": "of the Arts so yep theater in Regina too",
+    "start": 2804.0,
+    "duration": 4.24
+  },
+  {
+    "text": "M yeah performance theat so we've got",
+    "start": 2806.52,
+    "duration": 5.44
+  },
+  {
+    "text": "that going for us there Seattle guy yeah",
+    "start": 2808.24,
+    "duration": 6.0
+  },
+  {
+    "text": "there you go and connected to Seattle",
+    "start": 2811.96,
+    "duration": 3.8
+  },
+  {
+    "text": "that's uh that's all the questions we",
+    "start": 2814.24,
+    "duration": 3.68
+  },
+  {
+    "text": "got for this episode Dave any last",
+    "start": 2815.76,
+    "duration": 5.079
+  },
+  {
+    "text": "parting thoughts or parting shots no I",
+    "start": 2817.92,
+    "duration": 4.439
+  },
+  {
+    "text": "would say please make sure you subscribe",
+    "start": 2820.839,
+    "duration": 3.561
+  },
+  {
+    "text": "to Dave's attic and uh if you found it",
+    "start": 2822.359,
+    "duration": 3.24
+  },
+  {
+    "text": "interesting please share it with a",
+    "start": 2824.4,
+    "duration": 2.919
+  },
+  {
+    "text": "friend that you might think would also",
+    "start": 2825.599,
+    "duration": 4.0
+  },
+  {
+    "text": "enjoy watching this stuff or submitting",
+    "start": 2827.319,
+    "duration": 4.361
+  },
+  {
+    "text": "questions and doing so on because you",
+    "start": 2829.599,
+    "duration": 4.161
+  },
+  {
+    "text": "know trying to spread it by word of",
+    "start": 2831.68,
+    "duration": 3.84
+  },
+  {
+    "text": "mouth as opposed to just waiting and see",
+    "start": 2833.76,
+    "duration": 3.72
+  },
+  {
+    "text": "what happens so appreciate any help",
+    "start": 2835.52,
+    "duration": 5.2
+  },
+  {
+    "text": "there and uh again any questions coming",
+    "start": 2837.48,
+    "duration": 6.16
+  },
+  {
+    "text": "from this episode or uh plug them in the",
+    "start": 2840.72,
+    "duration": 5.48
+  },
+  {
+    "text": "comments put a question mark on it that",
+    "start": 2843.64,
+    "duration": 5.36
+  },
+  {
+    "text": "uh Flags it so I can snag it and the",
+    "start": 2846.2,
+    "duration": 4.44
+  },
+  {
+    "text": "same with the videos on the main Channel",
+    "start": 2849.0,
+    "duration": 3.319
+  },
+  {
+    "text": "Dave's Garage the questions in there we",
+    "start": 2850.64,
+    "duration": 3.919
+  },
+  {
+    "text": "pull as well so put a question mark in",
+    "start": 2852.319,
+    "duration": 3.721
+  },
+  {
+    "text": "it it gets to their attention and then",
+    "start": 2854.559,
+    "duration": 3.961
+  },
+  {
+    "text": "it meets the first criteria you bet get",
+    "start": 2856.04,
+    "duration": 3.72
+  },
+  {
+    "text": "it now while it's still free and we",
+    "start": 2858.52,
+    "duration": 2.799
+  },
+  {
+    "text": "don't make you join patreon to have your",
+    "start": 2859.76,
+    "duration": 3.319
+  },
+  {
+    "text": "question answered that's right we don't",
+    "start": 2861.319,
+    "duration": 5.881
+  },
+  {
+    "text": "start slogging stuff or yeah add breaks",
+    "start": 2863.079,
+    "duration": 7.641
+  },
+  {
+    "text": "nope buy my athletic greens now that's",
+    "start": 2867.2,
+    "duration": 7.32
+  },
+  {
+    "text": "right yeah brought to you by better",
+    "start": 2870.72,
+    "duration": 8.08
+  },
+  {
+    "text": "help yeah we've all seen him",
+    "start": 2874.52,
+    "duration": 5.599
+  },
+  {
+    "text": "all right well thanks for joining me out",
+    "start": 2878.8,
+    "duration": 2.559
+  },
+  {
+    "text": "here in the shop tonight Glenn and",
+    "start": 2880.119,
+    "duration": 3.081
+  },
+  {
+    "text": "thanks to the audience as well we'll see",
+    "start": 2881.359,
+    "duration": 3.121
+  },
+  {
+    "text": "you next time in the meantime and in",
+    "start": 2883.2,
+    "duration": 4.0
+  },
+  {
+    "text": "between time hope to see you next time",
+    "start": 2884.48,
+    "duration": 5.16
+  },
+  {
+    "text": "talk to you",
+    "start": 2887.2,
+    "duration": 2.44
+  },
+  {
+    "text": "later this little chair will be waiting",
+    "start": 2890.4,
+    "duration": 5.04
+  },
+  {
+    "text": "for one of you and a rocking chair for",
+    "start": 2892.64,
+    "duration": 5.88
+  },
+  {
+    "text": "another who likes to rock and a big arm",
+    "start": 2895.44,
+    "duration": 4.96
+  },
+  {
+    "text": "chair for two to curl up",
+    "start": 2898.52,
+    "duration": 7.52
+  },
+  {
+    "text": "in all next time on Dave's Garage",
+    "start": 2900.4,
+    "duration": 5.64
+  },
+  {
+    "text": "[Music]",
+    "start": 2908.14,
+    "duration": 4.84
+  }
+]
